@@ -123,12 +123,20 @@
         <text id="influence_agents" need_translate="true" value=""/>
     </agents_window>
     <ambition_popup>
+        <text id="abandon_quest" need_translate="true" value=""/>
+        <text id="agree" need_translate="true" value=""/>
+        <text id="bribe_sum" need_translate="true" value=""/>
+        <text id="campaign_sum" need_translate="true" value=""/>
+        <text id="cancel" need_translate="true" value=""/>
         <text id="conditions" need_translate="true" value=""/>
         <text id="days_left" need_translate="true" value=""/>
         <text id="deal_sum" need_translate="true" value=""/>
+        <text id="finish_quest" need_translate="true" value=""/>
         <text id="influence" need_translate="true" value=""/>
         <text id="loyality" need_translate="true" value=""/>
-        <text id="loyality_change" need_translate="true" value=""/>
+        <text id="loyality_change_negative" need_translate="true" value=""/>
+        <text id="loyality_change_positive" need_translate="true" value=""/>
+        <text id="process_quest" need_translate="true" value=""/>
         <text id="shares_count" need_translate="true" value=""/>
     </ambition_popup>
     <any_words>
@@ -160,6 +168,8 @@
         <text id="economics_hint_text" need_translate="true" value=""/>
         <text id="filter_text_0" need_translate="true" value=""/>
         <text id="filter_text_1" need_translate="true" value=""/>
+        <text id="filter_text_3" need_translate="true" value=""/>
+        <text id="filter_text_4" need_translate="true" value=""/>
         <text id="gold_parachute" need_translate="true" value=""/>
         <text id="gold_parachute_hint_header" need_translate="true" value=""/>
         <text id="gold_parachute_hint_text" need_translate="true" value=""/>
@@ -311,6 +321,7 @@
         <text id="loading" need_translate="true" value=""/>
         <text id="press_any_key_to_continue" need_translate="true" value=""/>
     </cap_block>
+    <text id="capitol" need_translate="true" value=""/>
     <circle_progress_bar>
         <text id="xp" need_translate="true" value=""/>
     </circle_progress_bar>
@@ -319,8 +330,10 @@
         <text id="buy" need_translate="true" value=""/>
         <text id="buy_price" need_translate="true" value=""/>
         <text id="buy_price_2" need_translate="true" value=""/>
+        <text id="collection_influence_bonuse" need_translate="true" value=""/>
         <text id="demand" need_translate="true" value=""/>
         <text id="description" need_translate="true" value=""/>
+        <text id="influence_bonuse" need_translate="true" value=""/>
         <text id="inform" need_translate="true" value=""/>
         <text id="market_price" need_translate="true" value=""/>
         <text id="market_price_2" need_translate="true" value=""/>
@@ -379,8 +392,6 @@
         <text id="accident_risk" need_translate="true" value=""/>
         <text id="administrative_expenses" need_translate="true" value=""/>
         <text id="adress_generation_is_impossible" need_translate="true" value=""/>
-        <text id="available_primary" need_translate="true" value=""/>
-        <text id="available_products" need_translate="true" value=""/>
         <text id="base_productivity" need_translate="true" value=""/>
         <text id="capitalization" need_translate="true" value=""/>
         <text id="company_name_is_inaccessible" need_translate="true" value=""/>
@@ -396,14 +407,11 @@
         <text id="not_enough_place_for_new_company" need_translate="true" value=""/>
         <text id="other_countries_export" need_translate="true" value=""/>
         <text id="other_countries_import" need_translate="true" value=""/>
-        <text id="primary_to_secondary" need_translate="true" value=""/>
         <text id="proceeds" need_translate="true" value=""/>
-        <text id="product_price" need_translate="true" value=""/>
         <text id="production_expenses" need_translate="true" value=""/>
         <text id="profit" need_translate="true" value=""/>
         <text id="profitability" need_translate="true" value=""/>
         <text id="salary" need_translate="true" value=""/>
-        <text id="share_fair_price" need_translate="true" value=""/>
         <text id="state_tax" need_translate="true" value=""/>
         <text id="strike_risk" need_translate="true" value=""/>
         <text id="technologies" need_translate="true" value=""/>
@@ -576,6 +584,7 @@
             <text id="working_hours" need_translate="true" value=""/>
         </window>
     </control>
+    <text id="court" need_translate="true" value=""/>
     <crash_rpt>
         <text id="installatio_of_error_handler_is_impossible" need_translate="true" value=""/>
     </crash_rpt>
@@ -857,6 +866,7 @@
         <text id="you_want_to_buy_some_safety_stock" need_translate="true" value=""/>
     </discussion_handler>
     <discussion_history_log>
+        <text id="corrupt_dialog" need_translate="true" value=""/>
         <text id="dialog_fail" need_translate="true" value=""/>
         <text id="dialog_success" need_translate="true" value=""/>
         <text id="dialog_success_loan" need_translate="true" value=""/>
@@ -913,7 +923,6 @@
     <discussion_window>
         <text id="agree" need_translate="true" value=""/>
         <text id="analysis" need_translate="true" value=""/>
-        <text id="contract" need_translate="true" value=""/>
         <text id="contract_condition" need_translate="true" value=""/>
         <text id="deal_chance" need_translate="true" value=""/>
         <text id="deal_history" need_translate="true" value=""/>
@@ -931,11 +940,18 @@
             <text id="take_loan" need_translate="true" value=""/>
             <text id="total_sum_by_loans" need_translate="true" value=""/>
         </loan>
+        <text id="loan_contract" need_translate="true" value=""/>
         <text id="negative_result" need_translate="true" value=""/>
         <text id="negotiation_in_progress" need_translate="true" value=""/>
         <text id="neutral_result1" need_translate="true" value=""/>
         <text id="neutral_result2" need_translate="true" value=""/>
         <text id="offer" need_translate="true" value=""/>
+        <official>
+            <text id="arrest_chance" need_translate="true" value=""/>
+            <text id="bribe_sum" need_translate="true" value=""/>
+            <text id="influence" need_translate="true" value=""/>
+        </official>
+        <text id="official_contract" need_translate="true" value=""/>
         <text id="opponent_sign" need_translate="true" value=""/>
         <text id="player_sign" need_translate="true" value=""/>
         <text id="positive_result" need_translate="true" value=""/>
@@ -943,6 +959,7 @@
         <text id="refuse" need_translate="true" value=""/>
         <text id="roi" need_translate="true" value=""/>
         <text id="share_price" need_translate="true" value=""/>
+        <text id="shares_contract" need_translate="true" value=""/>
         <text id="shares_count" need_translate="true" value=""/>
         <text id="shares_part_after_deal" need_translate="true" value=""/>
         <text id="sign" need_translate="true" value=""/>
@@ -1006,6 +1023,41 @@
         <text id="now" need_translate="true" value=""/>
         <text id="rivals" need_translate="true" value=""/>
     </economic>
+    <election_campaign_window>
+        <text id="campaign_financing" need_translate="true" value=""/>
+        <text id="campaign_process" need_translate="true" value=""/>
+        <text id="candidates_behavior" need_translate="true" value=""/>
+        <text id="coverage" need_translate="true" value=""/>
+        <text id="coverage_change" need_translate="true" value=""/>
+        <text id="day" need_translate="true" value=""/>
+        <text id="financing" need_translate="true" value=""/>
+        <text id="followers" need_translate="true" value=""/>
+        <text id="followers_change_in_day" need_translate="true" value=""/>
+        <text id="followers_dynamics" need_translate="true" value=""/>
+        <text id="fund_balance" need_translate="true" value=""/>
+        <text id="fund_cash" need_translate="true" value=""/>
+        <text id="impact" need_translate="true" value=""/>
+        <text id="impact_strategy_to_coverage" need_translate="true" value=""/>
+        <text id="month" need_translate="true" value=""/>
+        <text id="no_money" need_translate="true" value=""/>
+        <text id="prognosed_coverage" need_translate="true" value=""/>
+        <text id="prognosed_votes" need_translate="true" value=""/>
+        <text id="rating" need_translate="true" value=""/>
+        <text id="save_strategy" need_translate="true" value=""/>
+        <text id="save_strategy_hint" need_translate="true" value=""/>
+        <text id="selector_1_param" need_translate="true" value=""/>
+        <text id="selector_2_param" need_translate="true" value=""/>
+        <text id="selector_3_param" need_translate="true" value=""/>
+        <text id="spended_from_fund" need_translate="true" value=""/>
+        <text id="sponsor" need_translate="true" value=""/>
+        <text id="sponsorship_sum" need_translate="true" value=""/>
+        <text id="strategy" need_translate="true" value=""/>
+        <text id="strategy_modifier" need_translate="true" value=""/>
+        <text id="waste_by_person" need_translate="true" value=""/>
+        <text id="waste_in_day" need_translate="true" value=""/>
+        <text id="week" need_translate="true" value=""/>
+        <text id="window_title" need_translate="true" value=""/>
+    </election_campaign_window>
     <event_result>
         <text id="button_next" need_translate="true" value=""/>
         <text id="fail_text" need_translate="true" value=""/>
@@ -1139,6 +1191,49 @@
         <text id="share_fraction" need_translate="true" value=""/>
         <text id="shareholder" need_translate="true" value=""/>
     </item_with_check_model>
+    <law_archive>
+        <text id="approved" need_translate="true" value=""/>
+        <text id="decrease" need_translate="true" value=""/>
+        <text id="in_progress" need_translate="true" value=""/>
+        <text id="increase" need_translate="true" value=""/>
+        <text id="law_type" need_translate="true" value=""/>
+        <text id="law_vector" need_translate="true" value=""/>
+        <text id="laws_archive" need_translate="true" value=""/>
+        <text id="laws_list" need_translate="true" value=""/>
+        <text id="ratification" need_translate="true" value=""/>
+        <text id="ratification_ended" need_translate="true" value=""/>
+        <text id="ratification_planned" need_translate="true" value=""/>
+        <text id="refused" need_translate="true" value=""/>
+        <text id="stage" need_translate="true" value=""/>
+        <text id="start_date" need_translate="true" value=""/>
+        <text id="voting_ended" need_translate="true" value=""/>
+        <text id="voting_planned" need_translate="true" value=""/>
+    </law_archive>
+    <law_window>
+        <text id="current_value" need_translate="true" value=""/>
+        <text id="democrat" need_translate="true" value=""/>
+        <text id="diplomacy" need_translate="true" value=""/>
+        <text id="dummy" need_translate="true" value=""/>
+        <text id="goveror" need_translate="true" value=""/>
+        <text id="law_of_state" need_translate="true" value=""/>
+        <text id="lobby" need_translate="true" value=""/>
+        <text id="lower_house" need_translate="true" value=""/>
+        <text id="lower_house_voting_date" need_translate="true" value=""/>
+        <text id="majority_party_leader" need_translate="true" value=""/>
+        <text id="menu_lobby" need_translate="true" value=""/>
+        <text id="minority_party_leader" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="neutral" need_translate="true" value=""/>
+        <text id="no_lobby_or_dummy" need_translate="true" value=""/>
+        <text id="no_lobby_or_dummy_governor" need_translate="true" value=""/>
+        <text id="party" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+        <text id="prognosed_law_result" need_translate="true" value=""/>
+        <text id="republican" need_translate="true" value=""/>
+        <text id="upper_house" need_translate="true" value=""/>
+        <text id="upper_house_voting_date" need_translate="true" value=""/>
+        <text id="votes" need_translate="true" value=""/>
+    </law_window>
     <left_panel>
         <text id="h_1" need_translate="true" value=""/>
         <text id="h_2" need_translate="true" value=""/>
@@ -1358,11 +1453,10 @@
         <text id="ambition_positive_text" need_translate="true" value=""/>
         <text id="charity_event_caption" need_translate="true" value=""/>
         <text id="charity_event_text" need_translate="true" value=""/>
-        <text id="elections_passed_caption" need_translate="true" value=""/>
-        <text id="elections_passed_text_1" need_translate="true" value=""/>
-        <text id="elections_passed_text_2" need_translate="true" value=""/>
-        <text id="elections_passed_text_3" need_translate="true" value=""/>
-        <text id="elections_passed_text_4" need_translate="true" value=""/>
+        <text id="election_ended_caption" need_translate="true" value=""/>
+        <text id="election_ended_text" need_translate="true" value=""/>
+        <text id="election_started_caption" need_translate="true" value=""/>
+        <text id="election_started_text" need_translate="true" value=""/>
         <text id="feudfrom_proprietor_text" need_translate="true" value=""/>
         <text id="feudfrom_сompetitor_text" need_translate="true" value=""/>
         <text id="give_loan_text" need_translate="true" value=""/>
@@ -1404,6 +1498,8 @@
         <text id="player_sale_goods_to_nps_text_bonus" need_translate="true" value=""/>
         <text id="player_salegoods_from_auc_caption" need_translate="true" value=""/>
         <text id="player_salegoods_from_auc_text" need_translate="true" value=""/>
+        <text id="player_sell_by_from_auc_caption" need_translate="true" value=""/>
+        <text id="player_sell_by_from_auc_text" need_translate="true" value=""/>
         <text id="refuse_to_lend_text" need_translate="true" value=""/>
         <text id="reject_rout_text" need_translate="true" value=""/>
         <text id="robbery_road_caption" need_translate="true" value=""/>
@@ -1445,6 +1541,25 @@
         <text id="self" need_translate="true" value=""/>
         <text id="world" need_translate="true" value=""/>
     </news_window>
+    <official_person>
+        <text id="governor" need_translate="true" value=""/>
+        <text id="governor_description" need_translate="true" value=""/>
+        <text id="governor_in_genetive" need_translate="true" value=""/>
+        <text id="judge" need_translate="true" value=""/>
+        <text id="judge_description" need_translate="true" value=""/>
+        <text id="judge_in_genetive" need_translate="true" value=""/>
+        <text id="official" need_translate="true" value=""/>
+        <text id="official_in_genetive" need_translate="true" value=""/>
+        <text id="police_chief" need_translate="true" value=""/>
+        <text id="police_chief_description" need_translate="true" value=""/>
+        <text id="police_chief_in_genetive" need_translate="true" value=""/>
+        <text id="prosecutor" need_translate="true" value=""/>
+        <text id="prosecutor_description" need_translate="true" value=""/>
+        <text id="prosecutor_in_genetive" need_translate="true" value=""/>
+        <text id="treasurer" need_translate="true" value=""/>
+        <text id="treasurer_description" need_translate="true" value=""/>
+        <text id="treasurer_in_genetive" need_translate="true" value=""/>
+    </official_person>
     <official_window>
         <text id="beliefs" need_translate="true" value=""/>
         <text id="characteristics" need_translate="true" value=""/>
@@ -1475,6 +1590,7 @@
         <text id="cancel_auction" need_translate="true" value=""/>
         <text id="market_price" need_translate="true" value=""/>
         <text id="next" need_translate="true" value=""/>
+        <text id="not_enough_money" need_translate="true" value=""/>
         <text id="prestige" need_translate="true" value=""/>
         <text id="start_auction" need_translate="true" value=""/>
         <text id="you_buy" need_translate="true" value=""/>
@@ -1494,8 +1610,10 @@
         <text id="assistant_director" need_translate="true" value=""/>
         <text id="assistant_director_in_genetive" need_translate="true" value=""/>
         <text id="assistant_in_genetive" need_translate="true" value=""/>
+        <text id="authority" need_translate="true" value=""/>
         <text id="ceo" need_translate="true" value=""/>
         <text id="democrat" need_translate="true" value=""/>
+        <text id="democrat_in_genetive" need_translate="true" value=""/>
         <text id="director" need_translate="true" value=""/>
         <text id="enemy_relation" need_translate="true" value=""/>
         <text id="friend_relation" need_translate="true" value=""/>
@@ -1504,11 +1622,8 @@
         <text id="loyality_bonus" need_translate="true" value=""/>
         <text id="married" need_translate="true" value=""/>
         <text id="neutral_relation" need_translate="true" value=""/>
-        <text id="official" need_translate="true" value=""/>
-        <text id="official_in_genetive" need_translate="true" value=""/>
         <text id="player" need_translate="true" value=""/>
         <text id="player_in_genetive" need_translate="true" value=""/>
-        <text id="politician" need_translate="true" value=""/>
         <text id="politician_in_genetive" need_translate="true" value=""/>
         <text id="relation_type" need_translate="true" value=""/>
         <text id="religion_atheist" need_translate="true" value=""/>
@@ -1516,6 +1631,7 @@
         <text id="religion_christian" need_translate="true" value=""/>
         <text id="religion_muslim" need_translate="true" value=""/>
         <text id="republican" need_translate="true" value=""/>
+        <text id="republican_in_genetive" need_translate="true" value=""/>
         <text id="shareholder" need_translate="true" value=""/>
         <text id="single" need_translate="true" value=""/>
     </person_object>
@@ -1803,6 +1919,7 @@
         <text id="taxes" need_translate="true" value=""/>
     </player_finances_model>
     <player_finances_window>
+        <text id="authority_salary" need_translate="true" value=""/>
         <text id="credits" need_translate="true" value=""/>
         <text id="dinamics" need_translate="true" value=""/>
         <text id="directors_board_salary" need_translate="true" value=""/>
@@ -1924,8 +2041,11 @@
         <text id="menu_assistant_fire" need_translate="true" value=""/>
         <text id="menu_assistant_hire" need_translate="true" value=""/>
         <text id="menu_corrupt" need_translate="true" value=""/>
+        <text id="menu_election" need_translate="true" value=""/>
         <text id="menu_is_in_prison" need_translate="true" value=""/>
         <text id="menu_is_moving" need_translate="true" value=""/>
+        <text id="menu_law_window" need_translate="true" value=""/>
+        <text id="menu_laws_archive" need_translate="true" value=""/>
         <text id="menu_loan" need_translate="true" value=""/>
         <text id="menu_loan_already_planned" need_translate="true" value=""/>
         <text id="menu_loan_different_position" need_translate="true" value=""/>
@@ -1940,10 +2060,13 @@
         <text id="menu_negotation" need_translate="true" value=""/>
         <text id="menu_no_agents" need_translate="true" value=""/>
         <text id="menu_no_company" need_translate="true" value=""/>
+        <text id="menu_no_persons_to_corrupt" need_translate="true" value=""/>
         <text id="menu_not_enough_influence" need_translate="true" value=""/>
         <text id="menu_ownerships" need_translate="true" value=""/>
+        <text id="menu_person_engaged_in_election" need_translate="true" value=""/>
         <text id="menu_person_is_locked" need_translate="true" value=""/>
         <text id="menu_rout" need_translate="true" value=""/>
+        <text id="menu_start_election_not_possible" need_translate="true" value=""/>
         <text id="menu_use_agent" need_translate="true" value=""/>
         <text id="missis" need_translate="true" value=""/>
         <text id="mister" need_translate="true" value=""/>
@@ -2033,17 +2156,7 @@
         <text id="you_escape_marshal_pursuit_because_justice_is_your_man" need_translate="true" value=""/>
     </politican_handler>
     <politican_object>
-        <text id="congress_candidate" need_translate="true" value=""/>
-        <text id="congressman" need_translate="true" value=""/>
-        <text id="congressman_in_genetive" need_translate="true" value=""/>
-        <text id="legislature_candidate" need_translate="true" value=""/>
-        <text id="legislature_congressman" need_translate="true" value=""/>
-        <text id="legislature_congressman_in_genetive" need_translate="true" value=""/>
-        <text id="legislature_senator" need_translate="true" value=""/>
-        <text id="legislature_senator_in_genetive" need_translate="true" value=""/>
         <text id="politician" need_translate="true" value=""/>
-        <text id="senator" need_translate="true" value=""/>
-        <text id="senator_in_genetive" need_translate="true" value=""/>
     </politican_object>
     <politican_panel>
         <text id="bribe_size" need_translate="true" value=""/>
@@ -2054,6 +2167,20 @@
         <text id="limited_for_alpha_version" need_translate="true" value=""/>
         <text id="state_politicans" need_translate="true" value=""/>
     </politicans_window>
+    <politician_person>
+        <text id="congressman" need_translate="true" value=""/>
+        <text id="congressman_description" need_translate="true" value=""/>
+        <text id="congressman_in_genetive" need_translate="true" value=""/>
+        <text id="legislature_congressman" need_translate="true" value=""/>
+        <text id="legislature_congressman_in_genetive" need_translate="true" value=""/>
+        <text id="legislature_senator" need_translate="true" value=""/>
+        <text id="legislature_senator_in_genetive" need_translate="true" value=""/>
+        <text id="politic" need_translate="true" value=""/>
+        <text id="politic_in_genetive" need_translate="true" value=""/>
+        <text id="senator" need_translate="true" value=""/>
+        <text id="senator_description" need_translate="true" value=""/>
+        <text id="senator_in_genetive" need_translate="true" value=""/>
+    </politician_person>
     <politician_window>
         <text id="characteristics" need_translate="true" value=""/>
         <text id="end_term" need_translate="true" value=""/>
@@ -2080,7 +2207,37 @@
         <text id="sponsors" need_translate="true" value=""/>
         <text id="sponsors_hint" need_translate="true" value=""/>
         <text id="sponsors_hint_text" need_translate="true" value=""/>
+        <text id="vote" need_translate="true" value=""/>
     </politician_window>
+    <popups>
+        <cancel_negotiation>
+            <text id="accept" need_translate="true" value=""/>
+            <text id="cancel" need_translate="true" value=""/>
+            <text id="description" need_translate="true" value=""/>
+            <text id="loyalty" need_translate="true" value=""/>
+            <text id="reputation" need_translate="true" value=""/>
+            <text id="subtitle" need_translate="true" value=""/>
+            <text id="title" need_translate="true" value=""/>
+        </cancel_negotiation>
+        <fire_assistant>
+            <text id="accept" need_translate="true" value=""/>
+            <text id="cancel" need_translate="true" value=""/>
+            <text id="description" need_translate="true" value=""/>
+            <text id="gold_parachute" need_translate="true" value=""/>
+            <text id="salary" need_translate="true" value=""/>
+            <text id="subtitle" need_translate="true" value=""/>
+            <text id="title" need_translate="true" value=""/>
+        </fire_assistant>
+        <hire_assistant>
+            <text id="accept" need_translate="true" value=""/>
+            <text id="cancel" need_translate="true" value=""/>
+            <text id="description" need_translate="true" value=""/>
+            <text id="gold_parachute" need_translate="true" value=""/>
+            <text id="salary" need_translate="true" value=""/>
+            <text id="subtitle" need_translate="true" value=""/>
+            <text id="title" need_translate="true" value=""/>
+        </hire_assistant>
+    </popups>
     <previous_panel>
         <text id="business_offer " need_translate="true" value=""/>
         <text id="days" need_translate="true" value=""/>
@@ -2106,6 +2263,7 @@
         <text id="corruption" need_translate="true" value=""/>
         <text id="courtesan" need_translate="true" value=""/>
         <text id="despicable_act" need_translate="true" value=""/>
+        <text id="election_opponent" need_translate="true" value=""/>
         <text id="failed_negotiation" need_translate="true" value=""/>
         <text id="hired_assistant" need_translate="true" value=""/>
         <text id="hired_director" need_translate="true" value=""/>
@@ -2118,6 +2276,7 @@
         <text id="total_relation" need_translate="true" value=""/>
         <text id="unreliability" need_translate="true" value=""/>
         <text id="voting_for_director" need_translate="true" value=""/>
+        <text id="voting_in_legislature" need_translate="true" value=""/>
     </relations_handler>
     <relatives>
         <text id="cousin" need_translate="true" value=""/>
@@ -2255,6 +2414,25 @@
         <text id="state" need_translate="true" value=""/>
         <text id="window_title" need_translate="true" value=""/>
     </start_negotation_window>
+    <state_politic_window>
+        <text id="current_law" need_translate="true" value=""/>
+        <text id="current_value" need_translate="true" value=""/>
+        <text id="effect" need_translate="true" value=""/>
+        <text id="house_title" need_translate="true" value=""/>
+        <text id="law_progress" need_translate="true" value=""/>
+        <text id="lower_house" need_translate="true" value=""/>
+        <text id="lower_house_title" need_translate="true" value=""/>
+        <text id="lower_house_voting_date" need_translate="true" value=""/>
+        <text id="majority_party_leader" need_translate="true" value=""/>
+        <text id="menu_lobby" need_translate="true" value=""/>
+        <text id="minority_party_leader" need_translate="true" value=""/>
+        <text id="ratification_by_governor" need_translate="true" value=""/>
+        <text id="state_politic_info" need_translate="true" value=""/>
+        <text id="support_by_parties" need_translate="true" value=""/>
+        <text id="upper_house" need_translate="true" value=""/>
+        <text id="upper_house_title" need_translate="true" value=""/>
+        <text id="upper_house_voting_date" need_translate="true" value=""/>
+    </state_politic_window>
     <state_window>
         <text id="avg_salary" need_translate="true" value=""/>
         <text id="companies" need_translate="true" value=""/>
@@ -2272,6 +2450,7 @@
         <text id="officials" need_translate="true" value=""/>
         <text id="person_tax" need_translate="true" value=""/>
         <text id="politicians" need_translate="true" value=""/>
+        <text id="politics" need_translate="true" value=""/>
         <text id="population" need_translate="true" value=""/>
         <text id="population_dynamic" need_translate="true" value=""/>
         <text id="state" need_translate="true" value=""/>
@@ -2291,6 +2470,7 @@
         <text id="avaliable_influence" need_translate="true" value=""/>
         <text id="base_influence" need_translate="true" value=""/>
         <text id="cash" need_translate="true" value=""/>
+        <text id="collection_influence" need_translate="true" value=""/>
         <text id="companies_influence_change" need_translate="true" value=""/>
         <text id="company_influence" need_translate="true" value=""/>
         <text id="confidence_summary_total" need_translate="true" value=""/>

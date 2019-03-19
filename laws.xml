@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laws>
+    <law_10>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_10>
+    <law_1>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_1>
+    <law_11>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_11>
+    <law_12>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_12>
+    <law_13>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_13>
+    <law_14>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_14>
+    <law_15>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_15>
+    <law_16>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_16>
+    <law_17>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_17>
+    <law_18>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_18>
+    <law_19>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_19>
+    <law_20>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_20>
+    <law_2>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_2>
+    <law_21>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_21>
+    <law_22>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_22>
+    <law_23>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_23>
+    <law_24>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_24>
+    <law_3>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_3>
+    <law_4>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_4>
+    <law_5>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_5>
+    <law_6>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_6>
+    <law_7>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_7>
+    <law_8>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_8>
+    <law_9>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_9>
+</laws>

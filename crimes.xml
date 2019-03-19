@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crimes>
+    <crime_type>
+        <text id="corruption" need_translate="true" value=""/>
+        <text id="extortion" need_translate="true" value=""/>
+        <text id="manipulation" need_translate="true" value=""/>
+        <text id="murder" need_translate="true" value=""/>
+        <text id="persecution" need_translate="true" value=""/>
+        <text id="robbery" need_translate="true" value=""/>
+        <text id="slander" need_translate="true" value=""/>
+    </crime_type>
     <effects>
         <text id="arrets_chance" need_translate="true" value=""/>
         <text id="jail_time_text" need_translate="true" value=""/>
@@ -69,6 +78,14 @@
         <text id="jail_result_text" need_translate="true" value=""/>
         <text id="jail_result_text_1" need_translate="true" value=""/>
         <text id="jail_result_text_2" need_translate="true" value=""/>
+        <text id="official_result_header_1" need_translate="true" value=""/>
+        <text id="official_result_header_2" need_translate="true" value=""/>
+        <text id="official_result_text_1" need_translate="true" value=""/>
+        <text id="official_result_text_2" need_translate="true" value=""/>
+        <text id="politician_result_header_1" need_translate="true" value=""/>
+        <text id="politician_result_header_2" need_translate="true" value=""/>
+        <text id="politician_result_text_1" need_translate="true" value=""/>
+        <text id="politician_result_text_2" need_translate="true" value=""/>
         <text id="scapegoat_popup_header" need_translate="true" value=""/>
         <text id="scapegoat_popup_text" need_translate="true" value=""/>
     </popup>

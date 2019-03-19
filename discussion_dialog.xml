@@ -2,8 +2,29 @@
 <discussion_dialog>
     <discussion_phrase>
         <text id="100" need_translate="true" value=""/>
+        <text id="10000" need_translate="true" value=""/>
+        <text id="10001" need_translate="true" value=""/>
+        <text id="10002" need_translate="true" value=""/>
         <text id="101" need_translate="true" value=""/>
+        <text id="10100" need_translate="true" value=""/>
+        <text id="10101" need_translate="true" value=""/>
+        <text id="10102" need_translate="true" value=""/>
         <text id="102" need_translate="true" value=""/>
+        <text id="10200" need_translate="true" value=""/>
+        <text id="10201" need_translate="true" value=""/>
+        <text id="10202" need_translate="true" value=""/>
+        <text id="10300" need_translate="true" value=""/>
+        <text id="10301" need_translate="true" value=""/>
+        <text id="10302" need_translate="true" value=""/>
+        <text id="10400" need_translate="true" value=""/>
+        <text id="10401" need_translate="true" value=""/>
+        <text id="10402" need_translate="true" value=""/>
+        <text id="10500" need_translate="true" value=""/>
+        <text id="10501" need_translate="true" value=""/>
+        <text id="10502" need_translate="true" value=""/>
+        <text id="10600" need_translate="true" value=""/>
+        <text id="10601" need_translate="true" value=""/>
+        <text id="10602" need_translate="true" value=""/>
         <text id="1500" need_translate="true" value=""/>
         <text id="1501" need_translate="true" value=""/>
         <text id="1600" need_translate="true" value=""/>

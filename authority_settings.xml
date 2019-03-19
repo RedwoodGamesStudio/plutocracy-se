@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authority_settings>
+    <agressive_saying>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </agressive_saying>
+    <careful_saying>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </careful_saying>
+    <legislature_1>
+        <text id="lower_name" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="upper_name" need_translate="true" value=""/>
+    </legislature_1>
+    <legislature_14>
+        <text id="lower_name" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="upper_name" need_translate="true" value=""/>
+    </legislature_14>
+    <legislature_34>
+        <text id="lower_name" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="upper_name" need_translate="true" value=""/>
+    </legislature_34>
+    <legislature_43>
+        <text id="lower_name" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="upper_name" need_translate="true" value=""/>
+    </legislature_43>
+    <max_bribe>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </max_bribe>
+    <max_promises>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </max_promises>
+    <min_bribe>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </min_bribe>
+    <min_promises>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </min_promises>
+    <no_bribe>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </no_bribe>
+    <no_promises>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </no_promises>
+    <respective_saying>
+        <text id="name" need_translate="true" value=""/>
+        <text id="text" need_translate="true" value=""/>
+    </respective_saying>
+    <strategy>
+        <text id="text_bribe" need_translate="true" value=""/>
+        <text id="text_promises" need_translate="true" value=""/>
+        <text id="text_sayings" need_translate="true" value=""/>
+    </strategy>
+</authority_settings>
