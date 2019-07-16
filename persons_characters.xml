@@ -2,13 +2,13 @@
 <persons_characters>
     <ambitions>
         <text id="00_shares_bank_description" need_translate="true" value=""/>
-        <text id="00_shares_bank_name" need_translate="true" value=""/>
+        <text id="00_shares_bank_name" need_translate="true" value="Jag vill ha aktier i en bank"/>
         <text id="01_shares_oil_production_description" need_translate="true" value=""/>
-        <text id="01_shares_oil_production_name" need_translate="true" value=""/>
+        <text id="01_shares_oil_production_name" need_translate="true" value="Jag vill ha aktier i ett oljeproducerande företag"/>
         <text id="02_shares_transport_company_description" need_translate="true" value=""/>
-        <text id="02_shares_transport_company_name" need_translate="true" value=""/>
+        <text id="02_shares_transport_company_name" need_translate="true" value="Jag vill ha aktier i ett transportföreatag"/>
         <text id="03_shares_petroleum_refinery_description" need_translate="true" value=""/>
-        <text id="03_shares_petroleum_refinery_name" need_translate="true" value=""/>
+        <text id="03_shares_petroleum_refinery_name" need_translate="true" value="Jag vill ha aktier i ett oljeraffinering företag"/>
         <text id="04_control_shares_pack_of_bank_description" need_translate="true" value=""/>
         <text id="04_control_shares_pack_of_bank_name" need_translate="true" value=""/>
         <text id="05_control_shares_pack_of_oil_production_description" need_translate="true" value=""/>
@@ -18,7 +18,7 @@
         <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="true" value=""/>
         <text id="07_control_shares_pack_of_petroleum_refinery_name" need_translate="true" value=""/>
         <text id="08_accumulation_description" need_translate="true" value=""/>
-        <text id="08_accumulation_name" need_translate="true" value=""/>
+        <text id="08_accumulation_name" need_translate="true" value="Jag vill donera till en valkampanj"/>
         <text id="09_found_bank_description" need_translate="true" value=""/>
         <text id="09_found_bank_name" need_translate="true" value=""/>
         <text id="10_found_oil_production_description" need_translate="true" value=""/>
@@ -44,19 +44,19 @@
         <text id="20_add_new_friends_description" need_translate="true" value=""/>
         <text id="20_add_new_friends_name" need_translate="true" value=""/>
         <text id="21_want_to_be_governor_description" need_translate="true" value=""/>
-        <text id="21_want_to_be_governor_name" need_translate="true" value=""/>
+        <text id="21_want_to_be_governor_name" need_translate="true" value="Jag vill träffa en guvernör"/>
         <text id="22_want_to_be_treasurer_description" need_translate="true" value=""/>
-        <text id="22_want_to_be_treasurer_name" need_translate="true" value=""/>
+        <text id="22_want_to_be_treasurer_name" need_translate="true" value="Jag vill träffa en skattmästare"/>
         <text id="23_want_to_be_judge_description" need_translate="true" value=""/>
-        <text id="23_want_to_be_judge_name" need_translate="true" value=""/>
+        <text id="23_want_to_be_judge_name" need_translate="true" value="Jag vill träffa en domare"/>
         <text id="24_want_to_be_prosecutor_description" need_translate="true" value=""/>
-        <text id="24_want_to_be_prosecutor_name" need_translate="true" value=""/>
+        <text id="24_want_to_be_prosecutor_name" need_translate="true" value="Jag vill träffa en åklagare"/>
         <text id="25_want_to_be_police_chief_description" need_translate="true" value=""/>
-        <text id="25_want_to_be_police_chief_name" need_translate="true" value=""/>
+        <text id="25_want_to_be_police_chief_name" need_translate="true" value="Jag vill träffa en polischef"/>
         <text id="26_want_to_be_congressman_description" need_translate="true" value=""/>
-        <text id="26_want_to_be_congressman_name" need_translate="true" value=""/>
+        <text id="26_want_to_be_congressman_name" need_translate="true" value="Jag vill träffa en kongressman"/>
         <text id="27_want_to_be_senator_description" need_translate="true" value=""/>
-        <text id="27_want_to_be_senator_name" need_translate="true" value=""/>
+        <text id="27_want_to_be_senator_name" need_translate="true" value="Jag vill träffa en senator"/>
         <text id="28_kill_all_enemies_description" need_translate="true" value=""/>
         <text id="28_kill_all_enemies_name" need_translate="true" value=""/>
         <text id="29_buy_all_shares_description" need_translate="true" value=""/>
@@ -73,34 +73,34 @@
         <text id="7" need_translate="true" value=""/>
     </categories>
     <description_player>
-        <text id="aggressive" need_translate="true" value=""/>
-        <text id="alcoholic" need_translate="true" value=""/>
-        <text id="arrogant" need_translate="true" value=""/>
-        <text id="brawler" need_translate="true" value=""/>
-        <text id="careful" need_translate="true" value=""/>
-        <text id="careless" need_translate="true" value=""/>
-        <text id="compliant" need_translate="true" value=""/>
-        <text id="dark_past" need_translate="true" value=""/>
-        <text id="dependent" need_translate="true" value=""/>
-        <text id="explosive" need_translate="true" value=""/>
-        <text id="fearless" need_translate="true" value=""/>
-        <text id="fool" need_translate="true" value=""/>
-        <text id="friendly" need_translate="true" value=""/>
-        <text id="frigid" need_translate="true" value=""/>
-        <text id="heavy" need_translate="true" value=""/>
-        <text id="holyman" need_translate="true" value=""/>
-        <text id="illegible" need_translate="true" value=""/>
-        <text id="independent" need_translate="true" value=""/>
-        <text id="light" need_translate="true" value=""/>
-        <text id="lustful" need_translate="true" value=""/>
-        <text id="mercantile" need_translate="true" value=""/>
-        <text id="restrained" need_translate="true" value=""/>
-        <text id="selective" need_translate="true" value=""/>
-        <text id="shy" need_translate="true" value=""/>
-        <text id="spender" need_translate="true" value=""/>
-        <text id="thrifty" need_translate="true" value=""/>
-        <text id="trader" need_translate="true" value=""/>
-        <text id="wasteful" need_translate="true" value=""/>
+        <text id="aggressive" need_translate="true" value="Karaktärens lojalitet mot dig kommer att minska 2 gånger mer vid misslyckad förhandling"/>
+        <text id="alcoholic" need_translate="true" value="Det finns en 20% chans att karaktären inte kommer att komma till förhandlingarna"/>
+        <text id="arrogant" need_translate="true" value="Ingen effekt från karaktärens särdrag 'Arrogant'"/>
+        <text id="brawler" need_translate="true" value="+20% till framgången för agenten 'Journalist'"/>
+        <text id="careful" need_translate="true" value="-20% till framgången för agenten 'Lönnmördare'"/>
+        <text id="careless" need_translate="true" value="+20% till framgången för agenten 'Lönnmördare'"/>
+        <text id="compliant" need_translate="true" value="Karaktären kommer att sänka priset 2 gånger lägre än vanligt vid ett motbjudande"/>
+        <text id="dark_past" need_translate="true" value="+20% till framgången för agenten 'Detektiv'"/>
+        <text id="dependent" need_translate="true" value="Genom att förhandla måste du spendera 2 gånger mer inflytande för att göra en affär"/>
+        <text id="explosive" need_translate="true" value="Du kommer få färre försök att göra en affär"/>
+        <text id="fearless" need_translate="true" value="-20% till framgången för agenten 'Brottsling'"/>
+        <text id="fool" need_translate="true" value="Ingen effekt från karaktärens egenskap 'Despot'"/>
+        <text id="friendly" need_translate="true" value="Karaktärens lojalitet mot dig kommer att minska 2 gånger mindre vid misslyckad förhandling"/>
+        <text id="frigid" need_translate="true" value="-20% till framgången för agenten 'Kurtisan'"/>
+        <text id="heavy" need_translate="true" value="Det kommer ta 3 gånger längre tid att återhämta sig från förhandlingen"/>
+        <text id="holyman" need_translate="true" value="-20% till framgången för agenten 'Dektektiv'"/>
+        <text id="illegible" need_translate="true" value="Den misslyckade/avbrutna förhandlingen: ryktestraff är 2 gånger större"/>
+        <text id="independent" need_translate="true" value="Genom att förhandla måste du spendera 2 gånger mindre inflytande för att göra en affär"/>
+        <text id="light" need_translate="true" value="Det kommer ta 3 gånger mindre tid att återhämta sig från förhandlingen"/>
+        <text id="lustful" need_translate="true" value="+20% till framgången för agenten 'Kurtisan'"/>
+        <text id="mercantile" need_translate="true" value="Förhandlingen blir 2 gånger billigare"/>
+        <text id="restrained" need_translate="true" value="-20% till framgången för agenten 'Journalist'"/>
+        <text id="selective" need_translate="true" value="Den avbrutna förhandlingen: ryktestraff är 2 gånger mindre; Den framgångsrika förhandlingen: ryktesbonusen är 2 gånger större"/>
+        <text id="shy" need_translate="true" value="+20% till framgången för agenten 'Brottsling'"/>
+        <text id="spender" need_translate="true" value="+20% till framgången för agenten 'Gangster'"/>
+        <text id="thrifty" need_translate="true" value="-20% till framgången för agenten 'Gangster'"/>
+        <text id="trader" need_translate="true" value="Karaktären kommer att sänka priset 2 gånger mer än vanligt i fall av ett motbud"/>
+        <text id="wasteful" need_translate="true" value="Förhandlingarna blir 2 gånger dyrare"/>
     </description_player>
     <descriptions>
         <text id="aggressive" need_translate="true" value=""/>

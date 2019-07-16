@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <google_breakpad>
     <crash_dialog>
-        <text id="add_client_email" need_translate="true" value=""/>
-        <text id="apologies" need_translate="true" value=""/>
-        <text id="close_game" need_translate="true" value=""/>
-        <text id="comment" need_translate="true" value=""/>
-        <text id="error_desc" need_translate="true" value=""/>
-        <text id="info_about_send" need_translate="true" value=""/>
-        <text id="send_error_msg" need_translate="true" value=""/>
-        <text id="send_to_redwood" need_translate="true" value=""/>
-        <text id="window_title" need_translate="true" value=""/>
+        <text id="add_client_email" need_translate="true" value="Tillåt Redwood att kontakta mig om det här inlägget"/>
+        <text id="apologies" need_translate="true" value="Vi ber om ursäkt\n\n"/>
+        <text id="close_game" need_translate="true" value="Avsluta Plutocracy"/>
+        <text id="comment" need_translate="true" value="Lägg till en kommentar (kommentarer är offentligt tillgängliga)"/>
+        <text id="error_desc" need_translate="true" value="Ett internt fel inträffade under spelet Plutocracy, vilket orsakade en krasch.\n"/>
+        <text id="info_about_send" need_translate="true" value="Ditt meddelande skickas innan du lämnar"/>
+        <text id="send_error_msg" need_translate="true" value="För att hjälpa oss att identifiera och åtgärda problemet kan du skicka ett felmeddelande till oss.\n\n\n"/>
+        <text id="send_to_redwood" need_translate="true" value="Rapportera ett fall till Redwood så att vi kan fixa det"/>
+        <text id="window_title" need_translate="true" value="Plutocracy Crash Reporter"/>
     </crash_dialog>
 </google_breakpad>

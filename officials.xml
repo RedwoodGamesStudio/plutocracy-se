@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <officials>
     <descriptions>
-        <text id="governor" need_translate="true" value=""/>
-        <text id="judge" need_translate="true" value=""/>
-        <text id="police_chief" need_translate="true" value=""/>
-        <text id="prosecutor" need_translate="true" value=""/>
-        <text id="treasurer" need_translate="true" value=""/>
+        <text id="governor" need_translate="true" value="Guvernör"/>
+        <text id="judge" need_translate="true" value="Domare"/>
+        <text id="police_chief" need_translate="true" value="Polischef"/>
+        <text id="prosecutor" need_translate="true" value="Åklagare"/>
+        <text id="treasurer" need_translate="true" value="Skattmästare"/>
     </descriptions>
     <type_names>
-        <text id="governor" need_translate="true" value=""/>
-        <text id="governor_in_genetive" need_translate="true" value=""/>
-        <text id="judge" need_translate="true" value=""/>
-        <text id="judge_in_genetive" need_translate="true" value=""/>
-        <text id="police_chief" need_translate="true" value=""/>
-        <text id="police_chief_in_genetive" need_translate="true" value=""/>
-        <text id="prosecutor" need_translate="true" value=""/>
-        <text id="prosecutor_in_genetive" need_translate="true" value=""/>
-        <text id="treasurer" need_translate="true" value=""/>
-        <text id="treasurer_in_genetive" need_translate="true" value=""/>
+        <text id="governor" need_translate="true" value="Guvernör"/>
+        <text id="governor_in_genetive" need_translate="true" value="guvernör"/>
+        <text id="judge" need_translate="true" value="Domare"/>
+        <text id="judge_in_genetive" need_translate="true" value="domare"/>
+        <text id="police_chief" need_translate="true" value="Polischef"/>
+        <text id="police_chief_in_genetive" need_translate="true" value="polischef"/>
+        <text id="prosecutor" need_translate="true" value="Åklagare"/>
+        <text id="prosecutor_in_genetive" need_translate="true" value="åklagare"/>
+        <text id="treasurer" need_translate="true" value="Skattmästare"/>
+        <text id="treasurer_in_genetive" need_translate="true" value="skattmästare"/>
     </type_names>
 </officials>
