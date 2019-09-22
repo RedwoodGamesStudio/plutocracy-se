@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hints>
     <hint>
-        <text id="10_title" need_translate="true" value=""/>
-        <text id="10_value" need_translate="true" value=""/>
-        <text id="11_title" need_translate="true" value=""/>
-        <text id="11_value" need_translate="true" value=""/>
+        <text id="10_title" need_translate="false" value="Lönsamhet"/>
+        <text id="10_value" need_translate="false" value="Förväntad avkastning relativt till tillgångens värde per kvartal"/>
+        <text id="11_title" need_translate="false" value="Kontobalans"/>
+        <text id="11_value" need_translate="false" value="Total skillnad mellan intäkter och kostnader under en redovisningsperiod"/>
         <text id="12_title" need_translate="true" value=""/>
         <text id="12_value" need_translate="true" value=""/>
         <text id="13_title" need_translate="true" value=""/>
@@ -43,18 +43,18 @@
         <text id="28_value" need_translate="true" value=""/>
         <text id="29_title" need_translate="true" value=""/>
         <text id="29_value" need_translate="true" value=""/>
-        <text id="2_title" need_translate="true" value=""/>
-        <text id="2_value" need_translate="true" value=""/>
+        <text id="2_title" need_translate="false" value="Karta"/>
+        <text id="2_value" need_translate="false" value="Rörelse mellan stater"/>
         <text id="30_title" need_translate="true" value=""/>
         <text id="30_value" need_translate="true" value=""/>
-        <text id="31_title" need_translate="true" value=""/>
-        <text id="31_value" need_translate="true" value=""/>
+        <text id="31_title" need_translate="false" value="Rykte"/>
+        <text id="31_value" need_translate="false" value="Om ditt popularitet är bättre än din motståndares popularitet, blir det mycket lättare att göra affärer. Men du får popularitetsstraff -1 poäng"/>
         <text id="32_title" need_translate="true" value=""/>
         <text id="32_value" need_translate="true" value=""/>
         <text id="33_title" need_translate="true" value=""/>
         <text id="33_value" need_translate="true" value=""/>
-        <text id="34_title" need_translate="true" value=""/>
-        <text id="34_value" need_translate="true" value=""/>
+        <text id="34_title" need_translate="false" value="Karta"/>
+        <text id="34_value" need_translate="false" value="Rörelse mellan stater"/>
         <text id="35_title" need_translate="true" value=""/>
         <text id="35_value" need_translate="true" value=""/>
         <text id="36_title" need_translate="true" value=""/>
@@ -63,39 +63,39 @@
         <text id="37_value" need_translate="true" value=""/>
         <text id="38_title" need_translate="true" value=""/>
         <text id="38_value" need_translate="true" value=""/>
-        <text id="39_text" need_translate="true" value=""/>
-        <text id="39_title" need_translate="true" value=""/>
-        <text id="3_title" need_translate="true" value=""/>
-        <text id="3_value" need_translate="true" value=""/>
-        <text id="40_text" need_translate="true" value=""/>
-        <text id="40_title" need_translate="true" value=""/>
-        <text id="41_text" need_translate="true" value=""/>
-        <text id="41_title" need_translate="true" value=""/>
-        <text id="42_text" need_translate="true" value=""/>
-        <text id="42_title" need_translate="true" value=""/>
-        <text id="43_text" need_translate="true" value=""/>
-        <text id="43_title" need_translate="true" value=""/>
-        <text id="44_text" need_translate="true" value=""/>
-        <text id="44_title" need_translate="true" value=""/>
-        <text id="45_text" need_translate="true" value=""/>
-        <text id="45_title" need_translate="true" value=""/>
-        <text id="46_text" need_translate="true" value=""/>
-        <text id="46_title" need_translate="true" value=""/>
-        <text id="47_text" need_translate="true" value=""/>
-        <text id="47_title" need_translate="true" value=""/>
-        <text id="4_title" need_translate="true" value=""/>
-        <text id="4_value" need_translate="true" value=""/>
-        <text id="50_title" need_translate="true" value=""/>
-        <text id="50_value" need_translate="true" value=""/>
-        <text id="5_title" need_translate="true" value=""/>
-        <text id="5_value" need_translate="true" value=""/>
-        <text id="6_title" need_translate="true" value=""/>
-        <text id="6_value" need_translate="true" value=""/>
-        <text id="7_title" need_translate="true" value=""/>
-        <text id="7_value" need_translate="true" value=""/>
-        <text id="8_title" need_translate="true" value=""/>
-        <text id="8_value" need_translate="true" value=""/>
-        <text id="9_title" need_translate="true" value=""/>
-        <text id="9_value" need_translate="true" value=""/>
+        <text id="39_text" need_translate="false" value="Företagets aktivitetsfält"/>
+        <text id="39_title" need_translate="false" value="Företagstyp"/>
+        <text id="3_title" need_translate="false" value="Stat"/>
+        <text id="3_value" need_translate="false" value="Här kan du se en lista över företag baserade i staten"/>
+        <text id="40_text" need_translate="false" value="Köp 51% av aktierna och ta kontroll över företaget"/>
+        <text id="40_title" need_translate="false" value="Kontroll"/>
+        <text id="41_text" need_translate="false" value="Utse den bästa direktören för att förbättra företagsledningen"/>
+        <text id="41_title" need_translate="false" value="VD"/>
+        <text id="42_text" need_translate="false" value="Staten där du är"/>
+        <text id="42_title" need_translate="false" value="Stat"/>
+        <text id="43_text" need_translate="false" value="Företagets tjänster"/>
+        <text id="43_title" need_translate="false" value="Industri"/>
+        <text id="44_text" need_translate="false" value="Antalet arbetare"/>
+        <text id="44_title" need_translate="false" value="Företagsstorlek"/>
+        <text id="45_text" need_translate="false" value="Företagets lönsamhet relativt till kapitalet per kvartal"/>
+        <text id="45_title" need_translate="false" value="Lönsamhet"/>
+        <text id="46_text" need_translate="false" value="Presentera företagets värde i förhållande till marknadspriset på sina aktier"/>
+        <text id="46_title" need_translate="false" value="Börsvärde"/>
+        <text id="47_text" need_translate="false" value="Köpeskillingen för aktier av en mäklare"/>
+        <text id="47_title" need_translate="false" value="Marknadspris"/>
+        <text id="4_title" need_translate="false" value="Prestationer och elit"/>
+        <text id="4_value" need_translate="false" value="Dina prestationer och topplista"/>
+        <text id="50_title" need_translate="false" value="Tid kvar"/>
+        <text id="50_value" need_translate="false" value="Tiden på klockratten är antalet försök att göra ett avtal"/>
+        <text id="5_title" need_translate="false" value="Auktoritet"/>
+        <text id="5_value" need_translate="false" value="lobbylagar, sponsra politiker eller tjänstemän"/>
+        <text id="6_title" need_translate="false" value="Nyheter"/>
+        <text id="6_value" need_translate="false" value="Kronologin för spelhändelser"/>
+        <text id="7_title" need_translate="false" value="Agenter"/>
+        <text id="7_value" need_translate="false" value="Här kan du se en lista över agenter"/>
+        <text id="8_title" need_translate="false" value="Rikedom"/>
+        <text id="8_value" need_translate="false" value="Totalt tillgångsvärde"/>
+        <text id="9_title" need_translate="false" value="Kontanter"/>
+        <text id="9_value" need_translate="false" value="Mängd kontanter per kvartal"/>
     </hint>
 </hints>
