@@ -4,6 +4,9 @@
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
     </agressive_saying>
+    <capitol_14/>
+    <capitol_34/>
+    <capitol_43/>
     <careful_saying>
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
@@ -56,6 +59,7 @@
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
     </respective_saying>
+    <sayings/>
     <strategy>
         <text id="text_bribe" need_translate="true" value=""/>
         <text id="text_promises" need_translate="true" value=""/>

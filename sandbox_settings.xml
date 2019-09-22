@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sandbox_settings>
     <text id="btn_start_game" need_translate="true" value=""/>
-    <win_settings>
-        <text id="economy" need_translate="true" value=""/>
-        <text id="monopoly" need_translate="true" value=""/>
-        <text id="politial_influence" need_translate="true" value=""/>
-        <text id="superiority" need_translate="true" value=""/>
-    </win_settings>
+    <win_settings_description/>
+    <win_settings_header/>
     <world_settings>
         <game_difficult>
             <text id="financial_genius" need_translate="true" value=""/>

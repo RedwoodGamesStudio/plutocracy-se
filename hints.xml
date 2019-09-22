@@ -65,8 +65,8 @@
         <text id="38_value" need_translate="true" value=""/>
         <text id="39_text" need_translate="false" value="Företagets aktivitetsfält"/>
         <text id="39_title" need_translate="false" value="Företagstyp"/>
-        <text id="3_title" need_translate="false" value="Stat"/>
-        <text id="3_value" need_translate="false" value="Här kan du se en lista över företag baserade i staten"/>
+        <text id="3_title" need_translate="true" value="Stat"/>
+        <text id="3_value" need_translate="true" value="Här kan du se en lista över företag baserade i staten"/>
         <text id="40_text" need_translate="false" value="Köp 51% av aktierna och ta kontroll över företaget"/>
         <text id="40_title" need_translate="false" value="Kontroll"/>
         <text id="41_text" need_translate="false" value="Utse den bästa direktören för att förbättra företagsledningen"/>
@@ -85,8 +85,6 @@
         <text id="47_title" need_translate="false" value="Marknadspris"/>
         <text id="4_title" need_translate="false" value="Prestationer och elit"/>
         <text id="4_value" need_translate="false" value="Dina prestationer och topplista"/>
-        <text id="50_title" need_translate="false" value="Tid kvar"/>
-        <text id="50_value" need_translate="false" value="Tiden på klockratten är antalet försök att göra ett avtal"/>
         <text id="5_title" need_translate="false" value="Auktoritet"/>
         <text id="5_value" need_translate="false" value="lobbylagar, sponsra politiker eller tjänstemän"/>
         <text id="6_title" need_translate="false" value="Nyheter"/>

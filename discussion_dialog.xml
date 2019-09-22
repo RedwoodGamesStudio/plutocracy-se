@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <discussion_dialog>
     <discussion_phrase>
-        <text id="100" need_translate="true"  value="Under de senaste dagarna har jag hört mycket om dig. Vad är orsaken till vårt möte?"/>
+        <text id="100" need_translate="true" value="Under de senaste dagarna har jag hört mycket om dig. Vad är orsaken till vårt möte?"/>
         <text id="10000" need_translate="true" value=""/>
         <text id="10001" need_translate="true" value=""/>
         <text id="10002" need_translate="true" value=""/>
-        <text id="101" need_translate="true"  value="Jag är alltid glad att träffa en bra person. Jag är redo att lyssna på dig"/>
+        <text id="101" need_translate="true" value="Jag är alltid glad att träffa en bra person. Jag är redo att lyssna på dig"/>
         <text id="10100" need_translate="true" value=""/>
         <text id="10101" need_translate="true" value=""/>
         <text id="10102" need_translate="true" value=""/>
-        <text id="102" need_translate="true"  value="Jag är redo att lyssna på dig. Vad är orsaken till vårt möte?"/>
+        <text id="102" need_translate="true" value="Jag är redo att lyssna på dig. Vad är orsaken till vårt möte?"/>
         <text id="10200" need_translate="true" value=""/>
         <text id="10201" need_translate="true" value=""/>
         <text id="10202" need_translate="true" value=""/>
@@ -36,26 +36,28 @@
         <text id="1703" need_translate="true" value="Det är skandalöst att erbjuda sådana villkor! Min inställning till dig är helt förstörd!"/>
         <text id="1800" need_translate="true" value="Det är trevligt att göra affärer med dig"/>
         <text id="1801" need_translate="true" value="Jag hjälper dig gärna igen!"/>
-        <text id="200" need_translate="true"  value="Vad är orsaken till vårt möte? Jag har inte mycket tid"/>
-        <text id="201" need_translate="true"  value="Varför störde du mig? Hoppas, vårt samtal tar inte för mycket tid"/>
-        <text id="202" need_translate="true"  value="Jag hoppas att jag inte kommer att slösa min tid med dig"/>
-        <text id="300" need_translate="true"  value="Jag ville inte träffa dig. Så... Jag gör dig en tjänst. Vad vill du?"/>
-        <text id="301" need_translate="true"  value="Vad vill du ha från mig? Vi har inga gemensamma affärer"/>
-        <text id="302" need_translate="true"  value="Inga problem! Jag hjälper dig gärna igen!"/>
-        <text id="400" need_translate="true"  value="Hmm ... Jag ville inte sälja mina aktier. Men om du betalar $%1 per aktie (Total summa av $%2, %3 aktier), så kommer jag kommer att överväga ditt erbjudande"/>
-        <text id="401" need_translate="true"  value="Jag är redo att sälja mina aktier för $%1 per aktie (Total summa av $%2, %3 aktier)"/>
-        <text id="402" need_translate="true"  value="Ärligt talat, jag är inte redo att sälja mina aktier men för $%1 per aktie kommer att kunna träffa dig halvvägs (Total summa av $%2, %3 aktier)"/>
-        <text id="500" need_translate="true"  value="Jag är inte intresserad av det priset ... Jag är redo att släppa en till $%1 (Total summa av $%2, %3 aktier)"/>
-        <text id="501" need_translate="true"  value="Nej! Aldrig! Vi kan komma överens om $%1 per aktie (Total summa av $%2, %3 aktier)"/>
-        <text id="502" need_translate="true"  value="Det är för lite! Aldrig! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
-        <text id="503" need_translate="true"  value="Sluta prova mitt tålamod! Det är för lite! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
-        <text id="504" need_translate="true"  value="Priset är för lågt! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
-        <text id="600" need_translate="true"  value="Okej! Jag är med! Jag är redo att sälja %1 aktier av %2 företag för $%3"/>
-        <text id="601" need_translate="true"  value="Det är trevligt att göra affärer med dig! Jag kommer att acceptera dina villkor och sälja %1 aktier av %2 företag för $%3"/>
-        <text id="602" need_translate="true"  value="Tja, jag kommer att acceptera dina villkor och sälja %1 aktier av %2 företag för $%3"/>
-        <text id="700" need_translate="true"  value="Det är så förödmjukande att fortsätta att förhandla med dig!"/>
-        <text id="701" need_translate="true"  value="Skojar du? Det priset är för lågt! Förhandlingarna är över!"/>
-        <text id="702" need_translate="true"  value="Är du inte vettig? Jag säljer aldrig mina aktier för det priset! Du borde tänka över ditt erbjudande före mötet!"/>
-        <text id="703" need_translate="true"  value="Det är skandalöst att erbjuda sådana villkor! Min inställning till dig är helt förstörd!"/>
+        <text id="200" need_translate="true" value="Vad är orsaken till vårt möte? Jag har inte mycket tid"/>
+        <text id="201" need_translate="true" value="Varför störde du mig? Hoppas, vårt samtal tar inte för mycket tid"/>
+        <text id="202" need_translate="true" value="Jag hoppas att jag inte kommer att slösa min tid med dig"/>
+        <text id="300" need_translate="true" value="Jag ville inte träffa dig. Så... Jag gör dig en tjänst. Vad vill du?"/>
+        <text id="301" need_translate="true" value="Vad vill du ha från mig? Vi har inga gemensamma affärer"/>
+        <text id="302" need_translate="true" value="Inga problem! Jag hjälper dig gärna igen!"/>
+        <text id="400" need_translate="true" value="Hmm ... Jag ville inte sälja mina aktier. Men om du betalar $%1 per aktie (Total summa av $%2, %3 aktier), så kommer jag kommer att överväga ditt erbjudande"/>
+        <text id="401" need_translate="true" value="Jag är redo att sälja mina aktier för $%1 per aktie (Total summa av $%2, %3 aktier)"/>
+        <text id="402" need_translate="true" value="Ärligt talat, jag är inte redo att sälja mina aktier men för $%1 per aktie kommer att kunna träffa dig halvvägs (Total summa av $%2, %3 aktier)"/>
+        <text id="500" need_translate="true" value="Jag är inte intresserad av det priset ... Jag är redo att släppa en till $%1 (Total summa av $%2, %3 aktier)"/>
+        <text id="501" need_translate="true" value="Nej! Aldrig! Vi kan komma överens om $%1 per aktie (Total summa av $%2, %3 aktier)"/>
+        <text id="502" need_translate="true" value="Det är för lite! Aldrig! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
+        <text id="503" need_translate="true" value="Sluta prova mitt tålamod! Det är för lite! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
+        <text id="504" need_translate="true" value="Priset är för lågt! Mitt erbjudande är $%1 per aktie (Total summa av $%2, %3 aktier)"/>
+        <text id="600" need_translate="true" value="Okej! Jag är med! Jag är redo att sälja %1 aktier av %2 företag för $%3"/>
+        <text id="601" need_translate="true" value="Det är trevligt att göra affärer med dig! Jag kommer att acceptera dina villkor och sälja %1 aktier av %2 företag för $%3"/>
+        <text id="602" need_translate="true" value="Tja, jag kommer att acceptera dina villkor och sälja %1 aktier av %2 företag för $%3"/>
+        <text id="700" need_translate="true" value="Det är så förödmjukande att fortsätta att förhandla med dig!"/>
+        <text id="701" need_translate="true" value="Skojar du? Det priset är för lågt! Förhandlingarna är över!"/>
+        <text id="702" need_translate="true" value="Är du inte vettig? Jag säljer aldrig mina aktier för det priset! Du borde tänka över ditt erbjudande före mötet!"/>
+        <text id="703" need_translate="true" value="Det är skandalöst att erbjuda sådana villkor! Min inställning till dig är helt förstörd!"/>
     </discussion_phrase>
+    <perks/>
+    <phrases/>
 </discussion_dialog>
