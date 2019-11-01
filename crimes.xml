@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crimes>
-    <crime_type>
-        <text id="corruption" need_translate="true" value=""/>
-        <text id="extortion" need_translate="true" value=""/>
-        <text id="manipulation" need_translate="true" value=""/>
-        <text id="murder" need_translate="true" value=""/>
-        <text id="persecution" need_translate="true" value=""/>
-        <text id="robbery" need_translate="true" value=""/>
-        <text id="slander" need_translate="true" value=""/>
-    </crime_type>
     <effects>
         <text id="arrets_chance" need_translate="true" value="Arrest chans"/>
         <text id="jail_time_text" need_translate="true" value="Tid i fängelse"/>
@@ -21,14 +12,25 @@
         <text id="low_loyality" need_translate="true" value="Låg lojalitet!"/>
         <text id="no_assistants" need_translate="true" value="Inga anställda assistenter!"/>
     </hints>
-    <other/>
     <popup>
+        <text id="arrest_result_header_1" need_translate="true" value="Syndabock av\n&quot;%1&quot;: %2"/>
+        <text id="arrest_result_header_2" need_translate="true" value="Du är arresterad!"/>
+        <text id="arrest_result_text_1" need_translate="true" value="Jag litade på dig, och du förråder mig! Vänskap är som pengar, lättare att skapa än att behålla..."/>
+        <text id="arrest_result_text_2" need_translate="true" value="%1Polischef %2 misstänker dig för brottet &quot;%3&quot;. Du akn försöka att muta honom eller gå igenom en rättegång."/>
         <text id="court_popup_1" need_translate="true" value="Korrupt domare"/>
         <text id="court_popup_1_hover" need_translate="true" value="Du har %1% chans att tjänstemannen kommer att ta en muta (Summa på mutan: $%2) och en %3% chans att han kommer stänga ärendet"/>
         <text id="court_popup_2" need_translate="true" value="Jag bryr mig inte!"/>
         <text id="court_popup_2_hover" need_translate="true" value="Rättegång: %1"/>
         <text id="court_popup_header" need_translate="true" value="Rättegången börjar!"/>
         <text id="court_popup_text" need_translate="true" value="%1&quot;%3&quot; rättegången kommer hållas på %2. %4 blir anklagad för att ha begått brottet"/>
+        <text id="court_result_header" need_translate="true" value="Du dömdes för brottet av\n&quot;%1&quot;!"/>
+        <text id="court_result_header_1" need_translate="true" value="Domaren vägrade hjälpa dig"/>
+        <text id="court_result_header_2" need_translate="true" value="Tyvärr är domarens befogenheter begränsade!"/>
+        <text id="court_result_header_3" need_translate="true" value="Det togs in en oskyldig dom"/>
+        <text id="court_result_text" need_translate="true" value="%1%2 skickas till fängelse...Domare %3 har gjort ett rättvist beslut!"/>
+        <text id="court_result_text_1" need_translate="true" value="Vad menar du? Försöker du muta mig? Det är ett brott! Gå ut härifrån! ... Men du kan lämna pengarna .. Jag behöver mata mina barn"/>
+        <text id="court_result_text_2" need_translate="true" value="Du vet, det är inte lätt att stänga mina ögon för en dom nu! Så jag kan inte hjälpa dig med det ... Var försiktig!"/>
+        <text id="court_result_text_3" need_translate="true" value="%2 är inte skyldig. En 0% chans av att åtalas igen"/>
         <text id="hide_evidence_popup_1" need_translate="true" value="Göm bevis"/>
         <text id="hide_evidence_popup_1_hover" need_translate="true" value="Du har %1% chans att tjänstemannen kommer att ta en muta (Summa på mutan: $%2) och en %3% chans att han kommer stänga ärendet"/>
         <text id="hide_evidence_popup_2" need_translate="true" value="Syndabock"/>
@@ -37,19 +39,37 @@
         <text id="hide_evidence_popup_3_hover" need_translate="true" value="Du kanske blir arresterad på %1"/>
         <text id="hide_evidence_popup_header" need_translate="true" value="Undersökning av fallet med\n&quot;%1&quot;"/>
         <text id="hide_evidence_popup_text" need_translate="true" value="%1Polisen fick ett uttalande från %2. Polischef %3 började titta på..."/>
+        <text id="hide_evidence_result_header_1" need_translate="true" value="Polischefen vägrade att hjälpa dig"/>
+        <text id="hide_evidence_result_header_2" need_translate="true" value="Tyvärr är polischefens befogenheter begränsade!"/>
+        <text id="hide_evidence_result_header_3" need_translate="true" value="Polischefen lyckades gömma bevisen!\nYou are lucky!\nDu är tursam!"/>
+        <text id="hide_evidence_result_text_1" need_translate="true" value="Vad menar du? Försöker du muta mig? Det är ett brott! Gå ut härifrån! ... Men du kan lämna pengarna .. Jag behöver mata mina barn"/>
+        <text id="hide_evidence_result_text_2" need_translate="true" value="Du vet, det är inte lätt att gömma bevis nu! Så jag kan inte hjälpa dig med det ... Bli tuffare!"/>
+        <text id="hide_evidence_result_text_3" need_translate="true" value="Jag lyckades gömma beviset för fallet med &quot;%1&quot;! En 0% chans av att åtalas igen. Men jag är inte säker på att du kommer att kunna komma undan med det nästa gång"/>
+        <text id="incriminate_a_case_popup_1" need_translate="true" value="Avsluta fall"/>
+        <text id="incriminate_a_case_popup_1_hover" need_translate="true" value="Du har %1% chans att tjänstemannen kommer att ta en muta (Summa på mutan: $%2) och en %3% chans att han kommer stänga ärendet"/>
+        <text id="incriminate_a_case_popup_2" need_translate="true" value="Jag bryr mig inte!"/>
+        <text id="incriminate_a_case_popup_2_hover" need_translate="true" value="Rättegång: %1"/>
+        <text id="incriminate_a_case_popup_header" need_translate="true" value="Väckte ett brottmål av\n&quot;%1&quot; mot %2"/>
+        <text id="incriminate_a_case_popup_text" need_translate="true" value="%1Åklagaren %2 har väckt ett brottmål"/>
+        <text id="incriminate_a_case_result_header_1" need_translate="true" value="Åklagaren vägrade hjälpa dig"/>
+        <text id="incriminate_a_case_result_header_2" need_translate="true" value="Tyvärr är åklagarens befogenheter begränsade!"/>
+        <text id="incriminate_a_case_result_header_3" need_translate="true" value="Avslutat fall"/>
+        <text id="incriminate_a_case_result_text_1" need_translate="true" value="Vad menar du? Försöker du muta mig? Det är ett brott! Gå ut härifrån! ... Men du kan lämna pengarna .. Jag behöver mata mina barn"/>
+        <text id="incriminate_a_case_result_text_2" need_translate="true" value="Du vet, det är inte lätt att avsluta ett fall nu! Så jag kan inte hjälpa dig med det ... Gud välsigne dig!"/>
+        <text id="incriminate_a_case_result_text_3" need_translate="true" value="Jag lyckades avsluta fallet med &quot;%1&quot;! En 0% chans av att åtalas igen. Det sätter mig i fara! Jag kan inte lova dig att jag ska hjälpa dig nästa gång!"/>
         <text id="jail_popup_1" need_translate="true" value="Nåd"/>
         <text id="jail_popup_1_hover" need_translate="true" value="Du har %1% chans att tjänstemannen kommer att ta en muta (Summa på mutan: $%2) och en %3% chans att han kommer stänga ärendet"/>
         <text id="jail_popup_2" need_translate="true" value="Gör inget"/>
         <text id="jail_popup_2_hover" need_translate="true" value="Tiden i fängelset är mer än: %1"/>
         <text id="jail_popup_header" need_translate="true" value="Guvernören är din sista chans!"/>
         <text id="jail_popup_text" need_translate="true" value="%1Du kan söka en benådning från guvernören. Om du har tur, %2 guvernör %3 kommer att benåda dig, och du kommer att bli befriad från straff."/>
-        <text id="official_result_header_1" need_translate="true" value=""/>
-        <text id="official_result_header_2" need_translate="true" value=""/>
-        <text id="official_result_text_1" need_translate="true" value=""/>
-        <text id="official_result_text_2" need_translate="true" value=""/>
-        <text id="politician_result_header_1" need_translate="true" value=""/>
-        <text id="politician_result_header_2" need_translate="true" value=""/>
-        <text id="politician_result_text_1" need_translate="true" value=""/>
-        <text id="politician_result_text_2" need_translate="true" value=""/>
+        <text id="jail_result_header" need_translate="true" value="%1's tid i fängelse är över!"/>
+        <text id="jail_result_header_1" need_translate="true" value="Guvernören har vägrat att hjälpa dig"/>
+        <text id="jail_result_header_2" need_translate="true" value="%1 frikändes!"/>
+        <text id="jail_result_text" need_translate="true" value="Äntligen är jag fri!"/>
+        <text id="jail_result_text_1" need_translate="true" value="Vad menar du? Försöker du muta mig? Det är ett brott! Gå ut härifrån! ... Men du kan lämna pengarna .. Jag behöver mata mina barn"/>
+        <text id="jail_result_text_2" need_translate="true" value="%%3 guvernör %2 har benådat %4 som begått brottet &quot;%5&quot;"/>
+        <text id="scapegoat_popup_header" need_translate="true" value="Välj assistent"/>
+        <text id="scapegoat_popup_text" need_translate="true" value="Välj en syndabock som kommer att bli anklagad för dina brott"/>
     </popup>
 </crimes>

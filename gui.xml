@@ -2,6 +2,7 @@
 <gui>
     <achievement_window>
         <text id="achievement" need_translate="false" value="Achievement"/>
+        <text id="achievement_is_continious" need_translate="false" value="Politisk makt ackumuleras varje kvartal"/>
         <text id="achievement_is_not_continious" need_translate="false" value="Politisk makt ackumuleras bara en gång"/>
         <text id="bonus" need_translate="false" value="Bonus"/>
         <text id="collector_completed_hint" need_translate="false" value="Insamlingen är klar"/>
@@ -20,18 +21,32 @@
         <text id="themis_master_hint" need_translate="false" value="stoppat %1 bedömningar"/>
         <text id="unlock_achievement" need_translate="false" value="Du har fått prestationen &quot;%1&quot;! \nDen samling av %2 har fyllts på."/>
     </achievement_window>
+
     <agent_apply_popup>
         <text id="agent_skill_description" need_translate="false" value="$%1, %2 dag(ar), %3% risk"/>
         <text id="skill_not_learned" need_translate="true" value="Inte lärt sig"/>
     </agent_apply_popup>
+
+
     <agent_card>
         <text id="agent_unlock_cost_header" need_translate="false" value="Inte tillgänglig"/>
         <text id="agent_unlock_cost_text" need_translate="false" value="Pris: %1 influens poäng"/>
         <text id="explore" need_translate="false" value="Akt"/>
         <text id="hire" need_translate="false" value="Anställ"/>
         <text id="level" need_translate="false" value="Nivå"/>
+
+
     </agent_card>
-    <agent_hints/>
+    <agent_dossier>
+        <text id="agent_dossier" need_translate="false" value="Agent Akt"/>
+        <text id="biography" need_translate="false" value="Biografi"/>
+        <text id="information" need_translate="false" value="Information"/>
+        <text id="level" need_translate="false" value="Nivå"/>
+        <text id="name" need_translate="false" value="Namn"/>
+        <text id="skills" need_translate="false" value="Egenskaper"/>
+
+
+    </agent_dossier>
     <agent_research>
         <text id="accident_goal" need_translate="false" value="En olycka i %1 Bolaget"/>
         <text id="agent_effect" need_translate="false" value="Effekt:"/>
@@ -40,10 +55,14 @@
         <text id="apply" need_translate="false" value="Tillämpa"/>
         <text id="apply_agent" need_translate="false" value="Använd agent"/>
         <text id="avaliable_influence" need_translate="false" value="Inflytande: %1"/>
+
+
         <text id="back" need_translate="false" value="tillbaka"/>
         <text id="blocked_hire_button_reason1" need_translate="false" value="Gå till agent sidan för att använda en agent!"/>
         <text id="cancel_skill" need_translate="false" value="Avbryt"/>
         <text id="days_icon_hint" need_translate="false" value="Exekveringsperiod"/>
+
+
         <text id="description" need_translate="false" value="Om agent:"/>
         <text id="effect" need_translate="false" value="Effekt:"/>
         <text id="fail_chance" need_translate="false" value="Risk:"/>
@@ -52,6 +71,8 @@
         <text id="greetings_text" need_translate="false" value=""/>
         <text id="hire" need_translate="false" value="Anlita"/>
         <text id="learn_skill" need_translate="false" value="Lära"/>
+
+
         <text id="low_influence" need_translate="false" value="Du har inte tillräckligt med inflytelse poäng!"/>
         <text id="low_level" need_translate="false" value="Du har en låg nivå!"/>
         <text id="mission_agent" need_translate="false" value="Agent"/>
@@ -59,6 +80,8 @@
         <text id="mission_goal" need_translate="false" value="Uppdrag"/>
         <text id="money_cost" need_translate="false" value="Pris"/>
         <text id="money_icon_hint" need_translate="false" value="Pris"/>
+
+
         <text id="needed_influence" need_translate="false" value="nödvändig: %1"/>
         <text id="next_level" need_translate="false" value="Nästa nivå: %1"/>
         <text id="no_unlearned_skills" need_translate="true" value=""/>
@@ -93,23 +116,40 @@
     <agent_skill>
         <text id="apply" need_translate="false" value="Tillämpa"/>
     </agent_skill>
-    <agent_skill_tooltip/>
+    <agent_skills_window>
+        <text id="agents_skills" need_translate="false" value="Agent egenskaper"/>
+        <text id="pay" need_translate="false" value="Lön"/>
+    </agent_skills_window>
     <agents_board>
         <text id="agents_board" need_translate="false" value="Agent sidan"/>
         <text id="assistants" need_translate="false" value="Assistenter"/>
+
+
+
     </agents_board>
+    <agents_handler>
+        <text id="agent_serve_a_term_of_inprisonment" need_translate="false" value="Agenten spenderar ett fängelse straff. %1 månader kvar"/>
+        <text id="agent_was_used" need_translate="false" value="Agenten har använts. försök igen senare"/>
+        <text id="calculate_on_agent_level" need_translate="false" value="[Agent Nivå]"/>
+        <text id="credit_pay_off" need_translate="false" value="Du har betalat av lånet!"/>
+        <text id="credit_payment_arrerage" need_translate="false" value="%1 summa kvar ($ %2)"/>
+        <text id="get_agent_text" need_translate="false" value="Vid en lyckad förhandling %1 %2's loyalitet till dig kommer att öka med %3-%4%"/>
+        <text id="skill_temporarily_blocked" need_translate="false" value="Du kan inte använda funktionen '%1' nu"/>
+
+
+    </agents_handler>
+    <agents_window>
+        <text id="agents" need_translate="false" value="Agenter"/>
+        <text id="influence_agents" need_translate="false" value="Influerar agenter"/>
+    </agents_window>
     <ambition_popup>
-        <text id="abandon_quest" need_translate="true" value=""/>
-        <text id="agree" need_translate="true" value=""/>
-        <text id="bribe_sum" need_translate="true" value=""/>
-        <text id="campaign_sum" need_translate="true" value=""/>
-        <text id="cancel" need_translate="true" value=""/>
         <text id="conditions" need_translate="false" value="Villkor"/>
         <text id="days_left" need_translate="false" value="Tid kvar"/>
+
         <text id="deal_sum" need_translate="false" value="Stake price"/>
-        <text id="finish_quest" need_translate="true" value=""/>
         <text id="influence" need_translate="false" value="Inflytande"/>
         <text id="loyality" need_translate="false" value="Loyalitet till dig"/>
+        <text id="loyality_change" need_translate="false" value="Erhållen ambition"/>
         <text id="shares_count" need_translate="false" value="Antalet andelar/aktier"/>
     </ambition_popup>
     <any_words>
@@ -148,7 +188,7 @@
         <text id="hire_assistant_hint_text" need_translate="false" value="Du har inte tillräkligt med politiska poäng för att anlita denna assistent"/>
         <text id="influence" need_translate="false" value="Influens"/>
         <text id="influence_hint_header" need_translate="false" value="Influens"/>
-        <text id="influence_hint_text" need_translate="false" value="Karaktärens politiska poäng samantaget med dennes kontakter. Spendera influens för göra avtalet mer atraktivt, öka loyaliteten gentemot dig själv eller använd &#9;&#9;&#9;agenter"/>
+        <text id="influence_hint_text" need_translate="false" value="Karaktärens politiska poäng samantaget med dennes kontakter. Spendera influens för göra avtalet mer atraktivt, öka loyaliteten gentemot dig själv eller använd 			agenter"/>
         <text id="influence_skill" need_translate="false" value="Politik"/>
         <text id="influence_skill_hint_header" need_translate="false" value="Politik"/>
         <text id="influence_skill_hint_text" need_translate="false" value="Influens per kvartal. En stjärna ökar tassistentens influens med +1 poäng"/>
@@ -165,6 +205,9 @@
         <text id="power_cost_hint_text" need_translate="false" value="antal politiska poäng som behövs för att anställa"/>
         <text id="reputation" need_translate="false" value="Rykte"/>
         <text id="reputation_hint_header" need_translate="false" value="Rykte"/>
+
+
+
         <text id="reputation_hint_text" need_translate="false" value="Om din popularitet är bättre än din motståndares popularitet, iblir det mycket lättare att sluta avtal. Å andra sidan, kommer din popularitet minska med 1 poäng"/>
         <text id="sabotage_popup_header" need_translate="false" value="Sabotage!"/>
         <text id="sabotage_popup_text" need_translate="false" value="Din assistent vägrar att utföra uppdraget! Förmodligen för att loyaliteten är för låg..."/>
@@ -172,6 +215,9 @@
         <text id="salary_hint_header" need_translate="false" value="Lön"/>
         <text id="salary_hint_text" need_translate="false" value="Summan kommer att dras från spelarens konto när du skickar vidare draget"/>
     </assistant_window>
+
+
+
     <auction_dialog>
         <text id="auction" need_translate="false" value="Auktions hus"/>
         <text id="auction_members" need_translate="false" value="Budgivare"/>
@@ -188,6 +234,8 @@
         <text id="text_3" need_translate="false" value="nu $ %1, nu $ %1..."/>
         <text id="text_win" need_translate="false" value="och såld för $ %1 to %2!"/>
     </auction_dialog>
+
+
     <auction_popups>
         <text id="assistent_fail" need_translate="false" value="Jag förlorade budgivningen, Chefen!"/>
         <text id="assistent_question" need_translate="false" value="Jag vill delta i budgivningen, herrn!"/>
@@ -201,13 +249,14 @@
         <text id="market_price" need_translate="false" value="Marknads pris:"/>
         <text id="max_sell_price" need_translate="false" value="Max pris prognos:"/>
         <text id="min_sell_price" need_translate="false" value="Min pris prognos:"/>
-        <text id="player_question" need_translate="true" value="Vill du delta i budgivningen?"/>
+        <text id="player_question" need_translate="false" value="Vill du delta i budgivningen?"/>
         <text id="profit_by_step" need_translate="false" value="Vinst per kvartal:"/>
         <text id="sell_cancel" need_translate="false" value="Nej"/>
         <text id="sell_ok" need_translate="false" value="Ok"/>
         <text id="start_price" need_translate="false" value="Start pris:"/>
         <text id="you_are_sure" need_translate="false" value="Är du säker på att du vill sälja detta?"/>
     </auction_popups>
+
     <auction_result>
         <text id="money" need_translate="false" value="Pengar"/>
         <text id="ok" need_translate="false" value="Ok"/>
@@ -215,6 +264,7 @@
         <text id="you_lose_auction" need_translate="false" value="Du förlorade budgivningen!"/>
         <text id="you_win_auction" need_translate="false" value="Du vann budgivningen!"/>
     </auction_result>
+
     <auction_window>
         <text id="demand" need_translate="false" value="efterfrågat pris"/>
         <text id="expenses_per_step" need_translate="false" value="Underhåll"/>
@@ -225,11 +275,17 @@
         <text id="start_price" need_translate="false" value="Start pris"/>
         <text id="window_title" need_translate="false" value="Auktion"/>
     </auction_window>
+
     <text id="autosave" need_translate="false" value="Autospar"/>
+
     <bankrupt_window>
+        <text id="allert_bankrupt" need_translate="false" value="din finansiella total på %1 leder till  Konkurs. Om du inte förbättrar ditt saldo tills nästa drag, blir ditt bolag bankrutt"/>
         <text id="close" need_translate="false" value="Stäng"/>
+        <text id="fix_sotuation" need_translate="false" value="Fixa saldo"/>
+        <text id="message_bankrupt" need_translate="false" value="%1 gick i konkurs.\nCompany type:%2\nCompany location:%3"/>
         <text id="skip" need_translate="false" value="skippa"/>
     </bankrupt_window>
+
     <bonuse_roulette>
         <text id="bonus" need_translate="false" value="Bonus"/>
         <text id="close" need_translate="false" value="Stäng"/>
@@ -239,6 +295,10 @@
         <text id="start" need_translate="false" value="Start"/>
         <text id="stop" need_translate="false" value="Stopp"/>
     </bonuse_roulette>
+
+    <border_button>
+        <text id="button" need_translate="false" value="Knapp"/>
+    </border_button>
     <broker_window>
         <text id="blocked_button_hint" need_translate="false" value="Du kan inte sälja 0 aktier"/>
         <text id="broker_coeff" need_translate="false" value="mäklaravgift"/>
@@ -248,9 +308,13 @@
         <text id="shares_count" need_translate="false" value="andelar %"/>
         <text id="total_sum" need_translate="false" value="Totalt"/>
     </broker_window>
+
     <cabinet_window>
+        <text id="raut_warning" need_translate="false" value="Information!"/>
+        <text id="raut_warning_detail" need_translate="false" value="Du kan organisera rutten en gång per spelomgång!"/>
         <text id="window_title" need_translate="false" value="kontor"/>
     </cabinet_window>
+
     <cancel_event_popup>
         <text id="cancel_event" need_translate="false" value="Avbryt planerad händelse"/>
         <text id="cancel_negotiation" need_translate="false" value="Avbeställningen av mötet har förstört förhållandet med %1"/>
@@ -268,6 +332,7 @@
         <text id="travel_question" need_translate="false" value="Du har möten planerade. om du avbryter dessa, kommer det att skada relationer. hur väljer du?"/>
         <text id="travel_yes_button" need_translate="false" value="köp biljetter"/>
     </cancel_event_popup>
+
     <cancel_negotiation_popup>
         <text id="alco_header" need_translate="false" value="Inget avtal!"/>
         <text id="alco_text" need_translate="false" value="Affären avbröts  %1 pga att det inte kändes bra. Han hade en stark lukt av alkohol på andedräkten"/>
@@ -280,14 +345,16 @@
         <text id="text" need_translate="false" value="%1Är du säker på att du vill avbryta avtalet med %2 ?"/>
         <text id="yes" need_translate="false" value="avbryt"/>
     </cancel_negotiation_popup>
+
     <cap_block>
         <text id="loading" need_translate="false" value="Laddar . . . "/>
         <text id="press_any_key_to_continue" need_translate="false" value="tryck på valfri tangent för att fortsätta . . . "/>
     </cap_block>
-    <text id="capitol" need_translate="true" value=""/>
     <circle_progress_bar>
         <text id="xp" need_translate="false" value=" XP"/>
     </circle_progress_bar>
+
+
     <collections_window>
         <text id="auc_price_2" need_translate="false" value="Auktions pris"/>
         <text id="buy" need_translate="false" value="köp"/>
@@ -305,6 +372,8 @@
         <text id="sale" need_translate="false" value="Sälj"/>
         <text id="sale_price" need_translate="false" value="försäljnings pris"/>
     </collections_window>
+
+
     <companies_map>
         <text id="alert" need_translate="false" value="Meddelande"/>
         <text id="alert_message" need_translate="false" value="%1 har inte anslutit sig till oss!"/>
@@ -316,6 +385,7 @@
         <text id="oops" need_translate="false" value="Oj!"/>
         <text id="state" need_translate="false" value="Stat"/>
     </companies_map>
+
     <companies_table>
         <text id="capitalization" need_translate="false" value="Börsvärde"/>
         <text id="companies_list" need_translate="false" value="Bolags lista"/>
@@ -325,33 +395,72 @@
         <text id="name" need_translate="false" value="Namn"/>
         <text id="no_companies_in_this_state" need_translate="false" value="Det finns inga Bolag i denna stat!"/>
         <text id="oops" need_translate="false" value="Oj!"/>
+        <text id="profit" need_translate="false" value="Vinst"/>
         <text id="profitability" need_translate="false" value="lönsamhet"/>
-        <text id="size" need_translate="true" value="Storlek"/>
+        <text id="size" need_translate="false" value="Storlek"/>
         <text id="state" need_translate="false" value="Stat"/>
         <text id="stock" need_translate="false" value="Börsen"/>
         <text id="stock_not_avaliable" need_translate="false" value="under utvekling"/>
         <text id="type" need_translate="false" value="Typ"/>
     </companies_table>
-    <company_director_window/>
+
+
     <company_event>
         <text id="accident_header" need_translate="false" value="Olycka"/>
-        <text id="accident_text" need_translate="true" value="Det har varit en olycka på %1 Bolaget! Som ett resultat, blev %2 person(er) skadade. Arbetstagare är tillgångar som påverkar produktionsvolymen. En klumpsumma på %3. får du &#9;ersätta dom med, hur agerar du?"/>
+        <text id="accident_text" need_translate="false" value="Det har varit en olycka på %1 Bolaget! Som ett resultat, blev %2 person(er) skadade. Arbetstagare är tillgångar som påverkar produktionsvolymen. En klumpsumma på %3. får du 	ersätta dom med, hur agerar du?"/>
         <text id="agree" need_translate="false" value="Ok"/>
         <text id="decide" need_translate="false" value="fatta beslut"/>
         <text id="decline" need_translate="false" value="Gjorda löften"/>
         <text id="effects" need_translate="false" value="konsekvenser"/>
-        <text id="negative_result_strike" need_translate="true" value="Bolagets kvartalsinkomst minskar med %3% chance by $%1 (%2% av den totala imkomsten)"/>
+        <text id="negative_result_strike" need_translate="false" value="Bolagets kvartalsinkomst minskar med %3% chance by $%1 (%2% av den totala imkomsten)"/>
         <text id="positive_result_accident" need_translate="false" value="Bolagets imkomst går ner med $%1 (%2% av den totala imkomsten)"/>
-        <text id="positive_result_salary" need_translate="true" value="Bolagets utgifter kommer att öka med $%1 (%2% av den totala imkomsten)"/>
-        <text id="positive_result_working_hours" need_translate="true" value="Bolagets imkomst går ner med $%1 (%2% av den totala imkomsten)"/>
+        <text id="positive_result_salary" need_translate="false" value="Bolagets utgifter kommer att öka med $%1 (%2% av den totala imkomsten)"/>
+        <text id="positive_result_working_hours" need_translate="false" value="Bolagets imkomst går ner med $%1 (%2% av den totala imkomsten)"/>
         <text id="strike_header" need_translate="false" value="Strejk"/>
         <text id="strike_text_salary" need_translate="false" value="%1 Företagets arbetare strejkar på grund av låga löner! Dom kräver $%2 löne påslag. Går du med på deras krav?"/>
         <text id="strike_text_working_hours" need_translate="false" value="%1 av bolagets arbetare är nu i strejk! De är missnöjda med sina långa arbetstider. De kräver arbetstidsminskning med %2 timme (ar). Går du med på kraven"/>
     </company_event>
+
+
     <company_handler>
+        <text id="accident_risk" need_translate="false" value="Olycks risk"/>
+        <text id="administrative_expenses" need_translate="false" value="Administrativa kostnader "/>
+        <text id="adress_generation_is_impossible" need_translate="false" value="Adressgenerering är omöjligt!"/>
+        <text id="available_primary" need_translate="false" value="Råmatrial"/>
+        <text id="available_products" need_translate="false" value="tillgängliga varor"/>
+        <text id="base_productivity" need_translate="false" value="baskapacitet"/>
+        <text id="capitalization" need_translate="false" value="Börsvärde"/>
         <text id="company_name_is_inaccessible" need_translate="false" value="Inga tillgängliga namn för Bolag!"/>
+        <text id="expenses" need_translate="false" value="Allmänna utgifter"/>
+        <text id="fact_productivity" need_translate="false" value="Faktisk kapacitet"/>
+        <text id="federal_tax" need_translate="false" value="Federal skatt"/>
+        <text id="goodwill" need_translate="false" value="Goodwill"/>
+        <text id="infrastructure" need_translate="false" value="Infrastruktur"/>
+        <text id="logistics" need_translate="false" value="logistisk"/>
+        <text id="margin" need_translate="false" value="Marginal"/>
+        <text id="market_part" need_translate="false" value="Marknads andel"/>
+        <text id="motivation" need_translate="false" value="Motivation"/>
         <text id="not_enough_place_for_new_company" need_translate="false" value="ingen plats för nya bolag!"/>
+        <text id="other_countries_export" need_translate="true" value=""/>
+        <text id="other_countries_import" need_translate="true" value=""/>
+        <text id="primary_to_secondary" need_translate="false" value="Råmatrial per enhet av varor"/>
+        <text id="proceeds" need_translate="false" value="inkomst"/>
+        <text id="product_price" need_translate="false" value="Varupris"/>
+        <text id="production_expenses" need_translate="true" value="Produktions kostsnad"/>
+        <text id="profit" need_translate="false" value="Nettoinkomst"/>
+        <text id="profitability" need_translate="false" value="lönsamhet"/>
+        <text id="salary" need_translate="false" value="Lön"/>
+        <text id="share_fair_price" need_translate="false" value="Aktievärde"/>
+        <text id="state_tax" need_translate="false" value="statlig skatt"/>
+        <text id="strike_risk" need_translate="false" value="Strejk risk"/>
+        <text id="technologies" need_translate="false" value="Teknologier"/>
+        <text id="workers_count" need_translate="false" value="Antal anställda"/>
+        <text id="working_condition" need_translate="false" value="Arbetsvillkor"/>
+        <text id="working_hours" need_translate="false" value="Arbetstimmar"/>
+        <text id="workplaces_count" need_translate="false" value="Antal arbetsplatser"/>
     </company_handler>
+
+
     <company_info_panel>
         <text id="branch" need_translate="false" value="Industri:"/>
         <text id="capitalization" need_translate="false" value="Börsvärde:"/>
@@ -369,22 +478,20 @@
             <text id="t_2" need_translate="false" value="Utdelning i förhållande till investeringar i aktier till marknadspris per kvartal"/>
             <text id="t_3" need_translate="false" value="Det representerar hur mycket procentandel av försäljningen har förvandlats till vinst. Ju högre åtgärden desto mer konkurrenskraftiga företaget"/>
         </hints>
-        <text id="profit_margin" need_translate="true" value="vinstmarginal"/>
+        <text id="profit_margin" need_translate="false" value="vinstmarginal"/>
         <text id="profitability" need_translate="false" value="Avkastning:"/>
         <text id="roi" need_translate="false" value="Avkastning:"/>
-        <text id="scale_of_factory" need_translate="true" value="Bolags storlek:"/>
-        <text id="share_fair_price" need_translate="true" value="Marknadspris:"/>
+        <text id="scale_of_factory" need_translate="false" value="Bolags storlek:"/>
+        <text id="share_fair_price" need_translate="false" value="Marknadspris:"/>
         <text id="shareholder" need_translate="false" value="aktieägare:"/>
         <text id="shares_portion" need_translate="false" value="storlek av insats:"/>
-        <status/>
         <text id="year_roi" need_translate="false" value="Årlig lönsamhet"/>
     </company_info_panel>
-    <company_statistics_10>
-        <cards/>
-    </company_statistics_10>
+
+
     <company_window>
         <text id="action" need_translate="false" value="Aktivitet"/>
-        <text id="ambitions" need_translate="true" value="Ambition"/>
+        <text id="ambitions" need_translate="false" value="Ambition"/>
         <text id="bank" need_translate="false" value="Bank"/>
         <text id="characteristics" need_translate="false" value="funktioner"/>
         <text id="company" need_translate="false" value="Information"/>
@@ -408,15 +515,18 @@
             <text id="h_3" need_translate="false" value="Börsvärde"/>
             <text id="h_4" need_translate="false" value="min insats"/>
             <text id="h_5" need_translate="false" value="lönsamhet"/>
-            <text id="h_6" need_translate="true" value="Vinst"/>
+            <text id="h_6" need_translate="false" value="Vinst"/>
             <text id="h_7" need_translate="false" value="Marginal"/>
             <text id="t_1" need_translate="false" value="Staten där bolaget finns"/>
             <text id="t_2" need_translate="false" value="antalet arbetare"/>
             <text id="t_3" need_translate="false" value="Bolagets marknadsvärde"/>
-            <text id="t_4" need_translate="true" value="Din andel i företaget"/>
+
+            <text id="t_4" need_translate="false" value="Din andel i företaget"/>
             <text id="t_5" need_translate="false" value="Bolagets lönsamhet i förhållande till kapitalisering per kvartal"/>
-            <text id="t_6" need_translate="true" value="Företagets kvartalsvinst"/>
+            <text id="t_6" need_translate="false" value="Företagets kvartalsvinst"/>
             <text id="t_7" need_translate="false" value="Det representerar hur mycket procentandel av de totala intäkterna har blivit till vinst"/>
+
+
         </hints>
         <text id="influence" need_translate="false" value="Influens"/>
         <text id="influence_cost_description" need_translate="false" value="Mängden inflytande som krävs för att kunnaförhandla"/>
@@ -439,7 +549,7 @@
         <text id="repaycredit" need_translate="false" value="Återbetala lån"/>
         <text id="repaycredit_disabled" need_translate="false" value="Du kan inte återbetala lån"/>
         <text id="repaycredit_no_money" need_translate="false" value="Inga pengar"/>
-        <text id="reputation" need_translate="true" value="Popularitet"/>
+        <text id="reputation" need_translate="false" value="Popularitet"/>
         <text id="reputation_hint_header" need_translate="false" value="Popularitet"/>
         <text id="reputation_hint_text" need_translate="false" value="Om ditt popularitet är bättre än din motståndares , blir det mycket lättare att göra erbjudanden. Du kommer dock få popularitet straff på -1 poäng"/>
         <text id="roi" need_translate="false" value="avkastning:"/>
@@ -447,8 +557,8 @@
         <text id="rounds_hint_header" need_translate="false" value="Omgångar"/>
         <text id="rounds_hint_text" need_translate="true" value=""/>
         <text id="safety_stock_part" need_translate="false" value="Andels storlek"/>
-        <text id="share_price_popup_player_text" need_translate="true" value="Antal andelar/aktier: %1\nAndels pris: $ %2\nutdelning: $ %3"/>
-        <text id="share_price_popup_text" need_translate="true" value="Number of shares: %1\nStake price: $ %2\nExpected stake price: $ %3\nutdelning: $ %4"/>
+        <text id="share_price_popup_player_text" need_translate="false" value="Antal andelar/aktier: %1\nAndels pris: $ %2\nutdelning: $ %3"/>
+        <text id="share_price_popup_text" need_translate="false" value="Number of shares: %1\nStake price: $ %2\nExpected stake price: $ %3\nutdelning: $ %4"/>
         <text id="shareholder" need_translate="false" value="Aktieägare"/>
         <text id="shareholders" need_translate="false" value="Aktieägare"/>
         <text id="show_company" need_translate="false" value="Gå till Bolag"/>
@@ -466,6 +576,8 @@
         <text id="use_agent_spy" need_translate="false" value="Introducera spion"/>
         <text id="use_agent_strike" need_translate="false" value="Organizera strejk"/>
     </company_window>
+
+
     <control>
         <building_detail>
             <text id="building_days" need_translate="true" value=""/>
@@ -490,6 +602,8 @@
         <building_types>
             <text id="oil" need_translate="false" value="Olja"/>
             <text id="store" need_translate="false" value="Förråd"/>
+
+
         </building_types>
         <buildings>
             <text id="administration" need_translate="false" value="Administration"/>
@@ -501,6 +615,8 @@
             <text id="security" need_translate="false" value="Säkerhet"/>
             <text id="tanks" need_translate="false" value="lagertankar"/>
         </buildings>
+
+
         <window>
             <text id="accident_risk" need_translate="true" value=""/>
             <text id="apply" need_translate="true" value=""/>
@@ -519,11 +635,12 @@
             <text id="workers" need_translate="true" value=""/>
             <text id="working_hours" need_translate="true" value=""/>
         </window>
+
     </control>
-    <text id="court" need_translate="true" value=""/>
     <crash_rpt>
         <text id="installatio_of_error_handler_is_impossible" need_translate="true" value=""/>
     </crash_rpt>
+
     <credit_window>
         <text id="abort" need_translate="false" value="Vägra"/>
         <text id="abort_message" need_translate="false" value="Du nekas ett lån! \nDu får försämrad relation med majoritets ägarna med %1"/>
@@ -539,9 +656,12 @@
         <text id="term" need_translate="true" value=""/>
         <text id="term_value" need_translate="true" value=""/>
     </credit_window>
+
+
     <crimes>
         <text id="effects" need_translate="false" value="Konsekvenser:"/>
     </crimes>
+
     <date_handler>
         <text id="autumn" need_translate="false" value="Höst"/>
         <text id="date_template" need_translate="false" value=":MONTH_STR: :DAY:, :YEAR:"/>
@@ -551,6 +671,7 @@
         <text id="summer" need_translate="false" value="Sommar"/>
         <text id="winter" need_translate="false" value="Vinter"/>
     </date_handler>
+
     <date_month>
         <text id="1" need_translate="false" value="Januari"/>
         <text id="10" need_translate="false" value="Februari"/>
@@ -566,11 +687,14 @@
         <text id="9" need_translate="false" value="December"/>
         <text id="year" need_translate="false" value="År"/>
     </date_month>
+
+
     <dialog_panel>
         <text id="attention" need_translate="false" value="uppmärksamhet!"/>
         <text id="talks" need_translate="false" value="Förhandling"/>
         <text id="yes_cancel_to_hell" need_translate="false" value="Avbryt"/>
     </dialog_panel>
+
     <director_orders>
         <text id="balance" need_translate="false" value="Företagsbalance: "/>
         <text id="debts" need_translate="false" value="Skulder: "/>
@@ -580,6 +704,8 @@
         <text id="release_bond" need_translate="false" value="ge ut Obligationer"/>
         <text id="release_shares" need_translate="false" value="ge ut aktier"/>
     </director_orders>
+
+
     <director_result>
         <text id="consumed_days" need_translate="false" value="Day(s) spenderat "/>
         <text id="deal_result" need_translate="false" value="Avtals resultat"/>
@@ -602,6 +728,12 @@
         <text id="turnover_bonus" need_translate="false" value="omsåttningsbonus"/>
         <text id="type" need_translate="false" value="Typ"/>
     </directors_dialog>
+
+
+    <directors_handler>
+        <text id="some_directors_skill_is_worked" need_translate="true" value=""/>
+    </directors_handler>
+
     <directors_window>
         <text id="active_buildings" need_translate="false" value="Aktiva byggnader"/>
         <text id="attention_focuse" need_translate="false" value="Fokus"/>
@@ -613,7 +745,7 @@
         <text id="director" need_translate="false" value="Direktör"/>
         <text id="educability" need_translate="true" value=""/>
         <text id="finances" need_translate="false" value="Finanser"/>
-        <text id="fire_director" need_translate="true" value="Avskeda"/>
+        <text id="fire_director" need_translate="false" value="Avskeda"/>
         <text id="gold_parachute" need_translate="true" value="Gyllene fallskärm"/>
         <text id="goodwill" need_translate="true" value=""/>
         <text id="hire" need_translate="false" value="Anställ"/>
@@ -631,6 +763,8 @@
         <text id="negotiation" need_translate="false" value="Förhandling"/>
         <text id="no_shares" need_translate="false" value="Du är inte aktieägare i  {companyname}!"/>
         <text id="orders" need_translate="false" value="Beställningar"/>
+
+
         <orders>
             <text id="bayback" need_translate="false" value="köpa tillbaka"/>
             <text id="bill_buying" need_translate="false" value="Växelkurs"/>
@@ -639,6 +773,8 @@
             <text id="bond_issue" need_translate="false" value="Återköp av Bonds "/>
             <text id="shares_issue" need_translate="false" value="aktie emission"/>
         </orders>
+
+
         <text id="production" need_translate="false" value="Produktion"/>
         <text id="production_expenses" need_translate="true" value=""/>
         <text id="profit_bonuse" need_translate="true" value="Bonus"/>
@@ -654,6 +790,8 @@
         <text id="window_name" need_translate="false" value="Direktörs lista"/>
         <text id="workplace" need_translate="false" value="nuvarande jobb"/>
     </directors_window>
+
+
     <discussion>
         <text id="btn_exit" need_translate="false" value="Ok"/>
         <text id="comp_part" need_translate="false" value="Bolagets del av "/>
@@ -665,15 +803,18 @@
         <text id="comp_type" need_translate="false" value="Företags typ"/>
         <text id="counter_offer" need_translate="false" value="Motbud"/>
         <text id="deal_sum" need_translate="false" value="belopp"/>
+
         <director>
             <text id="btn_recruit" need_translate="false" value="Anställ"/>
             <text id="btn_two" need_translate="false" value="-"/>
             <text id="btn_type_recruit" need_translate="false" value="Anställer"/>
             <text id="chance" need_translate="false" value="Chans att lyckas"/>
-            <text id="parach" need_translate="true" value="Gyllene fallskärm"/>
+            <text id="parach" need_translate="false" value="Gyllene fallskärm"/>
             <text id="profit" need_translate="false" value="Bonus"/>
-            <text id="salary" need_translate="true" value="Lön"/>
+            <text id="salary" need_translate="false" value="Lön"/>
         </director>
+
+
         <text id="discussion_process" need_translate="true" value="Förhandlar..."/>
         <text id="fake_ambition" need_translate="true" value=""/>
         <text id="give_influence" need_translate="true" value=""/>
@@ -698,6 +839,8 @@
         <text id="own_cost" need_translate="false" value="Inköpskostnad:"/>
         <text id="own_demand" need_translate="false" value="Fråga:"/>
         <text id="own_effect" need_translate="false" value="Ägarbonus:"/>
+
+
         <text id="own_expenses" need_translate="false" value="Kostnad per säsong:"/>
         <text id="own_prestige" need_translate="false" value="Prestige per säsong:"/>
         <text id="own_price_change" need_translate="false" value="Prisförändring:"/>
@@ -728,6 +871,8 @@
         <text id="win_result_with_2chance_message" need_translate="true" value=""/>
         <text id="window_title" need_translate="false" value="Förhandling"/>
     </discussion>
+
+
     <discussion_handler>
         <text id="agent_courtesan_effect" need_translate="false" value="Äventyrad"/>
         <text id="agent_detective_effect" need_translate="false" value="Äventyrad"/>
@@ -798,11 +943,29 @@
         <text id="you_escape_penalty_because_justice_is_your_man" need_translate="false" value="Domare %1 %2 hjälpte dig att undvika straff"/>
         <text id="you_want_to_buy_some_safety_stock" need_translate="true" value=""/>
     </discussion_handler>
+
+
     <discussion_history_log>
-        <text id="dialog_fail" need_translate="true" value="dealen med %1 misslyckades"/>
-        <text id="dialog_success" need_translate="true" value="Dealen med %1 är klar: %2 aktier för $%3 - Totalt $%4"/>
+        <text id="dialog_fail" need_translate="false" value="dealen med %1 misslyckades"/>
+        <text id="dialog_success" need_translate="false" value="Dealen med %1 är klar: %2 aktier för $%3 - Totalt $%4"/>
+        <text id="dialog_success_loan" need_translate="false" value="Dealen med %1 är klar:  $%2 på %3% per kvartal"/>
+        <text id="first_offer" need_translate="false" value="%1 erbjuder %2 aktier för $%3 per aktie - Totalt $%4"/>
         <text id="next_offer" need_translate="false" value="Motbudet från %1: %2 aktier för $%3 per aktie - Totalt $%4"/>
+        <text id="player_offer" need_translate="false" value="Mitt offer: %1 aktier för $%2 per aktie - Totalt $%3. Chansen att dealen går i hamn är %4%"/>
+        <text id="player_offer_pay_loan" need_translate="false" value="Mitt erbjudande till %1: $%2 på %3% per kvartal. Chansen att dealen går i hamn är %4%"/>
+        <text id="player_offer_take_loan" need_translate="false" value="Jag betalade %1 skulden för $%2 fullt ut"/>
+        <text id="round" need_translate="false" value="Runda"/>
     </discussion_history_log>
+
+
+    <discussion_info_popup>
+        <text id="cancel_negotiation" need_translate="true" value=""/>
+        <text id="deal_chance" need_translate="true" value=""/>
+        <text id="if_cancel" need_translate="true" value=""/>
+        <text id="meeting" need_translate="true" value=""/>
+        <text id="popup_title_negotiation" need_translate="true" value=""/>
+    </discussion_info_popup>
+
     <discussion_offer>
         <text id="agree" need_translate="false" value="Accepterar"/>
         <text id="counter_offer" need_translate="false" value="Motbud"/>
@@ -812,14 +975,20 @@
         <text id="safety_stock_cost" need_translate="false" value="Aktie pris"/>
         <text id="safety_stock_quantity" need_translate="false" value="Antal aktier"/>
     </discussion_offer>
+
+
     <discussion_panel>
         <text id="talks_progress" need_translate="false" value="Förhandlingsprocessen"/>
         <text id="talks_round" need_translate="false" value="Förhandlingsrunda"/>
     </discussion_panel>
+
+
     <discussion_process_background>
         <text id="repeated_discussion_start_because_of_second_chance" need_translate="false" value="Upprepade förhandlingar! Andra chansen tillämpades."/>
         <text id="talks_process" need_translate="false" value="Förhandlingsprocessen"/>
     </discussion_process_background>
+
+
     <discussion_result>
         <text id="consumed_days" need_translate="false" value="Dag(ar) spenderade"/>
         <text id="deal_result" need_translate="false" value="Deal resultat"/>
@@ -829,20 +998,26 @@
         <text id="ok" need_translate="false" value="Ok"/>
         <text id="some_days" need_translate="false" value="%1 -%2 dag(ar)"/>
     </discussion_result>
+
+
     <discussion_result_message_box>
         <text id="talks_failure" need_translate="false" value="Förhandlingen misslyckades!"/>
         <text id="talks_success" need_translate="false" value="Förhandlingen lyckades!"/>
     </discussion_result_message_box>
+
+
     <discussion_settings>
         <text id="deal" need_translate="false" value="Deal"/>
         <text id="deal_sum" need_translate="false" value="Deal summa"/>
         <text id="safety_stock_cost" need_translate="false" value="Aktie pris"/>
         <text id="safety_stock_quantity" need_translate="false" value="Antal aktier"/>
     </discussion_settings>
+
+
     <discussion_window>
         <text id="agree" need_translate="false" value="Ok"/>
         <text id="analysis" need_translate="false" value="Analys"/>
-        <authority/>
+        <text id="contract" need_translate="false" value="Avtal"/>
         <text id="contract_condition" need_translate="false" value="Avtalsvillkor:"/>
         <text id="deal_chance" need_translate="false" value="Deal chans:"/>
         <text id="deal_history" need_translate="false" value="Deal process:"/>
@@ -851,6 +1026,8 @@
         <text id="history" need_translate="false" value="Process"/>
         <text id="influence" need_translate="false" value="Inflytande"/>
         <text id="info" need_translate="false" value="Info"/>
+
+
         <loan>
             <text id="all_loans" need_translate="false" value="Alla lån"/>
             <text id="loan_sum" need_translate="false" value="Lån storlek"/>
@@ -860,12 +1037,13 @@
             <text id="take_loan" need_translate="false" value="lånemission"/>
             <text id="total_sum_by_loans" need_translate="false" value="Summa lån återbetalningar"/>
         </loan>
+
+
         <text id="negative_result" need_translate="false" value="Misslyckas"/>
         <text id="negotiation_in_progress" need_translate="false" value="Nu förhandlar..."/>
         <text id="neutral_result1" need_translate="false" value="Motbud"/>
         <text id="neutral_result2" need_translate="false" value="Motbud"/>
         <text id="offer" need_translate="false" value="Erbjudande"/>
-        <official/>
         <text id="opponent_sign" need_translate="false" value="Säljarens signatur"/>
         <text id="player_sign" need_translate="false" value="Köparens signatur"/>
         <text id="positive_result" need_translate="false" value="Framgång"/>
@@ -873,10 +1051,12 @@
         <text id="refuse" need_translate="false" value="Vägra"/>
         <text id="roi" need_translate="false" value="lönsamhet"/>
         <text id="share_price" need_translate="false" value="Aktiepris"/>
-        <text id="shares_count" need_translate="true" value="Antal aktier"/>
+        <text id="shares_count" need_translate="false" value="Antal aktier"/>
         <text id="shares_part_after_deal" need_translate="false" value="Din framtida insats"/>
         <text id="sign" need_translate="false" value="Signatur"/>
     </discussion_window>
+
+
     <economic>
         <buttons>
             <text id="accident_risk" need_translate="true" value=""/>
@@ -936,48 +1116,16 @@
         <text id="now" need_translate="true" value=""/>
         <text id="rivals" need_translate="true" value=""/>
     </economic>
-    <election_campaign_window>
-        <text id="campaign_financing" need_translate="true" value=""/>
-        <text id="campaign_process" need_translate="true" value=""/>
-        <text id="candidates_behavior" need_translate="true" value=""/>
-        <text id="coverage" need_translate="true" value=""/>
-        <text id="coverage_change" need_translate="true" value=""/>
-        <text id="day" need_translate="true" value=""/>
-        <text id="financing" need_translate="true" value=""/>
-        <text id="followers" need_translate="true" value=""/>
-        <text id="followers_change_in_day" need_translate="true" value=""/>
-        <text id="followers_dynamics" need_translate="true" value=""/>
-        <text id="fund_balance" need_translate="true" value=""/>
-        <text id="fund_cash" need_translate="true" value=""/>
-        <text id="impact" need_translate="true" value=""/>
-        <text id="impact_strategy_to_coverage" need_translate="true" value=""/>
-        <text id="month" need_translate="true" value=""/>
-        <text id="no_money" need_translate="true" value=""/>
-        <text id="prognosed_coverage" need_translate="true" value=""/>
-        <text id="prognosed_votes" need_translate="true" value=""/>
-        <text id="rating" need_translate="true" value=""/>
-        <text id="save_strategy" need_translate="true" value=""/>
-        <text id="save_strategy_hint" need_translate="true" value=""/>
-        <text id="selector_1_param" need_translate="true" value=""/>
-        <text id="selector_2_param" need_translate="true" value=""/>
-        <text id="selector_3_param" need_translate="true" value=""/>
-        <text id="spended_from_fund" need_translate="true" value=""/>
-        <text id="sponsor" need_translate="true" value=""/>
-        <text id="sponsorship_sum" need_translate="true" value=""/>
-        <text id="strategy" need_translate="true" value=""/>
-        <text id="strategy_modifier" need_translate="true" value=""/>
-        <text id="waste_by_person" need_translate="true" value=""/>
-        <text id="waste_in_day" need_translate="true" value=""/>
-        <text id="week" need_translate="true" value=""/>
-        <text id="window_title" need_translate="true" value=""/>
-    </election_campaign_window>
-    <end_game_popup/>
+
+
     <event_result>
         <text id="button_next" need_translate="false" value="Fortsätt"/>
         <text id="fail_text" need_translate="false" value="Tyvärr ville ingen VIP komma till ditt evenemang. Köp fastigheten på auktion för att öka din prestige/popularitet!"/>
         <text id="money" need_translate="false" value="Pengar"/>
         <text id="rout_result_header" need_translate="false" value="Resultatet av evanemanget"/>
     </event_result>
+
+
     <game_bot>
         <text id="bot_buy_some_safety_stock_ang_go_to_politiciants" need_translate="true" value=""/>
         <text id="bot_can_not_buy_some_safety_stock" need_translate="true" value=""/>
@@ -1001,10 +1149,14 @@
         <text id="not_enough_money_for_buy_this_packege_safety_stock" need_translate="true" value=""/>
         <text id="player_is_prisoner_and_miss_lead" need_translate="true" value=""/>
     </game_bot>
+
+
     <game_bots>
         <text id="bots_started" need_translate="true" value=""/>
         <text id="bots_stopped" need_translate="true" value=""/>
     </game_bots>
+
+
     <game_events>
         <text id="bet" need_translate="false" value="Vadslagning"/>
         <text id="cancel_some_meetings" need_translate="false" value="Förmodligen, behöver du avboka en del möten"/>
@@ -1041,6 +1193,8 @@
         <text id="you_are_ready_to_actions" need_translate="false" value="Du är redo att agera"/>
         <text id="you_loss_some_days" need_translate="false" value=" Du spenderade %1 dag(ar) på grund av den obehagliga händelsen."/>
     </game_events>
+
+
     <game_events_handler>
         <text id="days" need_translate="false" value="dag(ar)"/>
         <text id="half_a_year" need_translate="false" value="halvår"/>
@@ -1050,7 +1204,8 @@
         <text id="you_will_get" need_translate="false" value="få"/>
         <text id="you_will_lose" need_translate="false" value="förlust"/>
     </game_events_handler>
-    <game_lose_popup/>
+
+
     <guest_card>
         <text id="communicate" need_translate="false" value="Prata"/>
         <text id="impression" need_translate="false" value="intryck:"/>
@@ -1058,15 +1213,21 @@
         <text id="on_name" need_translate="false" value="Namn"/>
         <text id="personage_terms" need_translate="true" value="Karaktärens relation"/>
     </guest_card>
+
+
     <guest_info>
         <text id="explore_more" need_translate="false" value="You should research\na skill &quot;Secular lion&quot; to invite more VIPs."/>
         <text id="invite_someone" need_translate="false" value="Invite VIPs to the rout\nfrom the list of shareholders and(or) politicians."/>
     </guest_info>
+
+
     <hire_director_popup>
         <text id="ok_button" need_translate="false" value="Ok"/>
         <text id="popup_header" need_translate="false" value="Ny direktör!"/>
         <text id="popup_text" need_translate="false" value="{nickname} har fått VP platsen i {companyname} bolaget. Lönen blir $ {salary}!"/>
     </hire_director_popup>
+
+
     <hover_item>
         <text id="cost_of_part" need_translate="true" value="Proportionspris"/>
         <text id="invite_to_rout" need_translate="false" value="Inbjud till evenemang"/>
@@ -1081,12 +1242,16 @@
         <text id="use_skill" need_translate="false" value="använd en skicklighet"/>
         <text id="you_be_late_shareholder_already_on_talks" need_translate="false" value=""/>
     </hover_item>
+
+
     <interesting_content>
         <text id="autumn" need_translate="false" value="Höst"/>
         <text id="spring" need_translate="false" value="Vår"/>
         <text id="summer" need_translate="false" value="Sommar"/>
         <text id="winter" need_translate="false" value="Vinter"/>
     </interesting_content>
+
+
     <issue_shares>
         <text id="buy_max" need_translate="false" value="Köp ut alla aktier"/>
         <text id="cancel" need_translate="false" value="Avbryt"/>
@@ -1098,6 +1263,8 @@
         <text id="shares_percent" need_translate="false" value="Antal aktier"/>
         <text id="shares_sold" need_translate="false" value="Aktier sålda"/>
     </issue_shares>
+
+
     <item_with_check_model>
         <text id="company" need_translate="false" value="Företag:"/>
         <text id="contact" need_translate="false" value="Contakt:"/>
@@ -1106,49 +1273,8 @@
         <text id="share_fraction" need_translate="false" value="Andelar:"/>
         <text id="shareholder" need_translate="false" value="Aktieägare:"/>
     </item_with_check_model>
-    <law_archive>
-        <text id="approved" need_translate="true" value=""/>
-        <text id="decrease" need_translate="true" value=""/>
-        <text id="in_progress" need_translate="true" value=""/>
-        <text id="increase" need_translate="true" value=""/>
-        <text id="law_type" need_translate="true" value=""/>
-        <text id="law_vector" need_translate="true" value=""/>
-        <text id="laws_archive" need_translate="true" value=""/>
-        <text id="laws_list" need_translate="true" value=""/>
-        <text id="ratification" need_translate="true" value=""/>
-        <text id="ratification_ended" need_translate="true" value=""/>
-        <text id="ratification_planned" need_translate="true" value=""/>
-        <text id="refused" need_translate="true" value=""/>
-        <text id="stage" need_translate="true" value=""/>
-        <text id="start_date" need_translate="true" value=""/>
-        <text id="voting_ended" need_translate="true" value=""/>
-        <text id="voting_planned" need_translate="true" value=""/>
-    </law_archive>
-    <law_window>
-        <text id="current_value" need_translate="true" value=""/>
-        <text id="democrat" need_translate="true" value=""/>
-        <text id="diplomacy" need_translate="true" value=""/>
-        <text id="dummy" need_translate="true" value=""/>
-        <text id="goveror" need_translate="true" value=""/>
-        <text id="law_of_state" need_translate="true" value=""/>
-        <text id="lobby" need_translate="true" value=""/>
-        <text id="lower_house" need_translate="true" value=""/>
-        <text id="lower_house_voting_date" need_translate="true" value=""/>
-        <text id="majority_party_leader" need_translate="true" value=""/>
-        <text id="menu_lobby" need_translate="true" value=""/>
-        <text id="minority_party_leader" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="neutral" need_translate="true" value=""/>
-        <text id="no_lobby_or_dummy" need_translate="true" value=""/>
-        <text id="no_lobby_or_dummy_governor" need_translate="true" value=""/>
-        <text id="party" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
-        <text id="prognosed_law_result" need_translate="true" value=""/>
-        <text id="republican" need_translate="true" value=""/>
-        <text id="upper_house" need_translate="true" value=""/>
-        <text id="upper_house_voting_date" need_translate="true" value=""/>
-        <text id="votes" need_translate="true" value=""/>
-    </law_window>
+
+
     <left_panel>
         <text id="h_1" need_translate="false" value="Assistenter"/>
         <text id="h_2" need_translate="false" value="Under utveckling"/>
@@ -1162,11 +1288,15 @@
         <text id="knight" need_translate="false" value="Springare"/>
         <text id="pawn" need_translate="false" value="Bonde"/>
     </level_figures>
+
+
     <main>
         <text id="first_start_of_game" need_translate="false" value="Första uppstarten av spelet kan ta upp till 5 m beroende på  din maskinvara ... Drick en kopp kaffe. Glöm inte socker! Din hjärna behöver energi"/>
         <text id="plutocracy" need_translate="false" value="Plutocracy %1"/>
         <text id="progress" need_translate="false" value="Process: "/>
     </main>
+
+
     <main_events_sequence>
         <text id="alpha_version_win_condition" need_translate="false" value="Alpha versionen är begränsad till $ %1. %2 %3 win!"/>
         <text id="bots_stopped_to_next_step" need_translate="true" value=""/>
@@ -1188,6 +1318,8 @@
         <text id="unknown" need_translate="true" value=""/>
         <text id="you_miss_step" need_translate="true" value=""/>
     </main_events_sequence>
+
+
     <main_menu>
         <text id="advancement" need_translate="false" value="Achievements"/>
         <text id="campaign" need_translate="false" value="Campaign"/>
@@ -1198,7 +1330,8 @@
         <text id="network_game" need_translate="false" value="Multiplayer"/>
         <text id="sandbox" need_translate="false" value="Sandbox"/>
     </main_menu>
-    <manipulation_popup/>
+
+
     <map_check>
         <text id="auction" need_translate="false" value="Budgivning..."/>
         <text id="init_price" need_translate="false" value="Start pris:"/>
@@ -1206,6 +1339,8 @@
         <text id="share_portion" need_translate="true" value=""/>
         <text id="shareholder_offer" need_translate="false" value="aktieägarerbjudande..."/>
     </map_check>
+
+
     <map_filters>
         <text id="absolute_influence" need_translate="false" value="Absolut inflytande"/>
         <text id="absolute_value" need_translate="false" value="Absolut värde"/>
@@ -1264,6 +1399,8 @@
         <text id="workers" need_translate="false" value="Arbetare"/>
         <text id="workers_count" need_translate="false" value="Antal arbetare"/>
     </map_filters>
+
+
     <map_filters_handler>
         <text id="actual_income" need_translate="false" value="%1's inkomst i %2 staten is $ %3"/>
         <text id="all_actual_income" need_translate="false" value="Total shareholders yield in %1 staten är $ %2"/>
@@ -1271,7 +1408,7 @@
         <text id="authority_all_with_loyalty" need_translate="false" value="Antalet karaktärer i %1 staten är %2"/>
         <text id="authority_all_without_loyalty" need_translate="false" value="Antalet karaktärer i %1 state is %2.\nResultatet visas utan loyalitet!n\Välj en ägare  att överväga lojalitet."/>
         <text id="authority_comparison" need_translate="false" value="Antalet karaktärer i %1 staten är %2.\nDu måste välja &quot;Lojalitet&quot; för att jämföra ägarnas resultat"/>
-        <text id="authority_player_with_loyalty_enemies" need_translate="false" value="Antalet karaktärer som är dina motståndare i% 1 är %2"/>
+        <text id="authority_player_with_loyalty_enemies" need_translate="false" value="Antalet karaktärer som är dina motståndare i%1 är %2"/>
         <text id="authority_player_with_loyalty_friends" need_translate="false" value="Antalet karaktärer som är dina vänner i %1 staten är %2"/>
         <text id="authority_player_with_loyalty_neutrals" need_translate="false" value="Antalet karaktärer som är neutrala gentemot dig i %1 staten är %2"/>
         <text id="authority_player_without_loyalty" need_translate="false" value="Antalet karaktärer i %1 staten är %2"/>
@@ -1288,10 +1425,14 @@
         <text id="unemployment_text" need_translate="false" value="%1 statlig arbetslöshet är %2 %"/>
         <text id="workers_count_text" need_translate="false" value="Antal arbetare %1 staten är %2 %"/>
     </map_filters_handler>
+
+
     <map_handler>
         <text id="ticket_to_some_state" need_translate="false" value="Du har fått en bijett till '%1'"/>
         <text id="you_are_moved" need_translate="false" value="Du är flyttad"/>
     </map_handler>
+
+
     <map_popup>
         <text id="bon_voyage" need_translate="false" value="Ha en trevlig resa!"/>
         <text id="buy_ticket" need_translate="false" value="Köp biljett"/>
@@ -1299,6 +1440,8 @@
         <text id="ticket_to_train" need_translate="false" value="Tåg biljett"/>
         <text id="time_in_journey" need_translate="false" value="Res tid:"/>
     </map_popup>
+
+
     <map_units>
         <cities>
             <text id="albany" need_translate="false" value="Albany"/>
@@ -1320,21 +1463,27 @@
             <text id="syracuse" need_translate="false" value="Syracuse"/>
             <text id="watertown" need_translate="false" value="Watertown"/>
         </cities>
-        <text id="il_desc" need_translate="false" value="Huvudstaden i Illinois är Springfield i centrala delen av\nthe staten. Även om idag är statens största befolkningscenter i Chicago och i den nordöstra delen&#10;av staten växte statens europeiska befolkning först i väst, med franska som bosatte sig längs floden \nMississippi och gav området namnet Illinois Country."/>
+
+
+        <text id="il_desc" need_translate="false" value="Huvudstaden i Illinois är Springfield i centrala delen av\nthe staten. Även om idag är statens största befolkningscenter i Chicago och i den nordöstra delen
+av staten växte statens europeiska befolkning först i väst, med franska som bosatte sig längs floden \ nMississippi och gav området namnet Illinois Country."/>
         <text id="il_motto" need_translate="false" value="'Union, Justice and Confidence'"/>
         <text id="il_nickname" need_translate="false" value="Pelican staten"/>
-        <text id="ny_desc" need_translate="false" value="New York hade varit bebott av stammar av Algonquian och \nIroquoian-talande indianer i flera hundra år \n efter den tid de tidigaste européerna kom till New York. franska&#10;kolonister och jesuitter \ nmissionärer anlände söderut från Montreal för handel och proselytisering. 1609 \n besöktes regionen av Henry Hudson som seglade för det nederländska East India Company."/>
+        <text id="ny_desc" need_translate="false" value="New York hade varit bebott av stammar av Algonquian och \ nIroquoian-talande indianer i flera hundra år \ n efter den tid de tidigaste européerna kom till New York. franska
+kolonister och jesuitter \ nmissionärer anlände söderut från Montreal för handel och proselytisering. 1609 \ n besöktes regionen av Henry Hudson som seglade för det nederländska East India Company."/>
         <text id="ny_motto" need_translate="false" value="'Excelsior'"/>
         <text id="ny_nickname" need_translate="false" value="Imperial state"/>
-        <text id="tx_desc" need_translate="false" value="Termen'six flags over Texas' hänvisar till flera nationer \n som har styrt över territoriet. Spanien var det första europeiska landet som gjorde anspråk på Texasområdet. Frankrike höll en kortlivad koloni. Mexiko kontrollerade \ nterritoriet fram till 1836 då Texas vann sin självständighet och blev en oberoende \ nRepublic. 1845 anslöt Texas sig till unionen som den 28: e staten. Statens annektering skapade en kedja av händelser som ledde till det mexikanska  amerikanska kriget 1846."/>
+        <text id="tx_desc" need_translate="false" value="Termen'six flags over Texas' hänvisar till flera nationer \ n som har styrt över territoriet. Spanien var det första europeiska landet som gjorde anspråk på Texasområdet. Frankrike höll en kortlivad koloni. Mexiko kontrollerade \ nterritoriet fram till 1836 då Texas vann sin självständighet och blev en oberoende \ nRepublic. 1845 anslöt Texas sig till unionen som den 28: e staten. Statens annektering skapade en kedja av händelser som ledde till det mexikanska  amerikanska kriget 1846."/>
         <text id="tx_motto" need_translate="false" value="Motto - 'Vänskap'"/>
         <text id="tx_nickname" need_translate="false" value="The Lone Star State"/>
     </map_units>
+
     <math_functions>
         <text id="b" need_translate="false" value="B"/>
         <text id="k" need_translate="false" value="K"/>
         <text id="m" need_translate="false" value="M"/>
     </math_functions>
+
     <menu>
         <text id="pause_menu" need_translate="false" value="Paus meny"/>
         <text id="pause_menu_continue" need_translate="false" value="Fortsätt"/>
@@ -1344,40 +1493,50 @@
         <text id="pause_menu_settings" need_translate="false" value="inställningar"/>
         <text id="settings_menu" need_translate="false" value="spelinställningar"/>
     </menu>
+
+
     <message_box>
         <text id="attention" need_translate="false" value="Uppmärksamma!"/>
         <text id="cancel" need_translate="false" value="Avbryt"/>
         <text id="ok" need_translate="false" value="Ok"/>
     </message_box>
+
     <month_switcher>
         <text id="autumn" need_translate="false" value="Höst"/>
         <text id="spring" need_translate="false" value="Vår"/>
         <text id="summer" need_translate="false" value="Sommar"/>
         <text id="winter" need_translate="false" value="Vinter"/>
     </month_switcher>
-    <negotiation_cost_tooltip/>
+
+
     <news_makets>
-        <text id="accident_caption" need_translate="true" value="Olycka vid %1 %2"/>
+        <text id="accident_caption" need_translate="false" value="Olycka vid %1 %2"/>
         <text id="accident_text" need_translate="false" value="Olyckan kommer att minska företagets produktion och faktiska intäkter. Antagligen kommer aktiekursen att falla ner. Om olyckan elimineras kan aktiekursen röra sig!"/>
         <text id="add_influence_from_politician_caption" need_translate="true" value=""/>
         <text id="add_influence_from_politician_text" need_translate="true" value=""/>
-        <text id="agent_applying_fail_caption" need_translate="true" value="Agenten %1 misslyckades i sitt uppdrag mot %2"/>
-        <text id="agent_applying_success_caption" need_translate="true" value="Agent %1 lyckades i sitt uppdrag mot %2"/>
+        <text id="agent_applying_fail_caption" need_translate="false" value="Agenten %1 misslyckades i sitt uppdrag mot %2"/>
+        <text id="agent_applying_success_caption" need_translate="false" value="Agent %1 lyckades i sitt uppdrag mot %2"/>
         <text id="alliance_caption" need_translate="false" value="%1's loyalitet till dig: %2%"/>
         <text id="ambition_negative_header" need_translate="false" value="%1's loyalitet till dig gick ner med %2%"/>
         <text id="ambition_negative_text" need_translate="false" value="Du hade kontroll över %1! Men klarade inte av det. Du gör mig besviken! Loyaliteten till dig : %2%"/>
         <text id="ambition_positive_header" need_translate="false" value="%1's loyaliteten till dig gick upp med %2%"/>
         <text id="ambition_positive_text" need_translate="false" value="Tack för att du har uppfyllt min begäran om %1. Jag vet inte vad jag skulle göra utan din hjälp! Lojaliteten till dig: %2%"/>
         <text id="charity_event_caption" need_translate="false" value="Välgörenhetskvällsinbjudan från %1"/>
-        <text id="charity_event_text" need_translate="true" value="%1Du har fått en inbjudan från %2 %4 av %3 staten att delta i ett välgörenhetsevenemang %5. Det kommer att bli %6 %8 av %7 staten, %10 %11 och %12 %14 av %13 staten. Inbjudan är giltig till %15."/>
-        <text id="election_started_text" need_translate="true" value=""/>
+        <text id="charity_event_text" need_translate="false" value="%1Du har fått en inbjudan från %2 %4 av %3 staten att delta i ett välgörenhetsevenemang %5. Det kommer att bli %6 %8 av %7 staten, %10 %11 och %12 %14 av %13 staten. Inbjudan är giltig till %15."/>
+        <text id="elections_passed_caption" need_translate="true" value=""/>
+        <text id="elections_passed_text_1" need_translate="true" value=""/>
+        <text id="elections_passed_text_2" need_translate="true" value=""/>
+        <text id="elections_passed_text_3" need_translate="true" value=""/>
+        <text id="elections_passed_text_4" need_translate="true" value=""/>
         <text id="feudfrom_proprietor_text" need_translate="true" value=""/>
-        <text id="give_loan_text" need_translate="false" value="Tack för att du lånade mig $ % 1. Nu är min relation med dig förbättrad!"/>
-        <text id="hiring_director_caption" need_translate="true" value="%1 var utnämnd till ??? av %2 i %3 staten."/>
+        <text id="feudfrom_?ompetitor_text" need_translate="true" value=""/>
+        <text id="give_loan_text" need_translate="false" value="Tack för att du lånade mig $ %1. Nu är min relation med dig förbättrad!"/>
+        <text id="hiring_director_caption" need_translate="false" value="%1 var utnämnd till ??? av %2 i %3 staten."/>
+        <text id="hiring_director_text" need_translate="false" value="Som det blev känt, {nickname} tecknade ett kontrakt med {companyname}. VDns lön blir {salary}. 'För det första kommer jag att förbättra företagets lönsamhet, sa {nickname}. Kommer den nya VD att kunna hantera sitt nya ansvar i {companyname}? Vi kommer att följa utvecklingen"/>
         <text id="horse_racing_caption" need_translate="false" value="Hästkapplöpnings inbjudan från %1"/>
-        <text id="horse_racing_text" need_translate="true" value="%1 bjöd in dig till hästkapplöpning för att prata i en informell atmosfär"/>
+        <text id="horse_racing_text" need_translate="false" value="%1 bjöd in dig till hästkapplöpning för att prata i en informell atmosfär"/>
         <text id="invite_to_dinner_caption" need_translate="false" value="Middags inbjudan från %1"/>
-        <text id="invite_to_dinner_text" need_translate="true" value="%1 bjöd in dig till hans plats för att prata i en mer vänlig atmosfär"/>
+        <text id="invite_to_dinner_text" need_translate="false" value="%1 bjöd in dig till hans plats för att prata i en mer vänlig atmosfär"/>
         <text id="invite_to_horse_racing" need_translate="true" value=""/>
         <text id="invite_to_rout" need_translate="true" value=""/>
         <text id="loyality_change_caption" need_translate="false" value="%1's loyalitet: %2%"/>
@@ -1394,12 +1553,12 @@
         <text id="player_donation_to_fund_caption" need_translate="true" value=""/>
         <text id="player_donation_to_fund_text" need_translate="true" value=""/>
         <text id="player_fail_by_action_caption" need_translate="false" value="%1% av aktierna i %3 %2 företaget för $ %5 i %4 staten köptes inte in"/>
-        <text id="player_fail_by_action_text" need_translate="true" value=" %1% of %3 %2 företagets aktieinköp i %4 staten misslyckades. Det erbjudna priset på $%5 var inte intressant för %6"/>
+        <text id="player_fail_by_action_text" need_translate="false" value=" %1% of %3 %2 företagets aktieinköp i %4 staten misslyckades. Det erbjudna priset på $%5 var inte intressant för %6"/>
         <text id="player_lost_trades_caption" need_translate="false" value="Budgivningen misslyckades. Du lyckades inte köpa %1 i %2 staten"/>
         <text id="player_lost_trades_text" need_translate="false" value="Start priset för  %1 var $%2. Antalet vi köpte av %3 för $%4"/>
         <text id="player_missed_auction_caption" need_translate="false" value="%2 var köpt av %1 för $%3"/>
         <text id="player_missed_auction_text_1" need_translate="false" value="  %2 ställdes till auktion för $%3 i %1 staten. Partiet var köpt av %4 från %5 staten, för %6"/>
-        <text id="player_missed_auction_text_2" need_translate="false" value="partiet såldes till högstbjudande. Priset blev dyrare än startpriset. Det är inget dåligt med det för en dyr sak kan öka en köperstatus i samhället och öka sin &#9;inkomst i framtiden genom att sälja den till ett högre pris"/>
+        <text id="player_missed_auction_text_2" need_translate="false" value="partiet såldes till högstbjudande. Priset blev dyrare än startpriset. Det är inget dåligt med det för en dyr sak kan öka en köperstatus i samhället och öka sin 	inkomst i framtiden genom att sälja den till ett högre pris"/>
         <text id="player_missed_auction_text_3" need_translate="false" value="änk på att partiet %1 är begränsad i upplaga. Således är det en bra investering! Det sägs att %2 kommer att växa med %3% kvartal kvarter ut!"/>
         <text id="player_missed_auction_text_4" need_translate="false" value="Enligt sådana tillväxttakter, om lyxmarknaden är stabil, återbetalningsperioden för %1 kommer att bli %2 kvartal "/>
         <text id="player_sale_action_caption" need_translate="false" value="%1% aktier av %3 %2 företaget såldes för $ %5 i %4 staten"/>
@@ -1410,14 +1569,12 @@
         <text id="player_sale_goods_to_nps_text_bonus" need_translate="false" value="Loyaliteten gentemot dig: %1%"/>
         <text id="player_salegoods_from_auc_caption" need_translate="false" value="%2 köptes av %1 för $%3"/>
         <text id="player_salegoods_from_auc_text" need_translate="false" value="Du lyckades sälja en %1 för $%2 i %3 staten. Partiet köptes av %4 från %5 staten"/>
-        <text id="player_sell_by_from_auc_caption" need_translate="true" value=""/>
-        <text id="player_sell_by_from_auc_text" need_translate="true" value=""/>
         <text id="refuse_to_lend_text" need_translate="false" value="Girighet kommer inte att kunna göra oss vänner! Tänk på det! "/>
         <text id="reject_rout_text" need_translate="false" value="ag är upprörd över att du avslog välgörenhetskvälls inbjudan!"/>
-        <text id="robbery_road_caption" need_translate="true" value="Tåg från %1 har attackerats av banditer. Du förlorar: %2"/>
+        <text id="robbery_road_caption" need_translate="false" value="Tåg från %1 har attackerats av banditer. Du förlorar: %2"/>
         <text id="robbery_road_text_1" need_translate="false" value="Under bandit attacken blev {nickname} skadad. Du behöver tid att återhämta dig: {dagar} dag(ar)"/>
-        <text id="robbery_road_text_2" need_translate="false" value=" Situationen inom järnvägsområdet har plötsligt ökat de senaste dagarna: banditer rånar tåg genom att skjuta och döda passagerare titt som tätt. Den lokala Sheriffen &#9;&#9;har fortfarande inte lyckats fånga dem. Var försiktig!"/>
-        <text id="robbery_road_text_3" need_translate="false" value="Den snabba utvecklingen i industrien kräver mer järnvägs construktion. Som ett resultat byggdes nya handelsvägar som är enkla byten för banditer. Var försiktig när du &#9;&#9;väljer inriktning"/>
+        <text id="robbery_road_text_2" need_translate="false" value=" Situationen inom järnvägsområdet har plötsligt ökat de senaste dagarna: banditer rånar tåg genom att skjuta och döda passagerare titt som tätt. Den lokala Sheriffen 		har fortfarande inte lyckats fånga dem. Var försiktig!"/>
+        <text id="robbery_road_text_3" need_translate="false" value="Den snabba utvecklingen i industrien kräver mer järnvägs construktion. Som ett resultat byggdes nya handelsvägar som är enkla byten för banditer. Var försiktig när du 		väljer inriktning"/>
         <text id="robbery_road_text_4" need_translate="false" value="{train_name} tåg blev attackerade av tågrånare. {nickname} betalade $ {sum} för att undvika negativa konsekvenser. Tågrånarna lyckades unkomma!"/>
         <text id="robbery_road_text_5" need_translate="false" value="{train_name} tåg blev attackerade av tågrånare. {nickname} kunde slå tillbaka angripararna!"/>
         <text id="strike_caption" need_translate="false" value="Strejk på %1 %2"/>
@@ -1430,12 +1587,14 @@
         <text id="strike_occurred_text_4" need_translate="true" value=""/>
         <text id="strike_text" need_translate="false" value="Strejken kommer att minska företagets produktion och faktiska intäkter. Antagligen kommer aktiekursen att falla och om strejken avslutas kan aktiekursen följaktligen öka!"/>
         <text id="train_delay_caption" need_translate="false" value="Tåg från %1 har spårat ur. Du förlorar: %2 day(s)"/>
-        <text id="train_delay_text_1" need_translate="false" value="Tåg från %1 har spårat ur. Du har förlorat %2 dag(ar). Passagerare och ägare till de inblandade transportföretagen har för närvarande vissa svårigheter. Diligens bolag &#9;&#9;utnytjade givetvis tillfället - biljettpriset gick upp med $%3."/>
-        <text id="train_delay_text_2" need_translate="false" value=" Transportföretag försöker vara på topp. De producerar ständigt nya vagnar så att järnvägens transportkapacitet gör det möjligt att öka mängden transporterad last och &#9;&#9;passagerare därmed ägarna kommer att tjäna mer pengar"/>
-        <text id="train_delay_text_3" need_translate="false" value="Genom att förfölja rikedom uppmärksammar företagets ägare inte kvaliteten på sina järnvägar...som ett resultat blir rälsen ofta skadad och passagerarna blir drabbade och &#9;orsakar andra problem"/>
+        <text id="train_delay_text_1" need_translate="false" value="Tåg från %1 har spårat ur. Du har förlorat %2 dag(ar). Passagerare och ägare till de inblandade transportföretagen har för närvarande vissa svårigheter. Diligens bolag 		utnytjade givetvis tillfället - biljettpriset gick upp med $%3."/>
+        <text id="train_delay_text_2" need_translate="false" value=" Transportföretag försöker vara på topp. De producerar ständigt nya vagnar så att järnvägens transportkapacitet gör det möjligt att öka mängden transporterad last och 		passagerare därmed ägarna kommer att tjäna mer pengar"/>
+        <text id="train_delay_text_3" need_translate="false" value="Genom att förfölja rikedom uppmärksammar företagets ägare inte kvaliteten på sina järnvägar...som ett resultat blir rälsen ofta skadad och passagerarna blir drabbade och 	orsakar andra problem"/>
         <text id="train_pay_caption" need_translate="false" value="Tåg från %1 har råkat för en urspårning. Du förlorar %2 dag(ar)."/>
         <text id="warning_from_proprietor_text" need_translate="true" value=""/>
     </news_makets>
+
+
     <news_window>
         <text id="action" need_translate="false" value="Aktier"/>
         <text id="attention" need_translate="false" value="Olyckor"/>
@@ -1453,25 +1612,8 @@
         <text id="self" need_translate="false" value="Personal"/>
         <text id="world" need_translate="false" value="Globalt"/>
     </news_window>
-    <official_person>
-        <text id="governor" need_translate="true" value=""/>
-        <text id="governor_description" need_translate="true" value=""/>
-        <text id="governor_in_genetive" need_translate="true" value=""/>
-        <text id="judge" need_translate="true" value=""/>
-        <text id="judge_description" need_translate="true" value=""/>
-        <text id="judge_in_genetive" need_translate="true" value=""/>
-        <text id="official" need_translate="true" value=""/>
-        <text id="official_in_genetive" need_translate="true" value=""/>
-        <text id="police_chief" need_translate="true" value=""/>
-        <text id="police_chief_description" need_translate="true" value=""/>
-        <text id="police_chief_in_genetive" need_translate="true" value=""/>
-        <text id="prosecutor" need_translate="true" value=""/>
-        <text id="prosecutor_description" need_translate="true" value=""/>
-        <text id="prosecutor_in_genetive" need_translate="true" value=""/>
-        <text id="treasurer" need_translate="true" value=""/>
-        <text id="treasurer_description" need_translate="true" value=""/>
-        <text id="treasurer_in_genetive" need_translate="true" value=""/>
-    </official_person>
+
+
     <official_window>
         <text id="beliefs" need_translate="false" value="övertygelser"/>
         <text id="characteristics" need_translate="false" value="funktioner"/>
@@ -1485,6 +1627,8 @@
         <text id="reputation" need_translate="false" value="Popularitet"/>
         <text id="title" need_translate="false" value="tjänstemän"/>
     </official_window>
+
+
     <opened_button>
         <text id="action" need_translate="false" value="Action"/>
     </opened_button>
@@ -1494,12 +1638,14 @@
         <text id="sell" need_translate="false" value="Sälj"/>
         <text id="support_cost" need_translate="false" value="Underhåll"/>
     </ownership_info>
+
+
     <ownership_popup>
         <text id="auction_date" need_translate="false" value="Datumauktion"/>
         <text id="base_price" need_translate="false" value="Start pris"/>
         <text id="bidders_count" need_translate="false" value=""/>
         <text id="buy_price" need_translate="false" value="köpe pris"/>
-        <text id="cancel_auction" need_translate="true" value="avbryt"/>
+        <text id="cancel_auction" need_translate="false" value="avbryt"/>
         <text id="market_price" need_translate="false" value="Marknads pris"/>
         <text id="next" need_translate="false" value="fortsätt"/>
         <text id="prestige" need_translate="false" value="Prestige"/>
@@ -1507,6 +1653,8 @@
         <text id="you_buy" need_translate="false" value="Gratulerar! Du har lyckats vinna auktionen! Du har köpt &quot;%1&quot;"/>
         <text id="you_dont_buy" need_translate="false" value="Auktionen misslyckades"/>
     </ownership_popup>
+
+
     <person_handler>
         <text id="cabaret_whirligirl" need_translate="false" value="Cabaret dansare"/>
         <text id="celebrities" need_translate="false" value="Kändisskap"/>
@@ -1514,6 +1662,8 @@
         <text id="musician" need_translate="false" value="Musiker"/>
         <text id="stand_up_meal" need_translate="false" value="Banquet"/>
     </person_handler>
+
+
     <person_object>
         <text id="agent" need_translate="false" value="Agent"/>
         <text id="agent_in_genetive" need_translate="false" value="Agent"/>
@@ -1528,10 +1678,14 @@
         <text id="friend_relation" need_translate="false" value="Vän"/>
         <text id="investor" need_translate="false" value="investerare"/>
         <text id="investor_in_genetive" need_translate="false" value=""/>
+        <text id="loyality_bonus" need_translate="false" value="On din religion matchar en motståndares, ger det en loyaliteta bonus på +10 annars -10"/>
         <text id="married" need_translate="false" value="Gift"/>
         <text id="neutral_relation" need_translate="false" value="Neutral"/>
+        <text id="official" need_translate="false" value="Officiell"/>
+        <text id="official_in_genetive" need_translate="false" value=""/>
         <text id="player" need_translate="false" value="Spelare"/>
         <text id="player_in_genetive" need_translate="false" value="spelare"/>
+        <text id="politician" need_translate="false" value="Politiker"/>
         <text id="politician_in_genetive" need_translate="false" value="politiker"/>
         <text id="relation_type" need_translate="false" value="Loyalitet: %1 (%2/100)"/>
         <text id="religion_atheist" need_translate="false" value="Ateist"/>
@@ -1542,9 +1696,13 @@
         <text id="shareholder" need_translate="false" value="Aktie ägare"/>
         <text id="single" need_translate="false" value="Singel"/>
     </person_object>
+
+
     <person_relations>
         <text id="influence" need_translate="false" value="Influens"/>
     </person_relations>
+
+
     <person_selection_window>
         <text id="assign" need_translate="false" value="Gå till förhandling"/>
         <text id="assistant" need_translate="false" value="Assistent"/>
@@ -1565,6 +1723,8 @@
         <text id="state" need_translate="false" value="%1, USA"/>
         <text id="window_title" need_translate="false" value="Select assistent"/>
     </person_selection_window>
+
+
     <person_skills>
         <text id="diplomacy" need_translate="false" value="Diplomati"/>
         <text id="diplomacy_description" need_translate="false" value="Färdigheten påverkar spelarens bonus / straff på chansen att göra ett avtal"/>
@@ -1575,14 +1735,18 @@
         <text id="politics" need_translate="false" value="Politik"/>
         <text id="politics_description" need_translate="true" value=""/>
     </person_skills>
+
+
     <person_tooltip>
         <text id="assets" need_translate="false" value="Rikedom"/>
         <text id="profit" need_translate="false" value="Inkomst"/>
     </person_tooltip>
+
+
     <personal_collections>
         <item_info>
             <text id="0_0" need_translate="false" value="American Quarter Horse är den mest populära rasen i USA idag. Denna häst är välkänd både som en rashäst och för sin prestanda i rodeos, hästshower och som en fungerande ranchhäst."/>
-            <text id="0_1" need_translate="false" value="Fullblodsrasen kommer från tre berömda stammar som importerades till Storbritannien tidigt på 1700-talet. Den engelska fullblods som föds upp för ändamålet av vissna ridning ellerplatt- och hoppracing, har sitt ursprung i Storbritannien i mitten av 1700-talet. Det sägs att ingen annan hästras kan slå fullblods i hastighet och distans samtidigt."/>
+            <text id="0_1" need_translate="false" value="Fullblodsrasen kommer från tre berömda stammar som importerades till Storbritannien tidigt på 1700-talet. Den engelska fullblods som föds upp för ändamålet av vissna ridning eller platt- och hoppracing, har sitt ursprung i Storbritannien i mitten av 1700-talet. Det sägs att ingen annan hästras kan slå fullblods i hastighet och distans samtidigt."/>
             <text id="0_2" need_translate="false" value="Andalusien, även känd som den rena spanska hästen eller PRE, är en hästras från den iberiska halvön. Rasen användes som ett verktyg för diplomati av den spanska regeringen, ochkungar över hela Europa red och ägde spanska hästar. Från början av sin historia har andalusier använts för både ridning och körning. De var, och är fortfarande, kända för sin användning i monterad tjurkamp."/>
             <text id="0_3" need_translate="false" value="Den arabiska eller arabiska hästen är en hästras som har sitt ursprung på den arabiska halvön. Under hela historien har arabiska hästar spridit sig över hela världen av både krig och handel, som används för att förbättra andra raser genom att lägga till hastighet, förfining, uthållighet och stark ben. Idag finns arabiska blodlinjer i nästan alla moderna raser."/>
             <text id="0_4" need_translate="false" value="Akhal-Teke är en hästras från Turkmenistan, där de är ett nationellt emblem. Hon har ett rykte för hastighet och uthållighet, intelligens och en distinkt metallisk glans. 1935 när en grupp turkmenska ryttare cyklade de 2500 milen från Ashgabat till Moskva på 84 dagar, inklusive en tre dagars korsning av 235 mil öken utan vatten. Häst är också känd för sin form och nåd som en showjumper."/>
@@ -1612,14 +1776,14 @@
             <text id="3_1" need_translate="false" value="1930-penny är utan tvekan det sällsynta myntet som de flesta australierna vet om. Myntet introducerades första gången 1911 och slutade mintas 1964, med införandet av decimalering. Myntets framsida innehöll den regerande australiensiska monarken. Myntet är ett av bara sex bevis som slogs på Melbourne Mint och en av tre som förblir i privata händer."/>
             <text id="3_2" need_translate="false" value="Dollarn Flowing Hair var det första dollarmyntet som utfärdades av USA: s federala regering. Dess storlek och vikt var baserad på den spanska dollarn, som var populär i handeln i hela Amerika. Genom sin historia har 1794-dollarn allmänt betraktats som en av de sällsynta och mest värdefulla av alla mynt i USA."/>
             <text id="3_3" need_translate="false" value="Golden Dinar Hashimi är det första myntet på listan vars kostnad är minst en miljon dollar. Detta mynt användes på 800-talet på ön Arabien, så det är ett av de äldsta guldmynten."/>
-            <text id="3_4" need_translate="false" value="Brasher Doubloon var det första amerikanska guldmyntet. Det är tillverkaren är Ephraim Brasher. Brasher och Washington var väl bekanta, och till denna dag märkta silvervaror &quot;EB&quot; finns i samlingen i Vita huset, inklusive de ursprungliga kvittona."/>
+            <text id="3_4" need_translate="false" value="Brasher Doubloon var det första amerikanska guldmyntet. Det är tillverkaren är Ephraim Brasher. Brasher och Washington var väl bekanta, och till denna dag märkta silvervaror &quot; EB&quot; finns i samlingen i Vita huset, inklusive de ursprungliga kvittona."/>
             <text id="3_5" need_translate="false" value="1804 dollar eller Bowed Liberty Dollar var ett dollarmynt som slogs av Mint of the United States, varav femton exemplar för närvarande är kända för att existera. Alla mynt myntades i Philadelphia. Myntets framsida har bilden av Frihetsgudinnan."/>
             <text id="3_6" need_translate="false" value="Detta mynt mintas för att hedra kronan av kejsaren Pedro I från Brasilien. Totalt utfärdades 64 stycken; hur många som sparades nuförtiden är okänt."/>
             <text id="3_7" need_translate="false" value="Liberty Head-nickeln från 1913 är ett amerikanskt fem centerstykke som tillverkades i extremt begränsade mängder obehörigt av USA: s mynt, vilket gör det till en av de mest kända och mest eftertraktade sällsyntheterna i amerikansk numismatik. Mer än 570 miljoner kopior myntades hela tiden."/>
             <text id="3_8" need_translate="false" value="Edward III dubbelflorin, känd som en dubbel leopard och med ett nominellt värde på sex shilling, cirkulerades från december 1343 till juli 1344. Det är bara det tredje kända överlevande myntet, med två andra som hittades i floden Tyne 1857."/>
             <text id="4_0" need_translate="false" value="Rolls-Royce 10 hk var den första bilen som tillverkades som ett resultat av ett avtal av den 23 december 1904 mellan Charles Rolls och Henry Royce. 10 hk producerades av företaget Royce, Royce Ltd., på sin fabrik i Cooke Street, Hulme, Manchester. Motorn är en vattenkyld tvillingcylinder på 1800 cc. Det var avsett att göra en körning av 20 av bilarna men endast 16 gjordes eftersom man trodde att en tvillingcylindrig motor inte var lämplig för markeringen. De sista 10 hk gjordes 1906."/>
             <text id="4_1" need_translate="false" value="Denna modell introducerades i februari 1928. Den raka åtta modellen J-motoren baserades på det framgångsrika tävlingsmotorsföretaget på 1920-talet och fastställd av Duesenberg tillverkades de av Lyoming, ett annat företag som ägs av Cord. I normalt aspirerad form producerade den 265 hästkrafter från dubbla kamaxlar och fyra ventiler per cylinder. Det kunde en topphastighet på 119 mph. Andra bilar hade en större motor men ingen av dem överträffade dess kraft."/>
-            <text id="4_2" need_translate="false" value="Denna Bugatti Type 41 Royale var hjärnan till Ettore Bugatti Ettore Bugatti. Royale-motorn av typen 41 hade massiv förskjutning: 12,7 liter, eller ungefär 700 kubik tumdubbelt så stor som de flesta av de största V-8-produkterna som skulle byggas av Detroit fyra decennier senare. Detta är fortfarande den största motorn i någon bil som säljs privat. Endast 6 bilar tillverkades och 2 såldes aldrig, utan stannade i stället med Bugatti gods."/>
+            <text id="4_2" need_translate="false" value="Denna Bugatti Type 41 Royale var hjärnan till Ettore Bugatti Ettore Bugatti. Royale-motorn av typen 41 hade massiv förskjutning: 12,7 liter, eller ungefär 700 kubik tum dubbelt så stor som de flesta av de största V-8-produkterna som skulle byggas av Detroit fyra decennier senare. Detta är fortfarande den största motorn i någon bil som säljs privat. Endast 6 bilar tillverkades och 2 såldes aldrig, utan stannade i stället med Bugatti gods."/>
             <text id="4_3" need_translate="false" value="Den baserades på konceptbilen Aerolithe från 1935, designad av Jean Bugatti. I likhet med Grand Prix-bilen 59, använde Aerolithe Elektron eller Duralumin för sina karosspaneler. Produktionen Atlantics, bara fyra byggda, använde dock vanligt aluminium. Tre av de ursprungliga fyra bilarna är kända för att överleva."/>
             <text id="4_4" need_translate="false" value="År 1905 skulle Buick endast producera Model C, som verkligen var en virtuell kolkopia av modellen B. Vid årets slut skulle totalt 750 Model C Buicks byggas. Detta exempel är ett av endast 14 som man känner till idag. Den drivs av en tvåcylindrad motstående motor med en borrning och slag på 4,5 x 5, som förskjuter 159 kubik tum och utvecklar 22 hästkrafter."/>
             <text id="4_5" need_translate="false" value="Ford Model A var den andra framgångsrika fordonsmodellen för Ford Motor Company, efter sin föregångare, Model T. Först producerades den 20 oktober 1927, men inte infördes förrän den 2 december, ersatte den den vördefulla Model T, som hade producerats i 18 år. Motorn var en vattenkyld L-huvud inline fyra med en förskjutning på 201 cu. Denna motor gav 40 hk. Toppfarten var cirka 105 km / h."/>
@@ -1637,13 +1801,13 @@
             <text id="5_8" need_translate="false" value="Girl with a Pearl Earring är en oljemålning av holländska guldåldermålare Johannes Vermeer, daterad ca. 1665. Målningen är en tronie, den holländska 1600-talsbeskrivningen av ett &quot;huvud&quot; det var inte tänkt att vara ett porträtt. Den visar en europeisk tjej som bär en exotisk klänning, en orientalisk turban och en osannolikt stor pärlaörhänge."/>
             <text id="6_0" need_translate="false" value="En amfora är en typ av behållare med en karakteristisk form och storlek, nedstigande från minst så tidigt som den neolitiska perioden. Amphorae användes i stort antal för thetransport och lagring av olika produkter, både flytande och torrt, men mest för vin."/>
             <text id="6_1" need_translate="false" value="Aphrodite of Milos, bättre men felaktigt känd som Venus de Milo, är en forntida grekisk staty och en av de mest berömda verk av antik grekisk skulptur. Statyn skapades någon gång mellan 130 och 100 f.Kr., och tros statyn avbilda Afrodite, den grekiska gudinnan för kärlek och skönhet; emellertid hävdar vissa forskare att det är havsgudinnan Amphitrite, som värderas på Milos. Statyn är uppkallad efter den grekiska ön Milos, där den upptäcktes."/>
-            <text id="6_2" need_translate="false" value="Denna vas uppträdde först i Tang-dynastinens tempel (608917 e.Kr.) som en helig vattenvas, även känd som Yuhuchun. Formen populariserades sedan under Song-dynastin ochanvändes främst som ett vinfartyg. Senare blev den förfinade formen en klassisk vasstil och fortsätter att kopieras som modell. Det kännetecknas av en något utskjutet kant, en rak hals som breddar i ändarna, en botten tung kropp och en kort fotring."/>
+            <text id="6_2" need_translate="false" value="Denna vas uppträdde först i Tang-dynastinens tempel (608917 e.Kr.) som en helig vattenvas, även känd som Yuhuchun. Formen populariserades sedan under Song-dynastin och användes främst som ett vinfartyg. Senare blev den förfinade formen en klassisk vasstil och fortsätter att kopieras som modell. Det kännetecknas av en något utskjutet kant, en rak hals som breddar i ändarna, en botten tung kropp och en kort fotring."/>
             <text id="6_3" need_translate="false" value="Draken är en symbol för kraft, styrka och lycka till för människor som är värda det i östasiatisk kultur. Under kejsardagen använde Kinas kejsare vanligtvis draken som en symbol för hans imperialistiska kraft och styrka."/>
             <text id="6_4" need_translate="false" value="Klockor av denna stil är vanligtvis 6,5 fot höga. Väskan har ofta detaljerat snidade ornament på huven (eller motorhuven), som omger och inramar urtavlan eller klockans ansikte. Den engelska urmakaren William Clement krediteras utvecklingen av denna form 1670."/>
-            <text id="6_5" need_translate="false" value="Denna ursprungliga kopia av USA: s konstitution, skriven 1787 under Philadelphia Convention. Den gamla kongressen fastställde regler som den nya regeringen följde i termer avskriva och ratificera den nya konstitutionen. Efter ratificering i elva stater samlades 1789 sina valda regeringsoffiser i New York City och ersatte artiklarna i konfederationsregeringen."/>
+            <text id="6_5" need_translate="false" value="Denna ursprungliga kopia av USA: s konstitution, skriven 1787 under Philadelphia Convention. Den gamla kongressen fastställde regler som den nya regeringen följde i termer av skriva och ratificera den nya konstitutionen. Efter ratificering i elva stater samlades 1789 sina valda regeringsoffiser i New York City och ersatte artiklarna i konfederationsregeringen."/>
             <text id="6_6" need_translate="false" value="Detta är en av kandelabren för den spanska kungen Charles IV från Luxemburgs hus. Det är en symbol för andligt ljus och frälsning. Antalet ljus har alltid haft en kosmisk eller mystisk betydelse."/>
             <text id="6_7" need_translate="false" value="Teservicens accepterade historia börjar i Kina under Han-dynastin (206220 f.Kr.). Vid den här tiden var teprodukter gjorda av porslin och bestod av två stilar: ett nordligt vitt porslin och ett sydligt ljusblått porslin. Teservicen tillhör Song-dynastin som brukade producera utsökta keramiska tekannor och teskålar."/>
-            <text id="6_8" need_translate="false" value="Detta är de första klockorna som burits, gjorda i 1500-talets Europa, var övergången i storlek mellan klockor och klockor. Dessa &quot;klockor&quot; var fästade på kläder eller slitnapå en kedja runt halsen. Rörelsen var gjord av järn eller stål och hölls ihop med avsmalnande stift och kilar."/>
+            <text id="6_8" need_translate="false" value="Detta är de första klockorna som burits, gjorda i 1500-talets Europa, var övergången i storlek mellan klockor och klockor. Dessa &quot;klockor&quot; var fästade på kläder eller slitna på en kedja runt halsen. Rörelsen var gjord av järn eller stål och hölls ihop med avsmalnande stift och kilar."/>
             <text id="7_0" need_translate="false" value="Cognac-receptet går tillbaka till 1776. Det producerades av de direkta ättlingarna till kung Henry IV och består av 3 druvsorter, och den underbara smaken är känd endast för utvalda smakprov!"/>
             <text id="7_1" need_translate="false" value="Spansk odling av tobak började på allvar 1531 på ön Santo Domingo. 1542 började tobak odlas kommersiellt i Nordamerika, när spanjorerna etablerade den första cigarrfabriken på ön Kuba. Detta är en begränsad serie som orsakar en uppståndelse bland fans av den verkliga smaken av tobak!"/>
             <text id="7_2" need_translate="false" value="Sedan 1810 har sex generationer av familjen Kraug odlat en unikt exceptionell champagne genom omsorgsfull omsorg och oöverträffat hantverk. Varje flaska är ett unikt konstverk från havet och vinsmaken - skarpa smaker av mogna fruktträdgårdsfrukter."/>
@@ -1739,7 +1903,7 @@
             <text id="7_0" need_translate="false" value="Cognac 'Taste of Plutocracy'"/>
             <text id="7_1" need_translate="false" value="Cigars 'Plutocrates Cigars'"/>
             <text id="7_2" need_translate="false" value="Sparkling wine 'Paper Heads'"/>
-            <text id="7_3" need_translate="true" value="Cigars 'Soul flight'"/>
+            <text id="7_3" need_translate="false" value="Cigars 'Soul flight'"/>
             <text id="7_4" need_translate="false" value="Cognac 'Dan Jeckson'"/>
             <text id="7_5" need_translate="false" value="Cigars 'Taste of Freedom'"/>
             <text id="7_6" need_translate="false" value="Rum 'Maestro Del Mundo'"/>
@@ -1764,6 +1928,8 @@
             <text id="9_7" need_translate="false" value="Turret sniper gevär"/>
             <text id="9_8" need_translate="false" value="Guld pläterad colt"/>
         </item_names>
+
+
     </personal_collections>
     <persons_window>
         <text id="assets" need_translate="false" value="Tillgångar"/>
@@ -1772,6 +1938,8 @@
         <text id="skills" need_translate="false" value="Skickligheter"/>
         <text id="summary" need_translate="false" value="Totalt"/>
     </persons_window>
+
+
     <player_events>
         <text id="back_to_player_window" need_translate="true" value=""/>
         <text id="cash" need_translate="false" value="rikedom"/>
@@ -1808,10 +1976,14 @@
         <text id="vip_guests" need_translate="false" value="VIP gäster"/>
         <text id="where_would_you_like_to_be_a_party" need_translate="false" value="Hur vill du imponera 'em?"/>
     </player_events>
+
+
     <player_events_result>
         <text id="accept" need_translate="false" value="Accept"/>
         <text id="event_result" need_translate="false" value="Event resultat"/>
     </player_events_result>
+
+
     <player_finances_model>
         <text id="assets" need_translate="false" value="Egendom"/>
         <text id="assistants" need_translate="false" value="Assistenter"/>
@@ -1825,6 +1997,8 @@
         <text id="safety_stock" need_translate="false" value="Andelar"/>
         <text id="taxes" need_translate="false" value="Skatter"/>
     </player_finances_model>
+
+
     <player_finances_window>
         <text id="credits" need_translate="false" value="Lån"/>
         <text id="dinamics" need_translate="false" value="Dynamik"/>
@@ -1847,10 +2021,11 @@
         <text id="table_header_state" need_translate="false" value="Rikedom"/>
         <text id="table_header_summ" need_translate="false" value="Rikedom"/>
         <text id="table_leader_name" need_translate="false" value="Namn"/>
-        <tax_templates/>
         <text id="total" need_translate="false" value="Totalt"/>
         <text id="window_title" need_translate="false" value="%1's tillgångar"/>
     </player_finances_window>
+
+
     <player_object>
         <text id="icon_hint_text" need_translate="false" value="Klicka här för detaljer"/>
         <text id="icon_hint_title" need_translate="true" value="Spelar information"/>
@@ -1864,6 +2039,8 @@
         <text id="status_decreased" need_translate="true" value=""/>
         <text id="status_increased" need_translate="true" value=""/>
     </player_object>
+
+
     <player_profile>
         <text id="assets_was_bought" need_translate="false" value="Egendom köpt"/>
         <text id="companies_was_visited" need_translate="false" value="Företag var besökta"/>
@@ -1894,6 +2071,8 @@
         <text id="successed_talks" need_translate="false" value="Lyckade förhandlingar"/>
         <text id="talks_quantity" need_translate="false" value="Antal förhandlingar"/>
     </player_profile>
+
+
     <player_skills_window>
         <text id="common_skills" need_translate="true" value=""/>
         <text id="financial_skills" need_translate="true" value=""/>
@@ -1901,11 +2080,15 @@
         <text id="skill_levelup" need_translate="true" value=""/>
         <text id="social_skills" need_translate="true" value=""/>
     </player_skills_window>
+
+
     <player_window>
         <text id="achievement_window" need_translate="false" value="Prestationer"/>
         <text id="agent" need_translate="false" value="Agent"/>
+        <text id="agent_has_no_learned_skills" need_translate="false" value="Agenten är inte tillgänglig! Anställ Agent"/>
         <text id="agent_hint_header" need_translate="false" value="Agent"/>
         <text id="agent_hint_text" need_translate="false" value="Karaktären har agenten som kan användas mot dig"/>
+        <text id="agent_is_working" need_translate="false" value="Agenten arbetar..."/>
         <text id="arrive_to_state" need_translate="false" value="Du har anänt till %1"/>
         <text id="assets" need_translate="false" value="Tillgångar"/>
         <text id="assets_hint_header" need_translate="false" value="Rikedom"/>
@@ -1913,15 +2096,22 @@
         <text id="assistants_window" need_translate="false" value="Assistenter"/>
         <text id="buy_shares" need_translate="false" value="Avtal"/>
         <text id="buy_shares_with_company_name" need_translate="false" value="Inköp av '%1' aktier"/>
+        <text id="calendar_add_date" need_translate="false" value="Tryck för att sätta datum"/>
+        <text id="calendar_moving" need_translate="false" value="Res"/>
+        <text id="calendar_no_planned_event" need_translate="false" value="Inga events plannrade"/>
+        <text id="calendar_rout" need_translate="false" value="Event"/>
         <text id="cancel_choose" need_translate="false" value="Avbryt"/>
         <text id="characteristics" need_translate="false" value="Funktioner"/>
         <text id="choose_event_date" need_translate="false" value="Bestämm datum för event"/>
+        <text id="compromat_already_exists" need_translate="false" value="Du har smuts på den här karaktären!"/>
         <text id="conviction" need_translate="false" value="Religion"/>
         <text id="convictions" need_translate="false" value="Religion"/>
+        <text id="courtesan_already_exists" need_translate="false" value="Agenten har redan använts"/>
+        <text id="courtesan_only_for_male" need_translate="false" value="Endast män!"/>
         <text id="diplomacy_left_area_hint_header" need_translate="false" value="Diplomati"/>
-        <text id="diplomacy_left_area_hint_text" need_translate="true" value="Färdigheten påverkar spelarens bonus / straff på chansen att göra ett avtal"/>
+        <text id="diplomacy_left_area_hint_text" need_translate="false" value="Färdigheten påverkar spelarens bonus / straff på chansen att göra ett avtal"/>
         <text id="economics_left_area_hint_header" need_translate="false" value="Economi"/>
-        <text id="economics_left_area_hint_text" need_translate="true" value="Ju högre ekonominivå, desto bättre kan karaktären driva ett företag"/>
+        <text id="economics_left_area_hint_text" need_translate="false" value="Ju högre ekonominivå, desto bättre kan karaktären driva ett företag"/>
         <text id="guests_count_invited_to_route" need_translate="false" value="Inbjudna %1/%2 gäster"/>
         <text id="her" need_translate="true" value=""/>
         <text id="him" need_translate="true" value=""/>
@@ -1934,6 +2124,7 @@
         <text id="influence_skill_left_area_hint_text" need_translate="false" value="Influens per kvartal. En stjärna ökar påverkan med +1 poäng"/>
         <text id="make_connection" need_translate="false" value="Lås upp"/>
         <text id="make_present" need_translate="false" value="Ge en gåva"/>
+        <text id="menu_agent_applied_on_current_step" need_translate="false" value="Agenten har redan använts!"/>
         <text id="menu_assistant" need_translate="false" value="Anställ"/>
         <text id="menu_assistant_fire" need_translate="false" value="säg upp"/>
         <text id="menu_assistant_hire" need_translate="false" value="Anställ"/>
@@ -1947,17 +2138,17 @@
         <text id="menu_loan_no_positive_profit" need_translate="false" value="Karaktären har en negativ balans"/>
         <text id="menu_loan_not_friendly" need_translate="false" value="Låg lojalitet! Du kan bara låna pengar från en vänlig karaktär"/>
         <text id="menu_lobby" need_translate="false" value="Lobby"/>
-        <text id="menu_loyality" need_translate="true" value="Loyalitet"/>
+        <text id="menu_loyality" need_translate="false" value="Loyalitet"/>
         <text id="menu_loyality_disabled" need_translate="false" value="Det här är inget sätt att öka lojalitet"/>
         <text id="menu_loyality_need_to_be_an_control_shareholder" need_translate="false" value="Få 51% of %1 bolagets aktier"/>
         <text id="menu_make_connection" need_translate="false" value="Lås upp"/>
-        <text id="menu_negotation" need_translate="true" value="Make deal"/>
+        <text id="menu_negotation" need_translate="false" value="Make deal"/>
+        <text id="menu_no_agents" need_translate="false" value="Ina tillgängliga Agenter"/>
         <text id="menu_no_company" need_translate="false" value="Karaktären är inte aktieägare i något företag!"/>
-        <text id="menu_not_enough_influence" need_translate="true" value="Otillräkligt med influens!"/>
+        <text id="menu_not_enough_influence" need_translate="false" value="Otillräkligt med influens!"/>
         <text id="menu_ownerships" need_translate="false" value="Lyx"/>
         <text id="menu_person_is_locked" need_translate="false" value="Du behöver att låsa upp karaktären!"/>
         <text id="menu_rout" need_translate="false" value="Invitera till event"/>
-        <text id="menu_start_election_not_possible" need_translate="true" value=""/>
         <text id="menu_use_agent" need_translate="false" value="Använd agent"/>
         <text id="missis" need_translate="false" value=""/>
         <text id="mister" need_translate="false" value=""/>
@@ -1992,7 +2183,7 @@
         <text id="person_info_reputation" need_translate="false" value="Popularitet:"/>
         <text id="person_info_skill" need_translate="false" value="skickligheter:"/>
         <text id="person_info_status" need_translate="false" value="%1, %2 staten"/>
-        <text id="player_locked" need_translate="true" value="Låst"/>
+        <text id="player_locked" need_translate="false" value="Låst"/>
         <text id="player_patience_hint_header" need_translate="false" value="Du blir färdig i %1"/>
         <text id="politics_left_area_hint_header" need_translate="false" value="Politik"/>
         <text id="politics_left_area_hint_text" need_translate="false" value="Under utvekling...(hela texten läggs till i spelet senare)"/>
@@ -2019,11 +2210,14 @@
         <text id="skills" need_translate="false" value="skickligheter"/>
         <text id="state" need_translate="false" value="%1 staten"/>
         <text id="summary" need_translate="false" value="Loyalitet"/>
+        <text id="trasher_already_exists" need_translate="false" value="Har redan använts!"/>
         <text id="travel_to" need_translate="false" value="Resa till %1"/>
-        <text id="unlock_person_text" need_translate="false" value="Så långt du vet i affärsvärlden är &quot;tid&quot; en av de viktigaste tillgångarna! Således, om du har en god anledning att träffa% 1% 2, bör du visa allvaren i dina avsikter &#9;genom att arrangera ett möte. Du måste spendera påverkan poäng. Vill du ordna ett möte?"/>
+        <text id="unlock_person_text" need_translate="false" value="Så långt du vet i affärsvärlden är &quot;tid&quot; en av de viktigaste tillgångarna! Således, om du har en god anledning att träffa %1 %2, bör du visa allvaren i dina avsikter 	genom att arrangera ett möte. Du måste spendera påverkan poäng. Vill du ordna ett möte?"/>
         <text id="window_title" need_translate="false" value="%1"/>
         <text id="yes" need_translate="false" value="Ja"/>
     </player_window>
+
+
     <players_view>
         <text id="influence" need_translate="false" value="Influens"/>
         <text id="influence_by_step" need_translate="false" value="Influens per spelomgång"/>
@@ -2033,29 +2227,52 @@
         <text id="reputation" need_translate="false" value="Popularitet"/>
         <text id="state" need_translate="false" value="Rikedom"/>
     </players_view>
+
+
     <politican_finance_panel>
         <text id="financing_by_step" need_translate="true" value=""/>
         <text id="popularity" need_translate="true" value=""/>
     </politican_finance_panel>
+
+
+    <politican_handler>
+        <text id="console_message_time_cost_because_opponent_marshal_influence" need_translate="true" value=""/>
+        <text id="election_date" need_translate="true" value=""/>
+        <text id="information" need_translate="true" value=""/>
+        <text id="problems" need_translate="true" value=""/>
+        <text id="time_cost_because_opponent_marshal_influence" need_translate="true" value=""/>
+        <text id="you_escape_marshal_pursuit_because_justice_is_your_man" need_translate="true" value=""/>
+    </politican_handler>
+
+
+    <politican_object>
+        <text id="congress_candidate" need_translate="false" value="Kongress kandidat"/>
+        <text id="congressman" need_translate="false" value="Kongressman"/>
+        <text id="congressman_in_genetive" need_translate="false" value="kongressman"/>
+        <text id="legislature_candidate" need_translate="false" value="Kandidat till den lagstiftande församlingen"/>
+        <text id="legislature_congressman" need_translate="false" value="lagstiftande kongressman"/>
+        <text id="legislature_congressman_in_genetive" need_translate="false" value="legislature_congressman"/>
+        <text id="legislature_senator" need_translate="false" value="lagstiftandee senator"/>
+        <text id="legislature_senator_in_genetive" need_translate="true" value=""/>
+        <text id="politician" need_translate="false" value="Politiker"/>
+        <text id="senator" need_translate="false" value="Congress senator"/>
+        <text id="senator_in_genetive" need_translate="false" value="lagstiftande senator"/>
+    </politican_object>
+
+
     <politican_panel>
         <text id="bribe_size" need_translate="true" value=""/>
         <text id="disclosing_risk" need_translate="true" value=""/>
         <text id="popularity" need_translate="true" value=""/>
     </politican_panel>
-    <politician_person>
-        <text id="congressman" need_translate="true" value=""/>
-        <text id="congressman_description" need_translate="true" value=""/>
-        <text id="congressman_in_genetive" need_translate="true" value=""/>
-        <text id="legislature_congressman" need_translate="true" value=""/>
-        <text id="legislature_congressman_in_genetive" need_translate="true" value=""/>
-        <text id="legislature_senator" need_translate="true" value=""/>
-        <text id="legislature_senator_in_genetive" need_translate="true" value=""/>
-        <text id="politic" need_translate="true" value=""/>
-        <text id="politic_in_genetive" need_translate="true" value=""/>
-        <text id="senator" need_translate="true" value=""/>
-        <text id="senator_description" need_translate="true" value=""/>
-        <text id="senator_in_genetive" need_translate="true" value=""/>
-    </politician_person>
+
+
+    <politicans_window>
+        <text id="limited_for_alpha_version" need_translate="false" value="Under utveckling...Begränsat! Kom tillbaka senare:)"/>
+        <text id="state_politicans" need_translate="false" value="Stat politiker"/>
+    </politicans_window>
+
+
     <politician_window>
         <text id="characteristics" need_translate="false" value="Features"/>
         <text id="end_term" need_translate="false" value="mandattid"/>
@@ -2083,38 +2300,8 @@
         <text id="sponsors_hint" need_translate="false" value="Valgkampanjgivare"/>
         <text id="sponsors_hint_text" need_translate="false" value="Fler givare bidrar till att vinna valet"/>
     </politician_window>
-    <popups>
-        <cancel_negotiation>
-            <text id="accept" need_translate="true" value=""/>
-            <text id="cancel" need_translate="true" value=""/>
-            <text id="description" need_translate="true" value=""/>
-            <text id="loyalty" need_translate="true" value=""/>
-            <text id="reputation" need_translate="true" value=""/>
-            <text id="subtitle" need_translate="true" value=""/>
-            <text id="title" need_translate="true" value=""/>
-        </cancel_negotiation>
-        <fire_assistant>
-            <text id="accept" need_translate="true" value=""/>
-            <text id="cancel" need_translate="true" value=""/>
-            <text id="description" need_translate="true" value=""/>
-            <text id="gold_parachute" need_translate="true" value=""/>
-            <text id="salary" need_translate="true" value=""/>
-            <text id="subtitle" need_translate="true" value=""/>
-            <text id="title" need_translate="true" value=""/>
-        </fire_assistant>
-        <hire_assistant>
-            <text id="accept" need_translate="true" value=""/>
-            <text id="cancel" need_translate="true" value=""/>
-            <text id="description" need_translate="true" value=""/>
-            <text id="gold_parachute" need_translate="true" value=""/>
-            <text id="salary" need_translate="true" value=""/>
-            <text id="subtitle" need_translate="true" value=""/>
-            <text id="title" need_translate="true" value=""/>
-        </hire_assistant>
-        <loot_agent/>
-        <low_loyality/>
-    </popups>
-    <power_tooltip/>
+
+
     <previous_panel>
         <text id="business_offer " need_translate="true" value=""/>
         <text id="days" need_translate="true" value=""/>
@@ -2123,12 +2310,15 @@
         <text id="start_talks" need_translate="true" value=""/>
         <text id="you_invite_opponent_to_meeting_with_you" need_translate="true" value=""/>
     </previous_panel>
+
+
     <random_game_events>
         <text id="following_will_happen" need_translate="false" value="Resultat"/>
         <text id="you_will_get" need_translate="false" value="Skaffa:"/>
         <text id="you_will_lose" need_translate="false" value="Spendera:"/>
     </random_game_events>
-    <rating_window/>
+
+
     <relations_handler>
         <text id="agent_using" need_translate="false" value="Använd agent"/>
         <text id="ambitions" need_translate="false" value="Uppnådd ambition"/>
@@ -2154,6 +2344,8 @@
         <text id="unreliability" need_translate="false" value="Opålitlig"/>
         <text id="voting_for_director" need_translate="false" value="Röst vid bolagsstämman"/>
     </relations_handler>
+
+
     <relatives>
         <text id="cousin" need_translate="false" value="Kusin"/>
         <text id="cousin_in_genetive" need_translate="false" value="Kusin"/>
@@ -2168,6 +2360,8 @@
         <text id="uncle" need_translate="false" value="farbror"/>
         <text id="uncle_in_genetive" need_translate="false" value="farbror"/>
     </relatives>
+
+
     <release_bond_window>
         <text id="bond_price" need_translate="false" value="obligationsemission"/>
         <text id="cancel" need_translate="false" value="Avbryt"/>
@@ -2176,10 +2370,13 @@
         <text id="title" need_translate="false" value="obligationsemission"/>
         <text id="total_cost" need_translate="false" value="obligationsemissions pris"/>
     </release_bond_window>
-    <reputation/>
+
+
     <save_dialog>
         <text id="load" need_translate="false" value="Ladda"/>
     </save_dialog>
+
+
     <sb_settings>
         <text id="avatar_attributes" need_translate="false" value="Attribut"/>
         <text id="avatar_clothes" need_translate="false" value="Kläder"/>
@@ -2190,7 +2387,8 @@
         <text id="create" need_translate="false" value="Skapa"/>
         <text id="detail_variant" need_translate="true" value=""/>
         <text id="dossier" need_translate="false" value="Dossier"/>
-        <text id="euroopoid" need_translate="true" value="Europoid"/>
+        <text id="economy_win" need_translate="false" value="Ekonomisk vinnst"/>
+        <text id="euroopoid" need_translate="false" value="Europoid"/>
         <text id="exp_investor" need_translate="false" value="Erfaren investerare"/>
         <text id="female" need_translate="false" value="Kvinna"/>
         <text id="financial_genius" need_translate="false" value="Financielt geni"/>
@@ -2209,6 +2407,7 @@
         <text id="medium_world" need_translate="false" value="Medium värld"/>
         <text id="model_variant" need_translate="false" value="Version %1"/>
         <text id="mongoloid" need_translate="false" value="Asiat"/>
+        <text id="monopoly" need_translate="false" value="Monopol"/>
         <text id="name_and_surname" need_translate="false" value="Förnamn och efternamn"/>
         <text id="negroid" need_translate="false" value="Afroamerikan"/>
         <text id="newbie" need_translate="false" value="Nybörjare"/>
@@ -2218,6 +2417,7 @@
         <text id="person_race" need_translate="false" value="Ras"/>
         <text id="person_sex" need_translate="false" value="kön"/>
         <text id="plutocrat" need_translate="false" value="Plutocract"/>
+        <text id="politial_influence" need_translate="false" value="Politisk influens"/>
         <text id="ripe" need_translate="false" value="Vuxen"/>
         <text id="save" need_translate="false" value="Spara"/>
         <text id="select_person" need_translate="false" value="Välj karaktär"/>
@@ -2227,6 +2427,7 @@
         <text id="start_time" need_translate="false" value="Spelets start tid"/>
         <text id="state" need_translate="false" value="Stat"/>
         <text id="summary" need_translate="false" value="Rikedom"/>
+        <text id="superiority" need_translate="false" value="Dominans"/>
         <text id="tie_variant" need_translate="false" value="Slips %1"/>
         <text id="top" need_translate="false" value="Topp"/>
         <text id="usa" need_translate="false" value="USA"/>
@@ -2236,11 +2437,12 @@
         <text id="world_size" need_translate="false" value="Värld storlek"/>
         <text id="young" need_translate="false" value="Ung"/>
     </sb_settings>
-    <select_director_window/>
+
+
     <settings_window>
         <text id="2k" need_translate="false" value="2k"/>
         <text id="4k" need_translate="false" value="4k"/>
-        <text id="ability_to_move_in_any_state_while_have_action_point" need_translate="true" value="En spelare kan röra sig fritt till alla stater"/>
+        <text id="ability_to_move_in_any_state_while_have_action_point" need_translate="false" value="En spelare kan röra sig fritt till alla stater"/>
         <text id="apply_changes" need_translate="false" value="Acceptera"/>
         <text id="cancel_changes" need_translate="false" value="Avbryt"/>
         <text id="ch" need_translate="false" value="Kines"/>
@@ -2260,7 +2462,7 @@
         <text id="map_config" need_translate="false" value="Kart inställningar"/>
         <text id="music" need_translate="false" value="Musik"/>
         <text id="music_volume" need_translate="false" value="Musik volym"/>
-        <text id="players_moved_in_random_states_and_can_not_moved" need_translate="true" value="Varje spelomgång en spelare tvingas gå till en slumpmässig stat"/>
+        <text id="players_moved_in_random_states_and_can_not_moved" need_translate="false" value="Varje spelomgång en spelare tvingas gå till en slumpmässig stat"/>
         <text id="random_move_mode" need_translate="false" value="slump förflyttning"/>
         <text id="ru" need_translate="false" value="Ryss"/>
         <text id="save_game" need_translate="false" value="Spara spel"/>
@@ -2268,14 +2470,19 @@
         <text id="softly" need_translate="false" value="Tyst"/>
         <text id="sound_config" need_translate="false" value="ljud inställningar"/>
     </settings_window>
-    <shares_emission_popup/>
+
+
     <shares_transfer>
         <text id="player_bought_some_percent_some_company_safety_stock" need_translate="true" value=""/>
     </shares_transfer>
+
+
     <specific_lang_settings>
         <text id="date_format" need_translate="false" value="MMM d, yyyy"/>
         <text id="date_time_format_in_save_load" need_translate="false" value="MMM d, yyyy hh:mm"/>
     </specific_lang_settings>
+
+
     <start_negotation_window>
         <text id="all_shares_price" need_translate="true" value=""/>
         <text id="cancel_negotiation" need_translate="true" value=""/>
@@ -2289,25 +2496,8 @@
         <text id="state" need_translate="true" value=""/>
         <text id="window_title" need_translate="true" value=""/>
     </start_negotation_window>
-    <state_politic_window>
-        <text id="current_law" need_translate="true" value=""/>
-        <text id="current_value" need_translate="true" value=""/>
-        <text id="effect" need_translate="true" value=""/>
-        <text id="house_title" need_translate="true" value=""/>
-        <text id="law_progress" need_translate="true" value=""/>
-        <text id="lower_house" need_translate="true" value=""/>
-        <text id="lower_house_title" need_translate="true" value=""/>
-        <text id="lower_house_voting_date" need_translate="true" value=""/>
-        <text id="majority_party_leader" need_translate="true" value=""/>
-        <text id="menu_lobby" need_translate="true" value=""/>
-        <text id="minority_party_leader" need_translate="true" value=""/>
-        <text id="ratification_by_governor" need_translate="true" value=""/>
-        <text id="state_politic_info" need_translate="true" value=""/>
-        <text id="support_by_parties" need_translate="true" value=""/>
-        <text id="upper_house" need_translate="true" value=""/>
-        <text id="upper_house_title" need_translate="true" value=""/>
-        <text id="upper_house_voting_date" need_translate="true" value=""/>
-    </state_politic_window>
+
+
     <state_window>
         <text id="avg_salary" need_translate="false" value="Genomsnittslön"/>
         <text id="companies" need_translate="false" value="Företag"/>
@@ -2335,6 +2525,8 @@
         <text id="white_house" need_translate="false" value="Vita huset"/>
         <text id="world" need_translate="false" value="Globalt"/>
     </state_window>
+
+
     <statistics_popup_handler>
         <text id="actives" need_translate="false" value="Tillgångar"/>
         <text id="arrearage" need_translate="false" value="Skulder:"/>
@@ -2342,7 +2534,10 @@
         <text id="assets_summary_total" need_translate="false" value="Totalt:"/>
         <text id="assistants" need_translate="false" value="Assistanter:"/>
         <text id="avaliable_influence" need_translate="false" value="Totalt:"/>
+        <text id="base_influence" need_translate="false" value="Karaktär nivå:"/>
         <text id="cash" need_translate="false" value="Cash"/>
+        <text id="companies_influence_change" need_translate="false" value="Assistants/companies influence per quarter:"/>
+        <text id="company_influence" need_translate="false" value="Companies influence:"/>
         <text id="confidence_summary_total" need_translate="false" value="Totalt:"/>
         <text id="cost" need_translate="false" value="Utgifter"/>
         <text id="credits" need_translate="false" value="Lån:"/>
@@ -2350,7 +2545,8 @@
         <text id="estate_summary_total" need_translate="false" value="Totalt:"/>
         <text id="financial_support" need_translate="false" value="Underhåll:"/>
         <text id="free_cash" need_translate="false" value="Rikedom"/>
-        <text id="free_influence_description" need_translate="true" value="Använd influens poäng för att skapa avtal,lobba\n tjänstemän/politiker eller anställ assistenter"/>
+        <text id="free_influence" need_translate="false" value="Tillgänglig influens"/>
+        <text id="free_influence_description" need_translate="false" value="Använd influens poäng för att skapa avtal,lobba\n tjänstemän/politiker eller anställ assistenter"/>
         <text id="influence" need_translate="false" value="Influens:"/>
         <text id="influence_per_day" need_translate="false" value="Influens per dag:"/>
         <text id="influence_summary_total" need_translate="false" value="Totalt:"/>
@@ -2358,10 +2554,13 @@
         <text id="interest_summary_total" need_translate="false" value="Totalt:"/>
         <text id="intrinsic_prestige" need_translate="false" value="Medfödd prestige"/>
         <text id="lending_and_obligations" need_translate="false" value="Lån och obligationer:"/>
+        <text id="max_influence" need_translate="false" value="Max influens:"/>
         <text id="max_influence_description" need_translate="false" value="Gränsen för tillgängligt inflytande"/>
         <text id="obligations_and_deposits" need_translate="false" value="Obligationer och insättningar:"/>
         <text id="ownerships_profit" need_translate="false" value="Egendom:"/>
         <text id="passives" need_translate="false" value="skulder"/>
+        <text id="personal_influence_change" need_translate="false" value="Spelar influens per kvartal:"/>
+        <text id="politician_influence" need_translate="false" value="Politikerns influens:"/>
         <text id="power" need_translate="false" value="Power:"/>
         <text id="power_per_step" need_translate="false" value="Power per kvartal:"/>
         <text id="prestige" need_translate="false" value="Prestige:"/>
@@ -2380,21 +2579,41 @@
         <text id="summary_cash" need_translate="false" value="Rikedom:"/>
         <text id="taxes" need_translate="false" value="Skatter"/>
         <text id="total" need_translate="false" value="Totalt:"/>
-        <text id="total_influence" need_translate="true" value="Totalt:"/>
+        <text id="total_influence" need_translate="false" value="Totalt:"/>
     </statistics_popup_handler>
+
+
     <statistics_window>
-        <buildings/>
-        <text id="company_name" need_translate="true" value="%1"/>
-        <editable/>
-        <finances/>
-        <hints/>
+        <text id="administrative_expenses" need_translate="false" value="Administrativa utgifter"/>
+        <text id="bonuse" need_translate="false" value="VD bonus"/>
+        <text id="company_and_state" need_translate="false" value="%1, %2"/>
+        <text id="company_name" need_translate="false" value="%1"/>
+        <text id="dividends" need_translate="false" value="Utdelningar"/>
+        <text id="expenses" need_translate="false" value="Utgifter"/>
+        <text id="export" need_translate="false" value="Export"/>
+        <text id="federal_tax" need_translate="false" value="Federal skatt"/>
+        <header>
+            <text id="dynamic" need_translate="false" value="Dynamik"/>
+            <text id="expenses" need_translate="false" value="Namn"/>
+            <text id="forecast" need_translate="false" value="Prognos"/>
+            <text id="industry_dunamic" need_translate="false" value="Bransch dynamik"/>
+            <text id="leader" need_translate="false" value="Jämför med ledaren"/>
+            <text id="middle" need_translate="false" value="Medel"/>
+            <text id="value" need_translate="false" value="Värde"/>
+        </header>
+        <text id="local_market" need_translate="false" value="Lokal marknad"/>
         <text id="market_part" need_translate="false" value="Marknadsandel"/>
-        <names/>
         <text id="proceeds" need_translate="false" value="Vinst"/>
+        <text id="productive_expenses" need_translate="false" value="Productions kostnad"/>
         <text id="profit" need_translate="false" value="Inkomst"/>
-        <strategy/>
-        <work_condition/>
+        <text id="profitability" need_translate="false" value="ROI"/>
+        <text id="salary" need_translate="false" value="Lön"/>
+        <text id="state_tax" need_translate="false" value="Statlig skatt"/>
+        <text id="taxis" need_translate="false" value="Bolagsskatt"/>
+        <text id="total_expenses" need_translate="false" value="Stora utgifter"/>
     </statistics_window>
+
+
     <step_switcher>
         <text id="autumn" need_translate="false" value="Höst"/>
         <hints>
@@ -2409,7 +2628,8 @@
         <text id="summer" need_translate="false" value="Sommar"/>
         <text id="winter" need_translate="false" value="Vinter"/>
     </step_switcher>
-    <technologies_popup/>
+
+
     <under_construction>
         <text id="build_number" need_translate="false" value=", Version %1"/>
         <text id="hello_i_am_test_version_of_game" need_translate="false" value="Hej!\n\nJag är en trial version av spelet "/>
@@ -2421,7 +2641,8 @@
         <text id="truly_yours_alpha_version" need_translate="false" value="vänliga hälsningar, Alpha versionen "/>
         <text id="you_can_help_me" need_translate="false" value="Du är en av dem som kan hjälpa mig att bli mer spelbar! Om du hittar några buggar, känn dig fri att ge mina utvecklare ett anrop! Jag ska vara tacksam för det:)"/>
     </under_construction>
-    <update_loyality_popup/>
+
+
     <user_statistic>
         <text id="influence_per_step" need_translate="false" value="Influens"/>
         <text id="influence_per_step_desc" need_translate="false" value="Du behöver influens för att skapa avtal, använd influens agenter."/>
@@ -2431,6 +2652,7 @@
         <text id="profit_per_step" need_translate="false" value="Inkomstprognos"/>
         <text id="state" need_translate="false" value="Rikedom"/>
     </user_statistic>
+
     <voting_popup>
         <text id="abstained" need_translate="false" value="Avstod"/>
         <text id="agreed" need_translate="false" value="Acceptera"/>

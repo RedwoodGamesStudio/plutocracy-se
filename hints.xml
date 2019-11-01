@@ -85,6 +85,8 @@
         <text id="47_title" need_translate="false" value="Marknadspris"/>
         <text id="4_title" need_translate="false" value="Prestationer och elit"/>
         <text id="4_value" need_translate="false" value="Dina prestationer och topplista"/>
+        <text id="50_title" need_translate="false" value="Tid kvar"/>
+        <text id="50_value" need_translate="false" value="Tiden på klockratten är antalet försök att göra ett avtal"/>
         <text id="5_title" need_translate="false" value="Auktoritet"/>
         <text id="5_value" need_translate="false" value="lobbylagar, sponsra politiker eller tjänstemän"/>
         <text id="6_title" need_translate="false" value="Nyheter"/>
