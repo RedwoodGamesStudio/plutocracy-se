@@ -19,6 +19,18 @@
         <text id="53_header" need_translate="true" value=""/>
         <text id="54_description" need_translate="true" value=""/>
         <text id="54_header" need_translate="true" value=""/>
+        <text id="55_description" need_translate="true" value=""/>
+        <text id="55_header" need_translate="true" value=""/>
+        <text id="56_description" need_translate="true" value=""/>
+        <text id="56_header" need_translate="true" value=""/>
+        <text id="57_description" need_translate="true" value=""/>
+        <text id="57_header" need_translate="true" value=""/>
+        <text id="58_description" need_translate="true" value=""/>
+        <text id="58_header" need_translate="true" value=""/>
+        <text id="59_description" need_translate="true" value=""/>
+        <text id="59_header" need_translate="true" value=""/>
+        <text id="60_description" need_translate="true" value=""/>
+        <text id="60_header" need_translate="true" value=""/>
     </event>
     <event_button>
         <text id="button_20_1_header" need_translate="true" value=""/>
@@ -87,6 +99,30 @@
         <text id="button_54_2_header" need_translate="true" value=""/>
         <text id="button_54_2_hover_text" need_translate="true" value=""/>
         <text id="button_54_2_text" need_translate="true" value=""/>
+        <text id="button_55_1_header" need_translate="true" value=""/>
+        <text id="button_55_1_hover_text" need_translate="true" value=""/>
+        <text id="button_55_1_text" need_translate="true" value=""/>
+        <text id="button_55_2_header" need_translate="true" value=""/>
+        <text id="button_55_2_hover_text" need_translate="true" value=""/>
+        <text id="button_55_2_text" need_translate="true" value=""/>
+        <text id="button_56_1_header" need_translate="true" value=""/>
+        <text id="button_56_1_hover_text" need_translate="true" value=""/>
+        <text id="button_56_1_text" need_translate="true" value=""/>
+        <text id="button_56_2_header" need_translate="true" value=""/>
+        <text id="button_56_2_hover_text" need_translate="true" value=""/>
+        <text id="button_56_2_text" need_translate="true" value=""/>
+        <text id="button_57_1_header" need_translate="true" value=""/>
+        <text id="button_57_1_hover_text" need_translate="true" value=""/>
+        <text id="button_57_1_text" need_translate="true" value=""/>
+        <text id="button_57_2_header" need_translate="true" value=""/>
+        <text id="button_57_2_hover_text" need_translate="true" value=""/>
+        <text id="button_57_2_text" need_translate="true" value=""/>
+        <text id="button_60_1_header" need_translate="true" value=""/>
+        <text id="button_60_1_hover_text" need_translate="true" value=""/>
+        <text id="button_60_1_text" need_translate="true" value=""/>
+        <text id="button_60_2_header" need_translate="true" value=""/>
+        <text id="button_60_2_hover_text" need_translate="true" value=""/>
+        <text id="button_60_2_text" need_translate="true" value=""/>
         <text id="disabled_button_20_1_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_20_2_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_20_3_hover_text" need_translate="true" value=""/>
@@ -109,6 +145,14 @@
         <text id="disabled_button_53_2_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_54_1_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_54_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_55_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_55_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_56_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_56_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_57_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_57_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_60_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_60_2_hover_text" need_translate="true" value=""/>
     </event_button>
     <event_type>
         <text id="1" need_translate="true" value=""/>

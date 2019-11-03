@@ -1,16 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <persons_characters>
-
     <ambitions>
         <text id="00_shares_bank_description" need_translate="true" value=""/>
         <text id="00_shares_bank_name" need_translate="false" value="Jag vill ha aktier av en bank"/>
-
         <text id="01_shares_oil_production_description" need_translate="true" value=""/>
         <text id="01_shares_oil_production_name" need_translate="false" value="Jag vill ha aktier i ett oljeproducerande företag"/>
         <text id="02_shares_transport_company_description" need_translate="true" value=""/>
         <text id="02_shares_transport_company_name" need_translate="false" value="Jag vill ha aktier i ett transportföretag"/>
-
-
         <text id="03_shares_petroleum_refinery_description" need_translate="true" value=""/>
         <text id="03_shares_petroleum_refinery_name" need_translate="false" value="Jag vill ha aktier i ett oljeraffineringsföretag"/>
         <text id="04_control_shares_pack_of_bank_description" need_translate="true" value=""/>
@@ -21,18 +17,18 @@
         <text id="06_control_shares_pack_of_transport_company_name" need_translate="true" value=""/>
         <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="true" value=""/>
         <text id="07_control_shares_pack_of_petroleum_refinery_name" need_translate="true" value=""/>
-        <text id="08_accumulation_description" need_translate="true" value=""/>
-        <text id="08_accumulation_name" need_translate="false" value="Jag vill bli en valkampanjgivare"/>
+        <text id="08_finance_campaign_description" need_translate="true" value=""/>
+        <text id="08_finance_campaign_name" need_translate="true" value=""/>
         <text id="09_found_bank_description" need_translate="true" value=""/>
         <text id="09_found_bank_name" need_translate="true" value=""/>
         <text id="10_found_oil_production_description" need_translate="true" value=""/>
         <text id="10_found_oil_production_name" need_translate="true" value=""/>
-        <text id="11_found_transport_company_description" need_translate="true" value=""/>
-        <text id="11_found_transport_company_name" need_translate="true" value=""/>
-        <text id="12_found_petroleum_refinery_description" need_translate="true" value=""/>
-        <text id="12_found_petroleum_refinery_name" need_translate="true" value=""/>
-        <text id="13_add_to_collection_aircrafts_description" need_translate="true" value=""/>
-        <text id="13_add_to_collection_aircrafts_name" need_translate="true" value=""/>
+        <text id="11_add_to_collection_antiques_description" need_translate="true" value=""/>
+        <text id="11_add_to_collection_antiques_name" need_translate="true" value=""/>
+        <text id="12_add_to_collection_weapons_description" need_translate="true" value=""/>
+        <text id="12_add_to_collection_weapons_name" need_translate="true" value=""/>
+        <text id="13_add_to_collection_trophies_description" need_translate="true" value=""/>
+        <text id="13_add_to_collection_trophies_name" need_translate="true" value=""/>
         <text id="14_add_to_collection_pictures_description" need_translate="true" value=""/>
         <text id="14_add_to_collection_pictures_name" need_translate="true" value=""/>
         <text id="15_add_to_collection_horses_description" need_translate="true" value=""/>
@@ -45,8 +41,8 @@
         <text id="18_add_to_collection_houses_name" need_translate="true" value=""/>
         <text id="19_add_to_collection_yachts_description" need_translate="true" value=""/>
         <text id="19_add_to_collection_yachts_name" need_translate="true" value=""/>
-        <text id="20_add_new_friends_description" need_translate="true" value=""/>
-        <text id="20_add_new_friends_name" need_translate="true" value=""/>
+        <text id="20_add_to_collection_alco_description" need_translate="true" value=""/>
+        <text id="20_add_to_collection_alco_name" need_translate="true" value=""/>
         <text id="21_want_to_be_governor_description" need_translate="true" value=""/>
         <text id="21_want_to_be_governor_name" need_translate="false" value="Jag vill träffa en guvernör"/>
         <text id="22_want_to_be_treasurer_description" need_translate="true" value=""/>
@@ -65,8 +61,39 @@
         <text id="28_kill_all_enemies_name" need_translate="true" value=""/>
         <text id="29_buy_all_shares_description" need_translate="true" value=""/>
         <text id="29_buy_all_shares_name" need_translate="true" value=""/>
+        <text id="30_add_new_friends_description" need_translate="true" value=""/>
+        <text id="30_add_new_friends_name" need_translate="true" value=""/>
+        <text id="31_found_petroleum_refinery_description" need_translate="true" value=""/>
+        <text id="31_found_petroleum_refinery_name" need_translate="true" value=""/>
+        <text id="32_found_transport_company_description" need_translate="true" value=""/>
+        <text id="32_found_transport_company_name" need_translate="true" value=""/>
+        <text id="33_sell_from_collection_antiques_description" need_translate="true" value=""/>
+        <text id="33_sell_from_collection_antiques_name" need_translate="true" value=""/>
+        <text id="34_sell_from_collection_weapons_description" need_translate="true" value=""/>
+        <text id="34_sell_from_collection_weapons_name" need_translate="true" value=""/>
+        <text id="35_sell_from_collection_trophies_description" need_translate="true" value=""/>
+        <text id="35_sell_from_collection_trophies_name" need_translate="true" value=""/>
+        <text id="36_sell_from_collection_pictures_description" need_translate="true" value=""/>
+        <text id="36_sell_from_collection_pictures_name" need_translate="true" value=""/>
+        <text id="37_sell_from_collection_horses_description" need_translate="true" value=""/>
+        <text id="37_sell_from_collection_horses_name" need_translate="true" value=""/>
+        <text id="38_sell_from_collection_cars_description" need_translate="true" value=""/>
+        <text id="38_sell_from_collection_cars_name" need_translate="true" value=""/>
+        <text id="39_sell_from_collection_coins_description" need_translate="true" value=""/>
+        <text id="39_sell_from_collection_coins_name" need_translate="true" value=""/>
+        <text id="40_sell_from_collection_houses_description" need_translate="true" value=""/>
+        <text id="40_sell_from_collection_houses_name" need_translate="true" value=""/>
+        <text id="41_sell_from_collection_yachts_description" need_translate="true" value=""/>
+        <text id="41_sell_from_collection_yachts_name" need_translate="true" value=""/>
+        <text id="42_sell_from_collection_alco_description" need_translate="true" value=""/>
+        <text id="42_sell_from_collection_alco_name" need_translate="true" value=""/>
+        <text id="43_become_an_director_description" need_translate="true" value=""/>
+        <text id="43_become_an_director_name" need_translate="true" value=""/>
+        <text id="44_become_an_assistant_description" need_translate="true" value=""/>
+        <text id="44_become_an_assistant_name" need_translate="true" value=""/>
+        <text id="45_become_in_director_board_description" need_translate="true" value=""/>
+        <text id="45_become_in_director_board_name" need_translate="true" value=""/>
     </ambitions>
-
     <categories>
         <text id="0" need_translate="true" value=""/>
         <text id="1" need_translate="true" value=""/>
@@ -77,7 +104,42 @@
         <text id="6" need_translate="true" value=""/>
         <text id="7" need_translate="true" value=""/>
     </categories>
-
+    <coins_descriptions>
+        <text id="bandit" need_translate="true" value=""/>
+        <text id="congressman" need_translate="true" value=""/>
+        <text id="courtesan" need_translate="true" value=""/>
+        <text id="detective" need_translate="true" value=""/>
+        <text id="diplomat" need_translate="true" value=""/>
+        <text id="financier" need_translate="true" value=""/>
+        <text id="fireman" need_translate="true" value=""/>
+        <text id="governor" need_translate="true" value=""/>
+        <text id="journalist" need_translate="true" value=""/>
+        <text id="judge" need_translate="true" value=""/>
+        <text id="killer" need_translate="true" value=""/>
+        <text id="police_chief" need_translate="true" value=""/>
+        <text id="prosecutor" need_translate="true" value=""/>
+        <text id="senator" need_translate="true" value=""/>
+        <text id="trasher" need_translate="true" value=""/>
+        <text id="treasurer" need_translate="true" value=""/>
+    </coins_descriptions>
+    <coins_names>
+        <text id="bandit" need_translate="true" value=""/>
+        <text id="congressman" need_translate="true" value=""/>
+        <text id="courtesan" need_translate="true" value=""/>
+        <text id="detective" need_translate="true" value=""/>
+        <text id="diplomat" need_translate="true" value=""/>
+        <text id="financier" need_translate="true" value=""/>
+        <text id="fireman" need_translate="true" value=""/>
+        <text id="governor" need_translate="true" value=""/>
+        <text id="journalist" need_translate="true" value=""/>
+        <text id="judge" need_translate="true" value=""/>
+        <text id="killer" need_translate="true" value=""/>
+        <text id="police_chief" need_translate="true" value=""/>
+        <text id="prosecutor" need_translate="true" value=""/>
+        <text id="senator" need_translate="true" value=""/>
+        <text id="trasher" need_translate="true" value=""/>
+        <text id="treasurer" need_translate="true" value=""/>
+    </coins_names>
     <description_player>
         <text id="aggressive" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska två gånger mer i händelse av misslyckade förhandlingar"/>
         <text id="alcoholic" need_translate="false" value="Det finns 20% chans att karaktären inte kommer till förhandlingarna"/>
@@ -108,8 +170,6 @@
         <text id="trader" need_translate="false" value="Karaktären kommer att sänka priset två gånger mer än vanligt i händelse av ett motoffer"/>
         <text id="wasteful" need_translate="false" value="Förhandlingarna blir två gånger dyrare"/>
     </description_player>
-
-
     <descriptions>
         <text id="aggressive" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska två gånger mer i händelse av misslyckade förhandlingar"/>
         <text id="alco_tobacco" need_translate="false" value="Alkohol/tobak"/>
@@ -146,12 +206,11 @@
         <text id="thrifty" need_translate="false" value="-20% Gangster succe"/>
         <text id="trader" need_translate="false" value="Karaktären kommer att sänka priset hälften så mycket än vanligt i fall av motoffer"/>
         <text id="trophies" need_translate="false" value="Trofeer"/>
+        <text id="unknown" need_translate="true" value=""/>
         <text id="wasteful" need_translate="false" value="Förhandlingarna blir två gånger billigare"/>
         <text id="weapons" need_translate="false" value="Vapen"/>
         <text id="yachts" need_translate="false" value="Yachts"/>
     </descriptions>
-
-
     <names>
         <text id="aggressive" need_translate="false" value="Agressiv"/>
         <text id="alco_tobacco" need_translate="false" value="Alkohol/tobak"/>

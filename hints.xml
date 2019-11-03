@@ -47,8 +47,8 @@
         <text id="2_value" need_translate="false" value="Rörelse mellan stater"/>
         <text id="30_title" need_translate="true" value=""/>
         <text id="30_value" need_translate="true" value=""/>
-        <text id="31_title" need_translate="false" value="Rykte"/>
-        <text id="31_value" need_translate="false" value="Om ditt popularitet är bättre än din motståndares popularitet, blir det mycket lättare att göra affärer. Men du får popularitetsstraff -1 poäng"/>
+        <text id="31_title" need_translate="true" value="Rykte"/>
+        <text id="31_value" need_translate="true" value="Om ditt popularitet är bättre än din motståndares popularitet, blir det mycket lättare att göra affärer. Men du får popularitetsstraff -1 poäng"/>
         <text id="32_title" need_translate="true" value=""/>
         <text id="32_value" need_translate="true" value=""/>
         <text id="33_title" need_translate="true" value=""/>
@@ -85,8 +85,12 @@
         <text id="47_title" need_translate="false" value="Marknadspris"/>
         <text id="4_title" need_translate="false" value="Prestationer och elit"/>
         <text id="4_value" need_translate="false" value="Dina prestationer och topplista"/>
-        <text id="50_title" need_translate="false" value="Tid kvar"/>
-        <text id="50_value" need_translate="false" value="Tiden på klockratten är antalet försök att göra ett avtal"/>
+        <text id="51_title" need_translate="true" value=""/>
+        <text id="51_value" need_translate="true" value=""/>
+        <text id="52_title" need_translate="true" value=""/>
+        <text id="52_value" need_translate="true" value=""/>
+        <text id="53_title" need_translate="true" value=""/>
+        <text id="53_value" need_translate="true" value=""/>
         <text id="5_title" need_translate="false" value="Auktoritet"/>
         <text id="5_value" need_translate="false" value="lobbylagar, sponsra politiker eller tjänstemän"/>
         <text id="6_title" need_translate="false" value="Nyheter"/>

@@ -39,6 +39,18 @@
         <text id="200" need_translate="true" value="Vad är orsaken till vårt möte? Jag har inte mycket tid"/>
         <text id="201" need_translate="true" value="Varför störde du mig? Hoppas, vårt samtal tar inte för mycket tid"/>
         <text id="202" need_translate="true" value="Jag hoppas att jag inte kommer att slösa min tid med dig"/>
+        <text id="20500" need_translate="true" value=""/>
+        <text id="20501" need_translate="true" value=""/>
+        <text id="20502" need_translate="true" value=""/>
+        <text id="20503" need_translate="true" value=""/>
+        <text id="20504" need_translate="true" value=""/>
+        <text id="20600" need_translate="true" value=""/>
+        <text id="20601" need_translate="true" value=""/>
+        <text id="20602" need_translate="true" value=""/>
+        <text id="20700" need_translate="true" value=""/>
+        <text id="20701" need_translate="true" value=""/>
+        <text id="20702" need_translate="true" value=""/>
+        <text id="20703" need_translate="true" value=""/>
         <text id="300" need_translate="true" value="Jag ville inte träffa dig. Så... Jag gör dig en tjänst. Vad vill du?"/>
         <text id="301" need_translate="true" value="Vad vill du ha från mig? Vi har inga gemensamma affärer"/>
         <text id="302" need_translate="true" value="Inga problem! Jag hjälper dig gärna igen!"/>
@@ -58,6 +70,48 @@
         <text id="702" need_translate="true" value="Är du inte vettig? Jag säljer aldrig mina aktier för det priset! Du borde tänka över ditt erbjudande före mötet!"/>
         <text id="703" need_translate="true" value="Det är skandalöst att erbjuda sådana villkor! Min inställning till dig är helt förstörd!"/>
     </discussion_phrase>
-    <perks/>
-    <phrases/>
+    <perks>
+        <text id="header_aikido" need_translate="true" value=""/>
+        <text id="header_distract" need_translate="true" value=""/>
+        <text id="header_ideal_logic" need_translate="true" value=""/>
+        <text id="header_quick_answer" need_translate="true" value=""/>
+        <text id="header_reduce_tension" need_translate="true" value=""/>
+        <text id="header_reinforce_argument" need_translate="true" value=""/>
+        <text id="header_second_chance" need_translate="true" value=""/>
+        <text id="header_time_is_money" need_translate="true" value=""/>
+        <text id="text_aikido" need_translate="true" value=""/>
+        <text id="text_distract" need_translate="true" value=""/>
+        <text id="text_ideal_logic" need_translate="true" value=""/>
+        <text id="text_quick_answer" need_translate="true" value=""/>
+        <text id="text_reduce_tension" need_translate="true" value=""/>
+        <text id="text_reinforce_argument" need_translate="true" value=""/>
+        <text id="text_second_chance" need_translate="true" value=""/>
+        <text id="text_time_is_money" need_translate="true" value=""/>
+    </perks>
+    <phrases>
+        <text id="opponent_authority_phrase_chance_1" need_translate="true" value=""/>
+        <text id="opponent_authority_phrase_chance_2" need_translate="true" value=""/>
+        <text id="opponent_authority_phrase_chance_3" need_translate="true" value=""/>
+        <text id="opponent_authority_phrase_price_1" need_translate="true" value=""/>
+        <text id="opponent_authority_phrase_price_2" need_translate="true" value=""/>
+        <text id="opponent_authority_phrase_price_3" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_chance_1" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_chance_2" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_chance_3" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_price_1" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_price_2" need_translate="true" value=""/>
+        <text id="opponent_shares_buy_phrase_price_3" need_translate="true" value=""/>
+        <text id="player_authority_phrase_chance_1" need_translate="true" value=""/>
+        <text id="player_authority_phrase_chance_2" need_translate="true" value=""/>
+        <text id="player_authority_phrase_chance_3" need_translate="true" value=""/>
+        <text id="player_authority_phrase_price_1" need_translate="true" value=""/>
+        <text id="player_authority_phrase_price_2" need_translate="true" value=""/>
+        <text id="player_authority_phrase_price_3" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_chance_1" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_chance_2" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_chance_3" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_price_1" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_price_2" need_translate="true" value=""/>
+        <text id="player_shares_buy_phrase_price_3" need_translate="true" value=""/>
+    </phrases>
 </discussion_dialog>

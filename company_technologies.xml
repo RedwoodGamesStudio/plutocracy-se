@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <company_technologies>
-    <technology_0/>
-    <technology_10/>
-    <technology_1/>
-    <technology_11/>
-    <technology_2/>
-    <technology_3/>
-    <technology_4/>
-    <technology_5/>
-    <technology_6/>
-    <technology_7/>
-    <technology_8/>
-    <technology_9/>
+    <technology_0>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_0>
+    <technology_10>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_10>
+    <technology_1>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_1>
+    <technology_11>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_11>
+    <technology_2>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_2>
+    <technology_3>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_3>
+    <technology_4>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_4>
+    <technology_5>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_5>
+    <technology_6>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_6>
+    <technology_7>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_7>
+    <technology_8>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_8>
+    <technology_9>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+    </technology_9>
 </company_technologies>

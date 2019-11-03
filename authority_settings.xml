@@ -4,9 +4,15 @@
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
     </agressive_saying>
-    <capitol_14/>
-    <capitol_34/>
-    <capitol_43/>
+    <capitol_14>
+        <text id="name" need_translate="true" value=""/>
+    </capitol_14>
+    <capitol_34>
+        <text id="name" need_translate="true" value=""/>
+    </capitol_34>
+    <capitol_43>
+        <text id="name" need_translate="true" value=""/>
+    </capitol_43>
     <careful_saying>
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
@@ -59,7 +65,35 @@
         <text id="name" need_translate="true" value=""/>
         <text id="text" need_translate="true" value=""/>
     </respective_saying>
-    <sayings/>
+    <sayings>
+        <text id="saying_1_1" need_translate="true" value=""/>
+        <text id="saying_1_2" need_translate="true" value=""/>
+        <text id="saying_1_3" need_translate="true" value=""/>
+        <text id="saying_2_1" need_translate="true" value=""/>
+        <text id="saying_2_2" need_translate="true" value=""/>
+        <text id="saying_2_3" need_translate="true" value=""/>
+        <text id="saying_3_1" need_translate="true" value=""/>
+        <text id="saying_3_2" need_translate="true" value=""/>
+        <text id="saying_3_3" need_translate="true" value=""/>
+        <text id="saying_4_1" need_translate="true" value=""/>
+        <text id="saying_4_2" need_translate="true" value=""/>
+        <text id="saying_4_3" need_translate="true" value=""/>
+        <text id="saying_5_1" need_translate="true" value=""/>
+        <text id="saying_5_2" need_translate="true" value=""/>
+        <text id="saying_5_3" need_translate="true" value=""/>
+        <text id="saying_6_1" need_translate="true" value=""/>
+        <text id="saying_6_2" need_translate="true" value=""/>
+        <text id="saying_6_3" need_translate="true" value=""/>
+        <text id="saying_7_1" need_translate="true" value=""/>
+        <text id="saying_7_2" need_translate="true" value=""/>
+        <text id="saying_7_3" need_translate="true" value=""/>
+        <text id="saying_8_1" need_translate="true" value=""/>
+        <text id="saying_8_2" need_translate="true" value=""/>
+        <text id="saying_8_3" need_translate="true" value=""/>
+        <text id="saying_9_1" need_translate="true" value=""/>
+        <text id="saying_9_2" need_translate="true" value=""/>
+        <text id="saying_9_3" need_translate="true" value=""/>
+    </sayings>
     <strategy>
         <text id="text_bribe" need_translate="true" value=""/>
         <text id="text_promises" need_translate="true" value=""/>
