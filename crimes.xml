@@ -36,11 +36,13 @@
         <text id="btn_ok" need_translate="true" value=""/>
         <text id="chance_requirements" need_translate="true" value=""/>
         <text id="corrupted_earlier" need_translate="true" value=""/>
+        <text id="dummy_not_possible" need_translate="true" value=""/>
         <text id="government_contract_header" need_translate="true" value=""/>
         <text id="government_contract_text" need_translate="true" value=""/>
         <text id="governor_disabled" need_translate="true" value=""/>
         <text id="governor_is_dummy" need_translate="true" value=""/>
         <text id="governor_is_friendly" need_translate="true" value=""/>
+        <text id="honest_person" need_translate="true" value=""/>
         <text id="incorrect_law_stage" need_translate="true" value=""/>
         <text id="influence_requirements" need_translate="true" value=""/>
         <text id="judge_disabled" need_translate="true" value=""/>

@@ -140,74 +140,42 @@
         <text id="trasher" need_translate="true" value=""/>
         <text id="treasurer" need_translate="true" value=""/>
     </coins_names>
-    <description_player>
-        <text id="aggressive" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska två gånger mer i händelse av misslyckade förhandlingar"/>
-        <text id="alcoholic" need_translate="false" value="Det finns 20% chans att karaktären inte kommer till förhandlingarna"/>
-        <text id="arrogant" need_translate="false" value="'Arrogant' har ingen effekt"/>
-        <text id="brawler" need_translate="false" value="+ 20% till framgång för journalist"/>
-        <text id="careful" need_translate="false" value="-20% lönnmördare succe"/>
-        <text id="careless" need_translate="false" value="+20% lönnmördare succe"/>
-        <text id="compliant" need_translate="false" value="Karaktären kommer att sänka priset två gånger lägre än vanligt i fall av motoffer"/>
-        <text id="dark_past" need_translate="false" value="+20% Detektiv succe"/>
-        <text id="dependent" need_translate="false" value="Genom att förhandla måste du spendera två gånger fler inflytelsepoäng för att göra en affär"/>
-        <text id="explosive" need_translate="false" value="Du kommer att få färre försök att göra en affär"/>
-        <text id="fearless" need_translate="false" value="-20% skurk succe"/>
-        <text id="fool" need_translate="false" value="'Despot' har ingen effekt'"/>
-        <text id="friendly" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska 2 gånger mindre om det misslyckas med förhandlingarna"/>
-        <text id="frigid" need_translate="false" value="-20% kurtisan succe"/>
-        <text id="heavy" need_translate="false" value="Det kommer att ta tre gånger längre tid att återhämta sig från förhandlingarna"/>
-        <text id="holyman" need_translate="false" value="-20% detektiv succe"/>
-        <text id="illegible" need_translate="false" value="Det misslyckade / avbrutna förhandlingen: anseende på rykte är två gånger mer"/>
-        <text id="independent" need_translate="false" value="Genom att förhandla måste du spendera två gånger mindre påverkanspunkter för att göra en affär"/>
-        <text id="light" need_translate="false" value="Det kommer att ta tre gånger fortare tid att återhämta sig från förhandlingarna"/>
-        <text id="lustful" need_translate="false" value="+20% kurtisan succe"/>
-        <text id="mercantile" need_translate="false" value="Förhandlingarna blir två gånger billigare"/>
-        <text id="restrained" need_translate="false" value="-20% journalist succe"/>
-        <text id="selective" need_translate="false" value="Den avbrutna förhandlingen: rykte straff är två gånger mindre; den framgångsrika förhandlingen: rykte bonusen är två gånger mer"/>
-        <text id="shy" need_translate="false" value="+20% skurk succe"/>
-        <text id="spender" need_translate="false" value="+20% Gangster success of Gangster"/>
-        <text id="thrifty" need_translate="false" value="-20% Gangster succe"/>
-        <text id="trader" need_translate="false" value="Karaktären kommer att sänka priset två gånger mer än vanligt i händelse av ett motoffer"/>
-        <text id="wasteful" need_translate="false" value="Förhandlingarna blir två gånger dyrare"/>
-    </description_player>
     <descriptions>
-        <text id="aggressive" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska två gånger mer i händelse av misslyckade förhandlingar"/>
+        <text id="aggressive" need_translate="true" value="Karaktärens lojalitet till dig kommer att minska två gånger mer i händelse av misslyckade förhandlingar"/>
         <text id="alco_tobacco" need_translate="false" value="Alkohol/tobak"/>
         <text id="alcoholic" need_translate="false" value="Det finns 20% chans att karaktären inte kommer till förhandlingarna"/>
         <text id="antiques" need_translate="false" value="antikviteter"/>
-        <text id="arrogant" need_translate="false" value="Endast spelaren kan skapa avtal"/>
+        <text id="atheist" need_translate="true" value=""/>
+        <text id="believer" need_translate="true" value=""/>
         <text id="brawler" need_translate="false" value="+20% journalist succe"/>
         <text id="careful" need_translate="false" value="-20% lönnmördare succe"/>
         <text id="careless" need_translate="false" value="+20% lönnmördare succe"/>
         <text id="cars" need_translate="false" value="Bilar"/>
         <text id="coins" need_translate="false" value="Mynt"/>
-        <text id="compliant" need_translate="false" value="Karaktären kommer att sänka priset två gånger mer än vanligt i händelse av ett motoffer"/>
+        <text id="crazy" need_translate="true" value=""/>
         <text id="dark_past" need_translate="false" value="+20% Detektiv succe"/>
-        <text id="dependent" need_translate="false" value="Genom att förhandla måste du spendera två gånger mindre påverkanspunkter för att göra en affär"/>
-        <text id="explosive" need_translate="false" value="You will have fewer attempts to make a deal"/>
+        <text id="dependent" need_translate="true" value="Genom att förhandla måste du spendera två gånger mindre påverkanspunkter för att göra en affär"/>
         <text id="fearless" need_translate="false" value="-20% skurk succe"/>
-        <text id="fool" need_translate="false" value="Du måste spendera 3 gånger mer inflytande för att starta förhandlingarna"/>
-        <text id="friendly" need_translate="false" value="Karaktärens lojalitet till dig kommer att minska 2 gånger mindre om det misslyckas med förhandlingarna"/>
+        <text id="friendly" need_translate="true" value="Karaktärens lojalitet till dig kommer att minska 2 gånger mindre om det misslyckas med förhandlingarna"/>
         <text id="frigid" need_translate="false" value="-20% kurtisan succe"/>
-        <text id="heavy" need_translate="false" value="Det kommer att ta tre gånger längre tid att återhämta sig från förhandlingarna"/>
+        <text id="fussy" need_translate="true" value=""/>
+        <text id="heavy" need_translate="true" value="Det kommer att ta tre gånger längre tid att återhämta sig från förhandlingarna"/>
         <text id="holyman" need_translate="false" value="-20% Detektive succe"/>
+        <text id="honest" need_translate="true" value=""/>
         <text id="horses" need_translate="false" value="Hästar"/>
         <text id="houses" need_translate="false" value="Hus"/>
-        <text id="illegible" need_translate="false" value="Den avbrutna förhandlingen: popularitets straffet är två gånger mindre; den framgångsrika förhandlingen: rykte bonusen är två gånger mer"/>
-        <text id="independent" need_translate="false" value="Genom att förhandla måste du spendera två gånger fler inflyttspunkter för att göra en affär"/>
-        <text id="light" need_translate="false" value="Det kommer att ta tre gånger mindre tid att återhämta sig från förhandlingarna"/>
+        <text id="independent" need_translate="true" value="Genom att förhandla måste du spendera två gånger fler inflyttspunkter för att göra en affär"/>
         <text id="lustful" need_translate="false" value="+20% kurtisan succe"/>
-        <text id="mercantile" need_translate="false" value="Förhandlingarna blir två gånger dyrare"/>
+        <text id="mercantile" need_translate="true" value="Förhandlingarna blir två gånger dyrare"/>
         <text id="pictures" need_translate="false" value="Målningar"/>
+        <text id="proud" need_translate="true" value=""/>
         <text id="restrained" need_translate="false" value="-20% journalist succe"/>
-        <text id="selective" need_translate="false" value="Det misslyckade / avbrutna förhandlingen: avdrag på popularitets poängen blir dubbelt"/>
         <text id="shy" need_translate="false" value="+20% skurk succe"/>
         <text id="spender" need_translate="false" value="+20% Gangster succe"/>
         <text id="thrifty" need_translate="false" value="-20% Gangster succe"/>
-        <text id="trader" need_translate="false" value="Karaktären kommer att sänka priset hälften så mycket än vanligt i fall av motoffer"/>
         <text id="trophies" need_translate="false" value="Trofeer"/>
         <text id="unknown" need_translate="true" value=""/>
-        <text id="wasteful" need_translate="false" value="Förhandlingarna blir två gånger billigare"/>
+        <text id="wasteful" need_translate="true" value="Förhandlingarna blir två gånger billigare"/>
         <text id="weapons" need_translate="false" value="Vapen"/>
         <text id="yachts" need_translate="false" value="Yachts"/>
     </descriptions>
@@ -216,36 +184,34 @@
         <text id="alco_tobacco" need_translate="false" value="Alkohol/tobak"/>
         <text id="alcoholic" need_translate="false" value="Alkolist"/>
         <text id="antiques" need_translate="false" value="Antiikviteter"/>
-        <text id="arrogant" need_translate="false" value="Arrogant"/>
+        <text id="atheist" need_translate="true" value=""/>
+        <text id="believer" need_translate="true" value=""/>
         <text id="brawler" need_translate="false" value="Sprudlande"/>
         <text id="careful" need_translate="false" value="Omtänksam"/>
         <text id="careless" need_translate="false" value="Vårdslös"/>
         <text id="cars" need_translate="false" value="Bilar"/>
         <text id="coins" need_translate="false" value="Mynt"/>
-        <text id="compliant" need_translate="false" value="Klagomål"/>
+        <text id="crazy" need_translate="true" value=""/>
         <text id="dark_past" need_translate="false" value="Mörkt förflutet"/>
-        <text id="dependent" need_translate="false" value="Ryggradslös"/>
-        <text id="explosive" need_translate="false" value="Explosiv"/>
+        <text id="dependent" need_translate="true" value="Ryggradslös"/>
         <text id="fearless" need_translate="false" value="Orädd"/>
-        <text id="fool" need_translate="false" value="Despot"/>
-        <text id="friendly" need_translate="false" value="Vänlig"/>
+        <text id="friendly" need_translate="true" value="Vänlig"/>
         <text id="frigid" need_translate="false" value="Frigid"/>
+        <text id="fussy" need_translate="true" value=""/>
         <text id="heavy" need_translate="false" value="Stark"/>
         <text id="holyman" need_translate="false" value="Helig"/>
+        <text id="honest" need_translate="true" value=""/>
         <text id="horses" need_translate="false" value="Hästar"/>
         <text id="houses" need_translate="false" value="Hus"/>
-        <text id="illegible" need_translate="false" value="Lättsinnig"/>
         <text id="independent" need_translate="false" value="Karismatisk"/>
-        <text id="light" need_translate="false" value="Svag"/>
         <text id="lustful" need_translate="false" value="Oanständig"/>
         <text id="mercantile" need_translate="false" value="Legosoldat"/>
         <text id="pictures" need_translate="false" value="Målningar"/>
+        <text id="proud" need_translate="true" value=""/>
         <text id="restrained" need_translate="false" value="Lugn"/>
-        <text id="selective" need_translate="false" value="Selektiv"/>
         <text id="shy" need_translate="false" value="Skygg"/>
         <text id="spender" need_translate="false" value="Slösare"/>
         <text id="thrifty" need_translate="false" value="Sparsam"/>
-        <text id="trader" need_translate="false" value="Handelsman"/>
         <text id="trophies" need_translate="false" value="Trofeer"/>
         <text id="wasteful" need_translate="false" value="Slösare"/>
         <text id="weapons" need_translate="false" value="Vapen"/>
