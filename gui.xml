@@ -548,6 +548,7 @@
         <text id="decide" need_translate="false" value="fatta beslut"/>
         <text id="decline" need_translate="false" value="Gjorda löften"/>
         <text id="effects" need_translate="false" value="konsekvenser"/>
+        <text id="exit_button" need_translate="true" value=""/>
         <text id="negative_result_accident" need_translate="true" value=""/>
         <text id="negative_result_strike" need_translate="false" value="Bolagets kvartalsinkomst minskar med %3% chance by $%1 (%2% av den totala imkomsten)"/>
         <text id="ok_button" need_translate="true" value=""/>
@@ -726,6 +727,8 @@
             <text id="title_8" need_translate="true" value=""/>
             <text id="title_9" need_translate="true" value=""/>
         </cards>
+        <text id="change" need_translate="true" value=""/>
+        <text id="change_text" need_translate="true" value=""/>
         <text id="company_statistics_blocked" need_translate="true" value=""/>
         <text id="company_statistics_blocked_title" need_translate="true" value=""/>
         <text id="director" need_translate="true" value=""/>
@@ -762,9 +765,9 @@
         <text id="diplomacy_skill_hint_text" need_translate="false" value="Skickligheten påverkar spelarens bonus / straff till chansen att göra en affär"/>
         <text id="directors" need_translate="true" value=""/>
         <text id="ecomonic_skill" need_translate="true" value=""/>
-        <text id="employ_director" need_translate="false" value="Anställ en Direktör"/>
-        <text id="employ_director_disabled" need_translate="false" value="Du kan inte anställa en direktör"/>
-        <text id="employ_director_no_control" need_translate="false" value="Du måste få ett bestämmande intresse i företaget för att kunna anställa en direktör"/>
+        <text id="employ_director" need_translate="true" value="Anställ en Direktör"/>
+        <text id="employ_director_disabled" need_translate="true" value="Du kan inte anställa en direktör"/>
+        <text id="employ_director_no_control" need_translate="true" value="Du måste få ett bestämmande intresse i företaget för att kunna anställa en direktör"/>
         <hints>
             <text id="change_per_step" need_translate="true" value=""/>
             <text id="h_1" need_translate="false" value="Stat"/>
@@ -792,9 +795,9 @@
         <text id="leisure" need_translate="false" value="Fritid"/>
         <text id="max_share_price" need_translate="false" value="Aktie pris"/>
         <text id="negotiation_days" need_translate="false" value="Dagar"/>
-        <text id="orders" need_translate="false" value="Direktör instruktioner"/>
+        <text id="orders" need_translate="true" value="Direktör instruktioner"/>
         <text id="orders_disabled" need_translate="false" value="Otilgänglig"/>
-        <text id="orders_no_director" need_translate="false" value="Du behöver anställa en Direktör för att kunna ge instruktioner"/>
+        <text id="orders_no_director" need_translate="true" value="Du behöver anställa en Direktör för att kunna ge instruktioner"/>
         <text id="persistence" need_translate="false" value="Uthållighet"/>
         <text id="player_is_busy" need_translate="false" value="Du är upptagen!"/>
         <text id="profit" need_translate="false" value="Inkomst"/>
@@ -955,6 +958,7 @@
             <text id="ok_button" need_translate="true" value=""/>
             <text id="reserves_changes" need_translate="true" value=""/>
             <text id="workplaces" need_translate="true" value=""/>
+            <text id="workplaces_header" need_translate="true" value=""/>
         </change_workplaces_popup>
         <text id="debts" need_translate="false" value="Skulder: "/>
         <text id="dividends" need_translate="false" value="Utdelning: "/>
@@ -975,12 +979,12 @@
     </director_result>
     <directors_dialog>
         <text id="current_work" need_translate="false" value="Current job"/>
-        <text id="directors" need_translate="false" value="Directors"/>
+        <text id="directors" need_translate="true" value="Directors"/>
         <text id="gold_parashute" need_translate="false" value="Golden parashute"/>
         <text id="jobless" need_translate="false" value="Arbetslös"/>
         <text id="name" need_translate="false" value="Namn"/>
         <text id="rate" need_translate="false" value="Betyg"/>
-        <text id="select_of_director" need_translate="false" value="Välj direktör"/>
+        <text id="select_of_director" need_translate="true" value="Välj direktör"/>
         <text id="specific" need_translate="false" value="specificitet"/>
         <text id="turnover_bonus" need_translate="false" value="omsåttningsbonus"/>
         <text id="type" need_translate="false" value="Typ"/>
@@ -1522,7 +1526,7 @@
     </guest_info>
     <hire_director_popup>
         <text id="ok_button" need_translate="false" value="Ok"/>
-        <text id="popup_header" need_translate="false" value="Ny direktör!"/>
+        <text id="popup_header" need_translate="true" value="Ny direktör!"/>
         <text id="popup_text" need_translate="false" value="{nickname} har fått VP platsen i {companyname} bolaget. Lönen blir $ {salary}!"/>
     </hire_director_popup>
     <hover_item>
@@ -1793,6 +1797,9 @@
             <text id="syracuse" need_translate="false" value="Syracuse"/>
             <text id="watertown" need_translate="false" value="Watertown"/>
         </cities>
+        <text id="ga_desc" need_translate="true" value=""/>
+        <text id="ga_motto" need_translate="true" value=""/>
+        <text id="ga_nickname" need_translate="true" value=""/>
         <text id="il_desc" need_translate="false" value="Huvudstaden i Illinois är Springfield i centrala delen av\nthe staten. Även om idag är statens största befolkningscenter i Chicago och i den nordöstra delen&#13;&#10;av staten växte statens europeiska befolkning först i väst, med franska som bosatte sig längs floden \ nMississippi och gav området namnet Illinois Country."/>
         <text id="il_motto" need_translate="false" value="'Union, Justice and Confidence'"/>
         <text id="il_nickname" need_translate="false" value="Pelican staten"/>
@@ -2061,8 +2068,8 @@
         <text id="agent_hint_text" need_translate="true" value=""/>
         <text id="agent_in_genetive" need_translate="false" value="Agent"/>
         <text id="assistant" need_translate="false" value="Assistent"/>
-        <text id="assistant_director" need_translate="false" value="&quot;{companyname}&quot; direktör"/>
-        <text id="assistant_director_in_genetive" need_translate="false" value="&quot;{companyname}&quot; direktörer"/>
+        <text id="assistant_director" need_translate="true" value="&quot;{companyname}&quot; direktör"/>
+        <text id="assistant_director_in_genetive" need_translate="true" value="&quot;{companyname}&quot; direktörer"/>
         <text id="assistant_in_genetive" need_translate="false" value="Assistent"/>
         <text id="authority" need_translate="true" value=""/>
         <text id="bot" need_translate="true" value=""/>
@@ -2072,7 +2079,7 @@
         <text id="compromising_hint_text" need_translate="true" value=""/>
         <text id="democrat" need_translate="false" value="Demokrat"/>
         <text id="democrat_in_genetive" need_translate="true" value=""/>
-        <text id="director" need_translate="false" value="Direktör"/>
+        <text id="director" need_translate="true" value="Direktör"/>
         <text id="dummy_hint_header" need_translate="true" value=""/>
         <text id="dummy_hint_text" need_translate="true" value=""/>
         <text id="enemy_relation" need_translate="false" value="Motståndare"/>
@@ -2494,6 +2501,10 @@
         <text id="diplomacy" need_translate="true" value=""/>
         <text id="economics" need_translate="true" value=""/>
         <text id="hint" need_translate="true" value=""/>
+        <text id="hint_2" need_translate="true" value=""/>
+        <text id="hint_2_diplomacy" need_translate="true" value=""/>
+        <text id="hint_2_economics" need_translate="true" value=""/>
+        <text id="hint_2_politics" need_translate="true" value=""/>
         <text id="level_1" need_translate="true" value=""/>
         <text id="level_2" need_translate="true" value=""/>
         <text id="level_3" need_translate="true" value=""/>
@@ -2869,17 +2880,16 @@
         <text id="ambition" need_translate="true" value=""/>
         <text id="assets" need_translate="true" value=""/>
         <text id="characteristics" need_translate="true" value=""/>
+        <text id="filter_all_ambitions" need_translate="true" value=""/>
         <text id="filter_all_persons" need_translate="true" value=""/>
         <text id="filter_all_states" need_translate="true" value=""/>
         <text id="filter_bot" need_translate="true" value=""/>
         <text id="filter_director" need_translate="true" value=""/>
-        <text id="filter_illinois" need_translate="true" value=""/>
-        <text id="filter_new_york" need_translate="true" value=""/>
         <text id="filter_official" need_translate="true" value=""/>
         <text id="filter_player" need_translate="true" value=""/>
         <text id="filter_politician" need_translate="true" value=""/>
+        <text id="filter_possible_ambitions" need_translate="true" value=""/>
         <text id="filter_shareholder" need_translate="true" value=""/>
-        <text id="filter_texas" need_translate="true" value=""/>
         <text id="name" need_translate="true" value=""/>
         <text id="profit" need_translate="true" value=""/>
         <text id="reputation" need_translate="true" value=""/>
@@ -2911,7 +2921,7 @@
         <text id="election_opponent" need_translate="true" value=""/>
         <text id="failed_negotiation" need_translate="false" value="Failed_negotiation"/>
         <text id="hired_assistant" need_translate="false" value="Anställd Assistent"/>
-        <text id="hired_director" need_translate="false" value="Anställd direktör"/>
+        <text id="hired_director" need_translate="true" value="Anställd direktör"/>
         <text id="in_prison" need_translate="true" value=""/>
         <text id="individual_ambition" need_translate="false" value="Ambition 'Exklusiv ägare'"/>
         <text id="journalist" need_translate="false" value="Använd journalist"/>

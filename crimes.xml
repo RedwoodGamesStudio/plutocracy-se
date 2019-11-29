@@ -33,6 +33,7 @@
     </hints>
     <other>
         <text id="accept_law" need_translate="true" value=""/>
+        <text id="applies_to_yourself" need_translate="true" value=""/>
         <text id="btn_ok" need_translate="true" value=""/>
         <text id="chance_requirements" need_translate="true" value=""/>
         <text id="corrupted_earlier" need_translate="true" value=""/>
