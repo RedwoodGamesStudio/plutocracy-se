@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <player_achievements_description>
     <descriptions>
-        <text id="artificial_manipulator" need_translate="true" value=""/>
+        <text id="artificial_manipulator" need_translate="false" value="Hire %1 assistenter"/>
         <text id="assets_rank" need_translate="true" value=""/>
-        <text id="bloody_prince" need_translate="true" value=""/>
+        <text id="bloody_prince" need_translate="false" value="Make %1 Lyckat mordförsök"/>
         <text id="cashflow_generator" need_translate="true" value=""/>
-        <text id="collector" need_translate="true" value=""/>
-        <text id="combinator" need_translate="true" value=""/>
-        <text id="corrupting_power" need_translate="true" value=""/>
-        <text id="country_figure" need_translate="true" value=""/>
-        <text id="diplomat_of_devil" need_translate="true" value=""/>
-        <text id="great_raider" need_translate="true" value=""/>
-        <text id="individual" need_translate="true" value=""/>
+        <text id="collector" need_translate="false" value="Get %1 samlar föremål"/>
+        <text id="combinator" need_translate="false" value="Gör en %1 vertikal samanflätning"/>
+        <text id="corrupting_power" need_translate="false" value="Gör ett %1 korrupt förslag"/>
+        <text id="country_figure" need_translate="false" value="Nå %1% influens i USA"/>
+        <text id="diplomat_of_devil" need_translate="false" value="Gör en %1 lyckad förhandling"/>
+        <text id="great_raider" need_translate="false" value="Ta kontrol av %1 bolag. valfri typ"/>
+        <text id="individual" need_translate="false" value="Köp %1% av ett bolags aktier"/>
         <text id="influence_rank" need_translate="true" value=""/>
-        <text id="local_lobbyist" need_translate="true" value=""/>
-        <text id="local_monopolist" need_translate="true" value=""/>
-        <text id="master_of_secrets" need_translate="true" value=""/>
-        <text id="plutocrat" need_translate="true" value=""/>
-        <text id="political_heavyweight" need_translate="true" value=""/>
-        <text id="regional_figure" need_translate="true" value=""/>
-        <text id="shadow_ruler" need_translate="true" value=""/>
+        <text id="local_lobbyist" need_translate="false" value="Lobba %1 lokal lag"/>
+        <text id="local_monopolist" need_translate="false" value="Erövra %1% marknads andelar i valfri stat "/>
+        <text id="master_of_secrets" need_translate="false" value="Skaffa %1 kompromiterande bevis"/>
+        <text id="plutocrat" need_translate="false" value="Skapa $%1"/>
+        <text id="political_heavyweight" need_translate="false" value="Lobba %1 federal lag"/>
+        <text id="regional_figure" need_translate="false" value="Nå %1% av influens i valfri stat"/>
+        <text id="shadow_ruler" need_translate="false" value="Du kontrollerar Amerikas Pesident"/>
         <text id="techno-boom" need_translate="true" value=""/>
-        <text id="themis_master" need_translate="true" value=""/>
-        <text id="us_monopolist" need_translate="true" value=""/>
-        <text id="walk_in_all_doors" need_translate="true" value=""/>
-        <text id="world_monopolist" need_translate="true" value=""/>
+        <text id="themis_master" need_translate="false" value="Stoppa %1 domslut"/>
+        <text id="us_monopolist" need_translate="false" value="Erövra %1% marknads andelar i Amerika"/>
+        <text id="walk_in_all_doors" need_translate="false" value="Kontrollera alla officals i en stat"/>
+        <text id="world_monopolist" need_translate="false" value="Erövra %1% marknads andelar i hela världen"/>
     </descriptions>
     <descriptions_complete>
-        <text id="artificial_manipulator" need_translate="true" value=""/>
+        <text id="artificial_manipulator" need_translate="false" value="Du har anställt %1 assistenter"/>
         <text id="assets_rank" need_translate="true" value=""/>
-        <text id="bloody_prince" need_translate="true" value=""/>
+        <text id="bloody_prince" need_translate="false" value="Du har %1 lyckade försök att ta död på karaktären"/>
         <text id="cashflow_generator" need_translate="true" value=""/>
-        <text id="collector" need_translate="true" value=""/>
-        <text id="combinator" need_translate="true" value=""/>
-        <text id="corrupting_power" need_translate="true" value=""/>
-        <text id="country_figure" need_translate="true" value=""/>
-        <text id="diplomat_of_devil" need_translate="true" value=""/>
-        <text id="great_raider" need_translate="true" value=""/>
-        <text id="individual" need_translate="true" value=""/>
+        <text id="collector" need_translate="false" value="Du har %1 sammlarobjekt"/>
+        <text id="combinator" need_translate="false" value="Du har skapat %1 vertikala intergrationer"/>
+        <text id="corrupting_power" need_translate="false" value="YDu har gjort %1 korrupta avtal"/>
+        <text id="country_figure" need_translate="false" value="Du har nått %1% influens i USA"/>
+        <text id="diplomat_of_devil" need_translate="false" value="Du har lyckats med %1 förhandlingar"/>
+        <text id="great_raider" need_translate="false" value="Du har tagit kontroll över %1 företag"/>
+        <text id="individual" need_translate="false" value="Du har köpt %1% av bolagets aktier."/>
         <text id="influence_rank" need_translate="true" value=""/>
-        <text id="local_lobbyist" need_translate="true" value=""/>
-        <text id="local_monopolist" need_translate="true" value=""/>
-        <text id="master_of_secrets" need_translate="true" value=""/>
-        <text id="plutocrat" need_translate="true" value=""/>
-        <text id="political_heavyweight" need_translate="true" value=""/>
-        <text id="regional_figure" need_translate="true" value=""/>
-        <text id="shadow_ruler" need_translate="true" value=""/>
+        <text id="local_lobbyist" need_translate="false" value="Du har lobbat %1 lokala lagar"/>
+        <text id="local_monopolist" need_translate="false" value="Du har erövrat %1% marknads andelar i denna stat"/>
+        <text id="master_of_secrets" need_translate="false" value="Du har %1 komprometterande bevis"/>
+        <text id="plutocrat" need_translate="false" value="Du har känat $%1."/>
+        <text id="political_heavyweight" need_translate="false" value="Du har lobbat %1 federala lagar"/>
+        <text id="regional_figure" need_translate="false" value="Du har nått %1% i influens i staten"/>
+        <text id="shadow_ruler" need_translate="false" value="Nu har du din egen Amerikanska President!"/>
         <text id="techno-boom" need_translate="true" value=""/>
-        <text id="themis_master" need_translate="true" value=""/>
-        <text id="us_monopolist" need_translate="true" value=""/>
-        <text id="walk_in_all_doors" need_translate="true" value=""/>
-        <text id="world_monopolist" need_translate="true" value=""/>
+        <text id="themis_master" need_translate="false" value="Du har avbrutet %1 dommar"/>
+        <text id="us_monopolist" need_translate="false" value="Du har erövrat %1% marknads andelar i USA"/>
+        <text id="walk_in_all_doors" need_translate="false" value="Alla officials i staten är nu under din kontroll"/>
+        <text id="world_monopolist" need_translate="false" value="Du har erövrat %1% marknads andelar i hela världen"/>
     </descriptions_complete>
     <names>
-        <text id="artificial_manipulator" need_translate="true" value=""/>
+        <text id="artificial_manipulator" need_translate="false" value="erfaren manipulator"/>
         <text id="assets_rank" need_translate="true" value=""/>
-        <text id="bloody_prince" need_translate="true" value=""/>
+        <text id="bloody_prince" need_translate="false" value="Blod Prins"/>
         <text id="cashflow_generator" need_translate="true" value=""/>
-        <text id="collector" need_translate="true" value=""/>
-        <text id="combinator" need_translate="true" value=""/>
-        <text id="corrupting_power" need_translate="true" value=""/>
-        <text id="country_figure" need_translate="true" value=""/>
-        <text id="diplomat_of_devil" need_translate="true" value=""/>
-        <text id="great_raider" need_translate="true" value=""/>
-        <text id="individual" need_translate="true" value=""/>
+        <text id="collector" need_translate="false" value="Samlare"/>
+        <text id="combinator" need_translate="false" value="Oärlig försäljare"/>
+        <text id="corrupting_power" need_translate="false" value="Korrumptör"/>
+        <text id="country_figure" need_translate="false" value="Kapten Amerika"/>
+        <text id="diplomat_of_devil" need_translate="false" value="Dlävulens Advokat"/>
+        <text id="great_raider" need_translate="false" value="Ökänd bolagsplundrare"/>
+        <text id="individual" need_translate="false" value="Exklusiv ägare"/>
         <text id="influence_rank" need_translate="true" value=""/>
-        <text id="local_lobbyist" need_translate="true" value=""/>
-        <text id="local_monopolist" need_translate="true" value=""/>
-        <text id="master_of_secrets" need_translate="true" value=""/>
-        <text id="plutocrat" need_translate="true" value=""/>
-        <text id="political_heavyweight" need_translate="true" value=""/>
-        <text id="regional_figure" need_translate="true" value=""/>
-        <text id="shadow_ruler" need_translate="true" value=""/>
+        <text id="local_lobbyist" need_translate="false" value="Lokal lobbyist"/>
+        <text id="local_monopolist" need_translate="false" value="Lokal monopolist"/>
+        <text id="master_of_secrets" need_translate="false" value="Hemligheternas Nästare"/>
+        <text id="plutocrat" need_translate="false" value="Plutokrat"/>
+        <text id="political_heavyweight" need_translate="false" value="Polisk tungviktare"/>
+        <text id="regional_figure" need_translate="false" value="Regional figur"/>
+        <text id="shadow_ruler" need_translate="false" value="Skugg härskare"/>
         <text id="techno-boom" need_translate="true" value=""/>
-        <text id="themis_master" need_translate="true" value=""/>
-        <text id="us_monopolist" need_translate="true" value=""/>
-        <text id="walk_in_all_doors" need_translate="true" value=""/>
-        <text id="world_monopolist" need_translate="true" value=""/>
+        <text id="themis_master" need_translate="false" value="Themis mästare"/>
+        <text id="us_monopolist" need_translate="false" value="USA monopolist"/>
+        <text id="walk_in_all_doors" need_translate="false" value="Influentiell person"/>
+        <text id="world_monopolist" need_translate="false" value="Global monopolist"/>
     </names>
     <progress_text>
-        <text id="artificial_manipulator" need_translate="true" value=""/>
+        <text id="artificial_manipulator" need_translate="false" value="Anställda assistaenter:"/>
         <text id="assets_rank" need_translate="true" value=""/>
-        <text id="bloody_prince" need_translate="true" value=""/>
+        <text id="bloody_prince" need_translate="false" value="Lönnmord försök:"/>
         <text id="cashflow_generator" need_translate="true" value=""/>
-        <text id="collector" need_translate="true" value=""/>
-        <text id="combinator" need_translate="true" value=""/>
-        <text id="corrupting_power" need_translate="true" value=""/>
-        <text id="country_figure" need_translate="true" value=""/>
-        <text id="diplomat_of_devil" need_translate="true" value=""/>
-        <text id="great_raider" need_translate="true" value=""/>
-        <text id="individual" need_translate="true" value=""/>
+        <text id="collector" need_translate="false" value="Erhållna samlarobjekt:"/>
+        <text id="combinator" need_translate="false" value="Vertikal intergration:"/>
+        <text id="corrupting_power" need_translate="false" value="Corruption deals:"/>
+        <text id="country_figure" need_translate="false" value="Influens nivå i USA:"/>
+        <text id="diplomat_of_devil" need_translate="false" value="Utförda förhandlingar:"/>
+        <text id="great_raider" need_translate="false" value="kontroll av företag:"/>
+        <text id="individual" need_translate="false" value="inköpta aktieandelar:"/>
         <text id="influence_rank" need_translate="true" value=""/>
-        <text id="local_lobbyist" need_translate="true" value=""/>
-        <text id="local_monopolist" need_translate="true" value=""/>
-        <text id="master_of_secrets" need_translate="true" value=""/>
-        <text id="plutocrat" need_translate="true" value=""/>
-        <text id="political_heavyweight" need_translate="true" value=""/>
-        <text id="regional_figure" need_translate="true" value=""/>
-        <text id="shadow_ruler" need_translate="true" value=""/>
+        <text id="local_lobbyist" need_translate="false" value="Påverka lokala lagar:"/>
+        <text id="local_monopolist" need_translate="false" value="Marknadsandelar i denna  stat:"/>
+        <text id="master_of_secrets" need_translate="false" value="Erhållna grava bevis:"/>
+        <text id="plutocrat" need_translate="false" value="rikedom:"/>
+        <text id="political_heavyweight" need_translate="false" value="Påverka federala lagar:"/>
+        <text id="regional_figure" need_translate="false" value="Influera nivå i denna stat:"/>
+        <text id="shadow_ruler" need_translate="false" value="Marionet ruler:"/>
         <text id="techno-boom" need_translate="true" value=""/>
-        <text id="themis_master" need_translate="true" value=""/>
-        <text id="us_monopolist" need_translate="true" value=""/>
-        <text id="walk_in_all_doors" need_translate="true" value=""/>
-        <text id="world_monopolist" need_translate="true" value=""/>
+        <text id="themis_master" need_translate="false" value="avbrytna domar:"/>
+        <text id="us_monopolist" need_translate="false" value="Marknads andelar i USA:"/>
+        <text id="walk_in_all_doors" need_translate="false" value="kontrollera tjänstemän:"/>
+        <text id="world_monopolist" need_translate="false" value="Global Marknadsandel:"/>
     </progress_text>
     <short_descriptions>
         <text id="artificial_manipulator" need_translate="true" value=""/>

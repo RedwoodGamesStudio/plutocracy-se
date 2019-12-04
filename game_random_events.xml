@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game_random_events>
     <game_event_types>
-        <text id="1_description" need_translate="true" value=""/>
-        <text id="1_title" need_translate="true" value=""/>
-        <text id="2_description" need_translate="true" value=""/>
-        <text id="2_title" need_translate="true" value=""/>
-        <text id="3_description" need_translate="true" value=""/>
-        <text id="3_title" need_translate="true" value=""/>
-        <text id="4_description" need_translate="true" value=""/>
-        <text id="4_title" need_translate="true" value=""/>
-        <text id="5_description" need_translate="true" value=""/>
-        <text id="5_title" need_translate="true" value=""/>
-        <text id="6_description" need_translate="true" value=""/>
-        <text id="6_title" need_translate="true" value=""/>
+        <text id="1_description" need_translate="false" value=""/>
+        <text id="1_title" need_translate="false" value="välgörenhetsevenemang!"/>
+        <text id="2_description" need_translate="false" value="Now developing..."/>
+        <text id="2_title" need_translate="false" value="Du har tur!"/>
+        <text id="3_description" need_translate="false" value="Under utveckling..."/>
+        <text id="3_title" need_translate="false" value="skit händer!"/>
+        <text id="4_description" need_translate="false" value="Under utveckling..."/>
+        <text id="4_title" need_translate="false" value="Politiska gräl!"/>
+        <text id="5_description" need_translate="false" value="Under utveckling..."/>
+        <text id="5_title" need_translate="false" value="Rån!"/>
+        <text id="6_description" need_translate="false" value="Under utveckling..."/>
+        <text id="6_title" need_translate="false" value="Fördröjning!"/>
         <text id="7_description" need_translate="true" value=""/>
         <text id="7_title" need_translate="true" value=""/>
     </game_event_types>
     <game_events>
-        <text id="agree_button" need_translate="true" value=""/>
-        <text id="cancel_button" need_translate="true" value=""/>
-        <text id="delay_at_way_text" need_translate="true" value=""/>
-        <text id="donate_button" need_translate="true" value=""/>
-        <text id="donate_text_1" need_translate="true" value=""/>
-        <text id="donate_text_2" need_translate="true" value=""/>
-        <text id="hire" need_translate="true" value=""/>
-        <text id="hold_up_text" need_translate="true" value=""/>
-        <text id="horse_down_text" need_translate="true" value=""/>
-        <text id="hot_coffee_text" need_translate="true" value=""/>
-        <text id="pay" need_translate="true" value=""/>
+        <text id="agree_button" need_translate="false" value="Håll med"/>
+        <text id="cancel_button" need_translate="false" value="vägra"/>
+        <text id="delay_at_way_text" need_translate="false" value="Olyckan inträffade på järnvägsspåret under resan. Vad ska du göra? Hyr ett fordon eller vänta på att tåget repareras?"/>
+        <text id="donate_button" need_translate="false" value="Donera"/>
+        <text id="donate_text_1" need_translate="false" value="New Dawn Charitable Stiftelsen accepterar begäran om donationer. Donations summan är $ %1."/>
+        <text id="donate_text_2" need_translate="false" value="Barnhemmet Сosiness accepterar gåvo donationer för att förse barnen med vardagliga resurser. Snälla, gå inte förbi! Donations summan är $ %1."/>
+        <text id="hire" need_translate="false" value="Hyra"/>
+        <text id="hold_up_text" need_translate="false" value="När du kom hem,attackerades du av rånare! Hur agerar du???"/>
+        <text id="horse_down_text" need_translate="false" value="När du var ute och red, föll du olyckligtvis av hästen! Som ett resultat har du nu en stukad vrist! Nu bör du spendera%1 dag(ar)att komma över denna skada."/>
+        <text id="hot_coffee_text" need_translate="false" value="Attans! I går morse var du och spenderade dödtid genom att spela golf med dina vänner. Vid någon tidpunkt skadar du din hand och nu bör du spendera%1 dag(ar) för att komma över."/>
+        <text id="pay" need_translate="false" value="Betala"/>
         <text id="politic_text" need_translate="true" value=""/>
-        <text id="relations" need_translate="true" value=""/>
-        <text id="skirmish" need_translate="true" value=""/>
-        <text id="wait" need_translate="true" value=""/>
-        <text id="win_money_text_1" need_translate="true" value=""/>
-        <text id="win_money_text_2" need_translate="true" value=""/>
-        <text id="win_money_text_3" need_translate="true" value=""/>
-        <text id="win_ok_button_1" need_translate="true" value=""/>
-        <text id="win_ok_button_2" need_translate="true" value=""/>
-        <text id="win_ok_button_3" need_translate="true" value=""/>
+        <text id="relations" need_translate="false" value="%1 erbjuds att korsa upp %3! om du accepterar, kommer eran relation att förbättras med %1 men det finns en %2% risk att bli avslöjad av %3. Som ett result av detta, blir %3 din motståndare.\nom du vägrar, blir %1 din motståndare men din relation med %3 och dennes vänner blir mycket ljusare."/>
+        <text id="skirmish" need_translate="false" value="Eldstrid"/>
+        <text id="wait" need_translate="false" value="Vänta"/>
+        <text id="win_money_text_1" need_translate="false" value="I går kväll när du spelade poker vann du: $ %1."/>
+        <text id="win_money_text_2" need_translate="false" value="Lotteri vinst= $ %1."/>
+        <text id="win_money_text_3" need_translate="false" value="Din Kärlek till hästracing bär frukt ! Du hämtade ut $ %1 i prisluckan"/>
+        <text id="win_ok_button_1" need_translate="false" value="Andel"/>
+        <text id="win_ok_button_2" need_translate="false" value="Inkassera"/>
+        <text id="win_ok_button_3" need_translate="false" value="Får"/>
     </game_events>
 </game_random_events>
