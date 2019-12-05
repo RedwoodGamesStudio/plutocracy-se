@@ -37,91 +37,91 @@
         <text id="1_1_2_female" need_translate="false" value="Efter lite 'omskollnings arbete', så kommer klienten att vara redo att gå med på förslaget!"/>
         <text id="1_1_2_male" need_translate="false" value="Efter lite 'omskollnings arbete', så kommer klienten att vara redo att gå med på förslaget!"/>
         <text id="1_1_3_female" need_translate="false" value="Han försökte att övertala mig... Men, slutligen så möter hon dig halvägs !"/>
-        <text id="1_1_3_male" need_translate="false" value="Han försökte att övertala mig att gå... Men, slutligen så möter han dig halvägs !"/>
-        <text id="1_2_1_female" need_translate="false" value="Han försökte att övertala mig att gå... Men, slutligen så möter hon dig halvägs !"/>
-        <text id="1_2_1_male" need_translate="false" value="Tyvärr så kunde jag inte ta henne på plats. Jag antar att hon viste att jag skulle komma och hälsa på... Så nu gömmer han sig ifrån mig."/>
+        <text id="1_1_3_male" need_translate="true" value="Han försökte att övertala mig att gå... Men, slutligen så möter han dig halvägs !"/>
+        <text id="1_2_1_female" need_translate="true" value="Han försökte att övertala mig att gå... Men, slutligen så möter hon dig halvägs !"/>
+        <text id="1_2_1_male" need_translate="true" value="Tyvärr så kunde jag inte ta henne på plats. Jag antar att hon viste att jag skulle komma och hälsa på... Så nu gömmer han sig ifrån mig."/>
         <text id="1_2_2_female" need_translate="false" value="Tyvärr så kunde jag inte ta henne på plats. Jag antar att hon viste att jag skulle komma och hälsa på... Nu så gömmer hon sig ifrån mig."/>
         <text id="1_2_2_male" need_translate="false" value="Tyvärr så kunde jag inte ta honom på plats. Jag antar att han viste att jag skulle komma och hälsa på... Nu så gömmer han sig ifrån mig."/>
-        <text id="1_2_3_female" need_translate="false" value="Någon ringde polisen... Jag var tvungen att gå iväg! Jag skulle varit mer försiktig!"/>
-        <text id="1_2_3_male" need_translate="false" value="Någon ringde polisen... Jag var tvungen att gå iväg! Jag skulle varit mer försiktig!"/>
-        <text id="1_3_1_female" need_translate="false" value="Jag gick för långt... Hon är på sjukhus nu. Jag tror att vi har ett problem - hon är redo att vittna för polisen nu!"/>
-        <text id="1_3_1_male" need_translate="false" value="Jag gick för långt... han är på sjukhus nu. Jag tror att vi har ett problem - han är redo att vittna för polisen nu!"/>
-        <text id="1_3_2_female" need_translate="false" value="Jag hade inget val, de hade mig mot väggen... antagligen så ringde den där jävla sekreteraren polisen... Fan! Det är bra att brosan jobbar för polisen. Du borde göra dig redo för oväntade gäster, bara för säkerhetens skull."/>
-        <text id="1_3_2_male" need_translate="false" value="Jag hade inget val, de hade mig mot väggen... antagligen så ringde den där jävla sekreteraren polisen... Fan! Det är bra att brosan jobbar för polisen. Du borde göra dig redo för oväntade gäster, bara för säkerhetens skull."/>
-        <text id="1_3_3_female" need_translate="false" value="Jag tappade tiden när jag förtydligade en fråga... Grannarna blev misstänksamma och ringe polisen. Jag var tvungen att sticka och jag kan ha lämnat kvar några av mina fingertryck."/>
-        <text id="1_3_3_male" need_translate="false" value="Jag tappade tiden när jag förtydligade en fråga... Grannarna blev misstänksamma och ringe polisen. Jag var tvungen att sticka och jag kan ha lämnat kvar några av mina fingertryck."/>
-        <text id="2_1_1_female" need_translate="false" value="Som vad jag misstänkte, alla har sina hemligheter... Jag tror jag har tillräckligt nu att utpressa henne."/>
-        <text id="2_1_1_male" need_translate="false" value="Som vad jag misstänkte, alla har sina hemligheter... Jag tror jag har tillräckligt nu att utpressa henne."/>
-        <text id="2_1_2_female" need_translate="false" value="Ha, det var så enkelt, hon viste inte ens att hon sa allt jag ville höra... he-he-he."/>
-        <text id="2_1_2_male" need_translate="false" value="Ha, det var så enkelt, hon viste inte ens att han sa allt jag ville höra... he-he-he."/>
-        <text id="2_1_3_female" need_translate="false" value="Först så verkade hon otillgänglig men synder finns för att njutas av, eller hur? Det var ju det du ville."/>
-        <text id="2_1_3_male" need_translate="false" value="Först så verkade han otillgänglig men synder finns för att njutas av, eller hur? Det var ju det du ville."/>
-        <text id="2_2_1_female" need_translate="false" value="Förmodligen så har hon problem med kvinnor!!! Jag kunde inte ens prata med henne."/>
-        <text id="2_2_1_male" need_translate="false" value="Förmodligen så har han problem med kvinnor!!! Jävla gubb jävel! Jag kunde inte ens prata med honom"/>
-        <text id="2_2_2_female" need_translate="false" value="Jag har gjort mitt bästa, men jag kunde inte få det du ville ha."/>
-        <text id="2_2_2_male" need_translate="false" value="Jag har gjort mitt bästa, men jag kunde inte få det du ville ha."/>
-        <text id="2_2_3_female" need_translate="false" value="Jag har inga goda nyheter för dig... Vi pratade mer om mig än henne. Du vet, hon var fösiktig med sitt ordval."/>
-        <text id="2_2_3_male" need_translate="false" value="Jag har inga goda nyheter för dig... Vi pratade mer om mig än honom. Du vet, han var fösiktig med sitt ordval."/>
-        <text id="2_3_1_female" need_translate="false" value="Är jag så lättläst? Jag hade inte äns chansen att starta en konversation innan hon frågade: &quot;Vem skickade dig?&quot;"/>
-        <text id="2_3_1_male" need_translate="false" value="Är jag en så lättläst? Jag hade inte äns chansen att starta en konversation innan han frågade: &quot;Vem skickade dig?&quot;"/>
-        <text id="2_3_2_female" need_translate="false" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
-        <text id="2_3_2_male" need_translate="false" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
-        <text id="2_3_3_female" need_translate="false" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
-        <text id="2_3_3_male" need_translate="false" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
-        <text id="3_1_1_female" need_translate="false" value="Det var inte så svårt ! Mina killar vet vad de gör."/>
-        <text id="3_1_1_male" need_translate="false" value="Det var inte så svårt ! Mina killar vet vad de gör."/>
+        <text id="1_2_3_female" need_translate="true" value="Någon ringde polisen... Jag var tvungen att gå iväg! Jag skulle varit mer försiktig!"/>
+        <text id="1_2_3_male" need_translate="true" value="Någon ringde polisen... Jag var tvungen att gå iväg! Jag skulle varit mer försiktig!"/>
+        <text id="1_3_1_female" need_translate="true" value="Jag gick för långt... Hon är på sjukhus nu. Jag tror att vi har ett problem - hon är redo att vittna för polisen nu!"/>
+        <text id="1_3_1_male" need_translate="true" value="Jag gick för långt... han är på sjukhus nu. Jag tror att vi har ett problem - han är redo att vittna för polisen nu!"/>
+        <text id="1_3_2_female" need_translate="true" value="Jag hade inget val, de hade mig mot väggen... antagligen så ringde den där jävla sekreteraren polisen... Fan! Det är bra att brosan jobbar för polisen. Du borde göra dig redo för oväntade gäster, bara för säkerhetens skull."/>
+        <text id="1_3_2_male" need_translate="true" value="Jag hade inget val, de hade mig mot väggen... antagligen så ringde den där jävla sekreteraren polisen... Fan! Det är bra att brosan jobbar för polisen. Du borde göra dig redo för oväntade gäster, bara för säkerhetens skull."/>
+        <text id="1_3_3_female" need_translate="true" value="Jag tappade tiden när jag förtydligade en fråga... Grannarna blev misstänksamma och ringe polisen. Jag var tvungen att sticka och jag kan ha lämnat kvar några av mina fingertryck."/>
+        <text id="1_3_3_male" need_translate="true" value="Jag tappade tiden när jag förtydligade en fråga... Grannarna blev misstänksamma och ringe polisen. Jag var tvungen att sticka och jag kan ha lämnat kvar några av mina fingertryck."/>
+        <text id="2_1_1_female" need_translate="true" value="Som vad jag misstänkte, alla har sina hemligheter... Jag tror jag har tillräckligt nu att utpressa henne."/>
+        <text id="2_1_1_male" need_translate="true" value="Som vad jag misstänkte, alla har sina hemligheter... Jag tror jag har tillräckligt nu att utpressa henne."/>
+        <text id="2_1_2_female" need_translate="true" value="Ha, det var så enkelt, hon viste inte ens att hon sa allt jag ville höra... he-he-he."/>
+        <text id="2_1_2_male" need_translate="true" value="Ha, det var så enkelt, hon viste inte ens att han sa allt jag ville höra... he-he-he."/>
+        <text id="2_1_3_female" need_translate="true" value="Först så verkade hon otillgänglig men synder finns för att njutas av, eller hur? Det var ju det du ville."/>
+        <text id="2_1_3_male" need_translate="true" value="Först så verkade han otillgänglig men synder finns för att njutas av, eller hur? Det var ju det du ville."/>
+        <text id="2_2_1_female" need_translate="true" value="Förmodligen så har hon problem med kvinnor!!! Jag kunde inte ens prata med henne."/>
+        <text id="2_2_1_male" need_translate="true" value="Förmodligen så har han problem med kvinnor!!! Jävla gubb jävel! Jag kunde inte ens prata med honom"/>
+        <text id="2_2_2_female" need_translate="true" value="Jag har gjort mitt bästa, men jag kunde inte få det du ville ha."/>
+        <text id="2_2_2_male" need_translate="true" value="Jag har gjort mitt bästa, men jag kunde inte få det du ville ha."/>
+        <text id="2_2_3_female" need_translate="true" value="Jag har inga goda nyheter för dig... Vi pratade mer om mig än henne. Du vet, hon var fösiktig med sitt ordval."/>
+        <text id="2_2_3_male" need_translate="true" value="Jag har inga goda nyheter för dig... Vi pratade mer om mig än honom. Du vet, han var fösiktig med sitt ordval."/>
+        <text id="2_3_1_female" need_translate="true" value="Är jag så lättläst? Jag hade inte äns chansen att starta en konversation innan hon frågade: &quot;Vem skickade dig?&quot;"/>
+        <text id="2_3_1_male" need_translate="true" value="Är jag en så lättläst? Jag hade inte äns chansen att starta en konversation innan han frågade: &quot;Vem skickade dig?&quot;"/>
+        <text id="2_3_2_female" need_translate="true" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
+        <text id="2_3_2_male" need_translate="true" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
+        <text id="2_3_3_female" need_translate="true" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
+        <text id="2_3_3_male" need_translate="true" value="Beklagligen,  blev jag avslöjad.... Jag tror du kommer få problem snart."/>
+        <text id="3_1_1_female" need_translate="true" value="Det var inte så svårt ! Mina killar vet vad de gör."/>
+        <text id="3_1_1_male" need_translate="true" value="Det var inte så svårt ! Mina killar vet vad de gör."/>
         <text id="3_1_2_female" need_translate="false" value="Jag spelade mina kort rätt... Jag tror det är det här du ville ha."/>
         <text id="3_1_2_male" need_translate="false" value="Jag spelade mina kort rätt... Jag tror det är det här du ville ha."/>
         <text id="3_1_3_female" need_translate="false" value="Det här är tillräckligt för att sitta i en hel del skit!"/>
         <text id="3_1_3_male" need_translate="false" value="Det här är tillräckligt för att sitta i en hel del skit!"/>
-        <text id="3_2_1_female" need_translate="false" value="Jag hittade inget användbart för dig. Jag tror det är helt rent där"/>
-        <text id="3_2_1_male" need_translate="false" value="Jag hittade inget användbart för dig. Jag tror det är helt rent där"/>
-        <text id="3_2_2_female" need_translate="false" value="Jag hittade inget på henne. Jag kommer arbeta på mitt fall nästa gång istället"/>
-        <text id="3_2_2_male" need_translate="false" value="Jag hittade inget på honom. Jag kommer arbeta på mitt fall nästa gång istället"/>
-        <text id="3_2_3_female" need_translate="false" value="Killen jag skickade, för att kolla ditt fall, gick upp i rök. Så jag har inget att ge dig!"/>
-        <text id="3_2_3_male" need_translate="false" value="Killen jag skickade, för att kolla ditt fall, gick upp i rök. Så jag har inget att ge dig!"/>
-        <text id="3_3_1_female" need_translate="false" value="Jag var tvungen att böja på lagen i detta fall... Olyckligtvis. Desutom har jag flera klagomål på grund av detta"/>
-        <text id="3_3_1_male" need_translate="false" value="Jag var tvungen att böja på lagen i detta fall... Olyckligtvis. Desutom har jag flera klagomål på grund av detta"/>
-        <text id="3_3_2_female" need_translate="false" value="Det verkar som att hon är en riktig höjdare. De kom på mig, tyvär..."/>
-        <text id="3_3_2_male" need_translate="false" value="Det verkar som att han är en riktig höjdare. De kom på mig, tyvär..."/>
-        <text id="3_3_3_female" need_translate="false" value="En åklagare döljer hennes handlingar under mattan... Jag var tvungen att avsluta fallet. Jag skulle inte vilja påskynda detta, men jag tror de kommer att slå tillbaka."/>
-        <text id="3_3_3_male" need_translate="false" value="En åklagare döljer hans handlingar under mattan... Jag var tvungen att avsluta fallet. Jag skulle inte vilja påskynda detta men jag tror de kommer att slå tillbaka."/>
-        <text id="4_1_1_female" need_translate="false" value="Det var bra information! Jag lyckades få ut nåt bra här."/>
-        <text id="4_1_1_male" need_translate="false" value="Det var bra information! Jag lyckades få ut nåt bra här."/>
+        <text id="3_2_1_female" need_translate="true" value="Jag hittade inget användbart för dig. Jag tror det är helt rent där"/>
+        <text id="3_2_1_male" need_translate="true" value="Jag hittade inget användbart för dig. Jag tror det är helt rent där"/>
+        <text id="3_2_2_female" need_translate="true" value="Jag hittade inget på henne. Jag kommer arbeta på mitt fall nästa gång istället"/>
+        <text id="3_2_2_male" need_translate="true" value="Jag hittade inget på honom. Jag kommer arbeta på mitt fall nästa gång istället"/>
+        <text id="3_2_3_female" need_translate="true" value="Killen jag skickade, för att kolla ditt fall, gick upp i rök. Så jag har inget att ge dig!"/>
+        <text id="3_2_3_male" need_translate="true" value="Killen jag skickade, för att kolla ditt fall, gick upp i rök. Så jag har inget att ge dig!"/>
+        <text id="3_3_1_female" need_translate="true" value="Jag var tvungen att böja på lagen i detta fall... Olyckligtvis. Desutom har jag flera klagomål på grund av detta"/>
+        <text id="3_3_1_male" need_translate="true" value="Jag var tvungen att böja på lagen i detta fall... Olyckligtvis. Desutom har jag flera klagomål på grund av detta"/>
+        <text id="3_3_2_female" need_translate="true" value="Det verkar som att hon är en riktig höjdare. De kom på mig, tyvär..."/>
+        <text id="3_3_2_male" need_translate="true" value="Det verkar som att han är en riktig höjdare. De kom på mig, tyvär..."/>
+        <text id="3_3_3_female" need_translate="true" value="En åklagare döljer hennes handlingar under mattan... Jag var tvungen att avsluta fallet. Jag skulle inte vilja påskynda detta, men jag tror de kommer att slå tillbaka."/>
+        <text id="3_3_3_male" need_translate="true" value="En åklagare döljer hans handlingar under mattan... Jag var tvungen att avsluta fallet. Jag skulle inte vilja påskynda detta men jag tror de kommer att slå tillbaka."/>
+        <text id="4_1_1_female" need_translate="true" value="Det var bra information! Jag lyckades få ut nåt bra här."/>
+        <text id="4_1_1_male" need_translate="true" value="Det var bra information! Jag lyckades få ut nåt bra här."/>
         <text id="4_1_2_female" need_translate="false" value="Det blir en succe här! Vi har kommit på nåt värdefult här !"/>
         <text id="4_1_2_male" need_translate="false" value="Det blir en succe här! Vi har kommit på nåt värdefult här !"/>
         <text id="4_1_3_female" need_translate="false" value="Det blev förstaside stoff!!! nomben is aktiverad!"/>
         <text id="4_1_3_male" need_translate="false" value="Det blev förstaside stoff!!! nomben is aktiverad!"/>
         <text id="4_2_1_female" need_translate="false" value="Chefsredaktören vägrade trycka min artikel pga den låga bevisgraden "/>
         <text id="4_2_1_male" need_translate="false" value="Chefsredaktören vägrade trycka min artikel pga den låga bevisgraden "/>
-        <text id="4_2_2_female" need_translate="false" value="Informations graden var inte hög nog för att röra runt i grytan"/>
-        <text id="4_2_2_male" need_translate="false" value="Informations graden var inte hög nog för att röra runt i grytan"/>
-        <text id="4_2_3_female" need_translate="false" value="Beklagligen så vill jag inte behålla den här informationen, så het att jag kan va i fara!"/>
-        <text id="4_2_3_male" need_translate="false" value="Beklagligen så vill jag inte behålla den här informationen, så het att jag kan va i fara!"/>
-        <text id="4_3_1_female" need_translate="false" value="Information var falsknu är polisen på väg att starta en utredning."/>
-        <text id="4_3_1_male" need_translate="false" value="Information var falsknu är polisen på väg att starta en utredning."/>
-        <text id="4_3_2_female" need_translate="false" value="Artikeln var ratad från tryck pga den var falsk"/>
-        <text id="4_3_2_male" need_translate="false" value="Artikeln var ratad från tryck pga den var falsk"/>
+        <text id="4_2_2_female" need_translate="true" value="Informations graden var inte hög nog för att röra runt i grytan"/>
+        <text id="4_2_2_male" need_translate="true" value="Informations graden var inte hög nog för att röra runt i grytan"/>
+        <text id="4_2_3_female" need_translate="true" value="Beklagligen så vill jag inte behålla den här informationen, så het att jag kan va i fara!"/>
+        <text id="4_2_3_male" need_translate="true" value="Beklagligen så vill jag inte behålla den här informationen, så het att jag kan va i fara!"/>
+        <text id="4_3_1_female" need_translate="true" value="Information var falsknu är polisen på väg att starta en utredning."/>
+        <text id="4_3_1_male" need_translate="true" value="Information var falsknu är polisen på väg att starta en utredning."/>
+        <text id="4_3_2_female" need_translate="true" value="Artikeln var ratad från tryck pga den var falsk"/>
+        <text id="4_3_2_male" need_translate="true" value="Artikeln var ratad från tryck pga den var falsk"/>
         <text id="4_3_3_female" need_translate="false" value="En vederläggning från en annan journalist blev publicerad. jag tror inte du behöver vänta på ett positivt resultat."/>
         <text id="4_3_3_male" need_translate="false" value="En vederläggning från en annan journalist blev publicerad. jag tror inte du behöver vänta på ett positivt resultat."/>
-        <text id="6_1_1_female" need_translate="false" value="Jobbet utfört! Brottplatsen lämnades utan spår, så du kan sova lugnt!"/>
-        <text id="6_1_1_male" need_translate="false" value="Jobbet utfört! Brottplatsen lämnades utan spår, så du kan sova lugnt!"/>
-        <text id="6_1_2_female" need_translate="false" value="Jobbet utfört, Frun! Tog längre tid än förväntat"/>
-        <text id="6_1_2_male" need_translate="false" value="Jobbet utfört, Herrn! Tog längre tid än förväntat"/>
-        <text id="6_1_3_female" need_translate="false" value="Jag har gjort min bit! Det sägs att man vill ha få vänner, ha då en lönnmördar kompis! Ligger det nån sanning i det, tro? "/>
-        <text id="6_1_3_male" need_translate="false" value="Jag har gjort min bit! Det sägs att man vill ha få vänner, ha då en lönnmördar kompis! Ligger det nån sanning i det, tro? "/>
+        <text id="6_1_1_female" need_translate="true" value="Jobbet utfört! Brottplatsen lämnades utan spår, så du kan sova lugnt!"/>
+        <text id="6_1_1_male" need_translate="true" value="Jobbet utfört! Brottplatsen lämnades utan spår, så du kan sova lugnt!"/>
+        <text id="6_1_2_female" need_translate="true" value="Jobbet utfört, Frun! Tog längre tid än förväntat"/>
+        <text id="6_1_2_male" need_translate="true" value="Jobbet utfört, Herrn! Tog längre tid än förväntat"/>
+        <text id="6_1_3_female" need_translate="true" value="Jag har gjort min bit! Det sägs att man vill ha få vänner, ha då en lönnmördar kompis! Ligger det nån sanning i det, tro? "/>
+        <text id="6_1_3_male" need_translate="true" value="Jag har gjort min bit! Det sägs att man vill ha få vänner, ha då en lönnmördar kompis! Ligger det nån sanning i det, tro? "/>
         <text id="6_2_1_female" need_translate="false" value="Tyvärr så överlevde den tilltänkta måltavlan - nånting sket sig, så jag fick gömma mig, försöker gärna igen. "/>
         <text id="6_2_1_male" need_translate="false" value="Tyvärr så överlevde den tilltänkta måltavlan - nånting sket sig, så jag fick gömma mig, försöker gärna igen. "/>
-        <text id="6_2_2_female" need_translate="false" value="Målet var för välbevakatså jag lyckades inte att utföra din order"/>
-        <text id="6_2_2_male" need_translate="false" value="Målet var för välbevakatså jag lyckades inte att utföra din order"/>
-        <text id="6_2_3_female" need_translate="false" value="Det fanns ett barn i offrets närhet, av princip så avhåller jag mig från att döda mitt framför ett barn.Jag behöver mer tid."/>
-        <text id="6_2_3_male" need_translate="false" value="Det fanns ett barn i offrets närhet, av princip så avhåller jag mig från att döda mitt framför ett barn.Jag behöver mer tid."/>
-        <text id="6_3_1_female" need_translate="false" value="Jag tror att någon fått reda på våran mordplan, ty måltavlan fanns ej på plats."/>
-        <text id="6_3_1_male" need_translate="false" value="Jag tror att någon fått reda på våran mordplan, ty måltavlan fanns ej på plats."/>
-        <text id="6_3_2_female" need_translate="false" value="Det blev lite oroligtjag var tvungen att lämna min plats.nån har tydligen sett mitt ansikte klart och tydligt så vi får räkna med problem efter det här"/>
-        <text id="6_3_2_male" need_translate="false" value="Det blev lite oroligtjag var tvungen att lämna min plats.nån har tydligen sett mitt ansikte klart och tydligt så vi får räkna med problem efter det här"/>
-        <text id="6_3_3_female" need_translate="false" value="Polisen omringade huset jag var i.tur att huset hade källare, för där gömde jag mig tills kusten var klar. Men jag är rädd att några spår lämnade jag nog. "/>
-        <text id="6_3_3_male" need_translate="false" value="Polisen omringade huset jag var i.tur att huset hade källare, för där gömde jag mig tills kusten var klar. Men jag är rädd att några spår lämnade jag nog. "/>
+        <text id="6_2_2_female" need_translate="true" value="Målet var för välbevakatså jag lyckades inte att utföra din order"/>
+        <text id="6_2_2_male" need_translate="true" value="Målet var för välbevakatså jag lyckades inte att utföra din order"/>
+        <text id="6_2_3_female" need_translate="true" value="Det fanns ett barn i offrets närhet, av princip så avhåller jag mig från att döda mitt framför ett barn.Jag behöver mer tid."/>
+        <text id="6_2_3_male" need_translate="true" value="Det fanns ett barn i offrets närhet, av princip så avhåller jag mig från att döda mitt framför ett barn.Jag behöver mer tid."/>
+        <text id="6_3_1_female" need_translate="true" value="Jag tror att någon fått reda på våran mordplan, ty måltavlan fanns ej på plats."/>
+        <text id="6_3_1_male" need_translate="true" value="Jag tror att någon fått reda på våran mordplan, ty måltavlan fanns ej på plats."/>
+        <text id="6_3_2_female" need_translate="true" value="Det blev lite oroligtjag var tvungen att lämna min plats.nån har tydligen sett mitt ansikte klart och tydligt så vi får räkna med problem efter det här"/>
+        <text id="6_3_2_male" need_translate="true" value="Det blev lite oroligtjag var tvungen att lämna min plats.nån har tydligen sett mitt ansikte klart och tydligt så vi får räkna med problem efter det här"/>
+        <text id="6_3_3_female" need_translate="true" value="Polisen omringade huset jag var i.tur att huset hade källare, för där gömde jag mig tills kusten var klar. Men jag är rädd att några spår lämnade jag nog. "/>
+        <text id="6_3_3_male" need_translate="true" value="Polisen omringade huset jag var i.tur att huset hade källare, för där gömde jag mig tills kusten var klar. Men jag är rädd att några spår lämnade jag nog. "/>
         <text id="9_1_1_female" need_translate="true" value=""/>
         <text id="9_1_1_male" need_translate="true" value=""/>
         <text id="9_1_2_female" need_translate="true" value=""/>
@@ -157,7 +157,7 @@
         <text id="trasher_success_text_to_person" need_translate="true" value=""/>
     </agent_result>
     <agents_bandit>
-        <text id="description" need_translate="false" value="Den skumma och hala cowboyen med en rik kriminell bakgrund. Sedan barndomen har han bara känt en enda lag - &quot;Pistolens lag&quot;! På grund av kapitalismens snabba tillväxt, osammanhängande rättssystem krävde endast tre saker från honom: intelligens, beslutsamhet och skytteförmåga. Efter att ha förklarat sig själv, blev stöld och rån hans medel för att tjäna pengar. Om du behöver hans tjänster, var redo att betala honom bra."/>
+        <text id="description" need_translate="true" value="Den skumma och hala cowboyen med en rik kriminell bakgrund. Sedan barndomen har han bara känt en enda lag - &quot;Pistolens lag&quot;! På grund av kapitalismens snabba tillväxt, osammanhängande rättssystem krävde endast tre saker från honom: intelligens, beslutsamhet och skytteförmåga. Efter att ha förklarat sig själv, blev stöld och rån hans medel för att tjäna pengar. Om du behöver hans tjänster, var redo att betala honom bra."/>
         <text id="effect" need_translate="false" value="I händelse av framgång kommer agenten att stjäla upp till 10% av kontanterna"/>
         <text id="name" need_translate="false" value="Jesse"/>
         <text id="risk" need_translate="true" value=""/>
@@ -173,7 +173,7 @@
         <text id="surname" need_translate="true" value=""/>
     </agents_cardinal>
     <agents_courtesan>
-        <text id="description" need_translate="false" value="Poly Adler är ett kvinnligt mysterium  och har en sann förförsmak av män. Tidigt i livet insåg hon att en rik och inflytelserik älskare är en biljett till ett lyckligt liv! Sedan dess har hon lurat i samhälls toppen och försökt samla användbar information om män. Hon lyssnar in på privata samtal som kan innehålla smuts på gifta män"/>
+        <text id="description" need_translate="true" value="Poly Adler är ett kvinnligt mysterium  och har en sann förförsmak av män. Tidigt i livet insåg hon att en rik och inflytelserik älskare är en biljett till ett lyckligt liv! Sedan dess har hon lurat i samhälls toppen och försökt samla användbar information om män. Hon lyssnar in på privata samtal som kan innehålla smuts på gifta män"/>
         <text id="effect" need_translate="true" value=""/>
         <text id="name" need_translate="false" value="Poly"/>
         <text id="risk" need_translate="true" value=""/>
@@ -181,8 +181,8 @@
         <text id="surname" need_translate="false" value="Adler"/>
     </agents_courtesan>
     <agents_detective>
-        <text id="description" need_translate="false" value="Denna briljanta detektiv, som känner kriminalvärlden utan och innan, är chef för utredningsavdelningen som består av tidigare brottslingar. Han kan lösa pussel knytna till det mörka förflutna hos en karaktär samt med ekonomiskt bedrägeri i ett företag. Genom att ha möjlighet att agera utanför lagens råmärken, ger han viss garanti för sina kunder."/>
-        <text id="effect" need_translate="false" value="Om du lyckas får du 100% permanent till chansen att göra avtal med en kompromisserad karaktär"/>
+        <text id="description" need_translate="true" value="Denna briljanta detektiv, som känner kriminalvärlden utan och innan, är chef för utredningsavdelningen som består av tidigare brottslingar. Han kan lösa pussel knytna till det mörka förflutna hos en karaktär samt med ekonomiskt bedrägeri i ett företag. Genom att ha möjlighet att agera utanför lagens råmärken, ger han viss garanti för sina kunder."/>
+        <text id="effect" need_translate="true" value="Om du lyckas får du 100% permanent till chansen att göra avtal med en kompromisserad karaktär"/>
         <text id="name" need_translate="false" value="Grant"/>
         <text id="risk" need_translate="true" value=""/>
         <text id="short_description" need_translate="false" value="%1 äventyras. +100% chans för deal"/>
@@ -213,7 +213,7 @@
         <text id="surname" need_translate="true" value=""/>
     </agents_fireman>
     <agents_journalist>
-        <text id="description" need_translate="false" value="Harry är författaren till många skandalösa artiklar, arbetar på &quot;The New York Herald&quot;. Han utför alltid en aggressiv utredning genom att utsätta olika ekonomiska bedrägerier i ett företag. Om det finns möjlighet att få smuts på en berömd politiker eller tjänsteman är Harry redo. Om du behöver ta bort någon från sin position eller du behöver klippa ut en konkurrent, kommer Harry Copper gärna att hjälpa dig!"/>
+        <text id="description" need_translate="true" value="Harry är författaren till många skandalösa artiklar, arbetar på &quot;The New York Herald&quot;. Han utför alltid en aggressiv utredning genom att utsätta olika ekonomiska bedrägerier i ett företag. Om det finns möjlighet att få smuts på en berömd politiker eller tjänsteman är Harry redo. Om du behöver ta bort någon från sin position eller du behöver klippa ut en konkurrent, kommer Harry Copper gärna att hjälpa dig!"/>
         <text id="effect" need_translate="false" value="I händelse av framgång blir ett måls rykte förstört med 50% - 100%"/>
         <text id="name" need_translate="false" value="Harry"/>
         <text id="risk" need_translate="true" value=""/>
@@ -221,7 +221,7 @@
         <text id="surname" need_translate="false" value="Copper"/>
     </agents_journalist>
     <agents_killer>
-        <text id="description" need_translate="false" value="Det är ganska svårt att föreställa sig ett politiskt eller kriminellt liv utan den här personen. Enligt de senaste uppgifterna, känd som Walter Hill. Ingen har någonsin lyckats fånga honom med fingrarna i syltburken! Han har lyckats nå de högre höjderna i kriminella världen på grund av att &quot;rent jobb&quot; eliminerar både en entreprenör och representanter för den politiska eliten. Walter är en av de farligaste karaktärerna eftersom han kan ju börja jaga efter dig, och om han lyckas nå målet kommer spelet att vara över!"/>
+        <text id="description" need_translate="true" value="Det är ganska svårt att föreställa sig ett politiskt eller kriminellt liv utan den här personen. Enligt de senaste uppgifterna, känd som Walter Hill. Ingen har någonsin lyckats fånga honom med fingrarna i syltburken! Han har lyckats nå de högre höjderna i kriminella världen på grund av att &quot;rent jobb&quot; eliminerar både en entreprenör och representanter för den politiska eliten. Walter är en av de farligaste karaktärerna eftersom han kan ju börja jaga efter dig, och om han lyckas nå målet kommer spelet att vara över!"/>
         <text id="effect" need_translate="false" value="I händelse av framgång kommer ett mål att elimineras"/>
         <text id="name" need_translate="false" value="Walter"/>
         <text id="risk" need_translate="true" value=""/>
@@ -229,7 +229,7 @@
         <text id="surname" need_translate="false" value="Hill"/>
     </agents_killer>
     <agents_trasher>
-        <text id="description" need_translate="false" value="Den här stora killen har stora muskler och en hård look som gör att du tänker både en och två gånger innan du säger &quot;Nej&quot;. Allt detta ger honom en stor förmåga att se öga mot öga med envisa karaktärer, för att det sista han alltid hör är: &quot;Jag tror att vi kommer att kunna samarbeta&quot;. Han kan lösa ditt problem om du betalar honom väldigt bra, vilket ökar chansen att göra en affär."/>
+        <text id="description" need_translate="true" value="Den här stora killen har stora muskler och en hård look som gör att du tänker både en och två gånger innan du säger &quot;Nej&quot;. Allt detta ger honom en stor förmåga att se öga mot öga med envisa karaktärer, för att det sista han alltid hör är: &quot;Jag tror att vi kommer att kunna samarbeta&quot;. Han kan lösa ditt problem om du betalar honom väldigt bra, vilket ökar chansen att göra en affär."/>
         <text id="effect" need_translate="false" value="Om du lyckas får du en extra bonus (en gång) till chansen att göra en affär"/>
         <text id="name" need_translate="false" value="Mika"/>
         <text id="risk" need_translate="true" value=""/>

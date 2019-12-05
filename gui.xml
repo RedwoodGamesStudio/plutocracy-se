@@ -186,6 +186,7 @@
     <ambition_popup>
         <text id="abandon_quest" need_translate="true" value=""/>
         <text id="agree" need_translate="true" value=""/>
+        <text id="already_has_ownership" need_translate="true" value=""/>
         <text id="authority_rating" need_translate="true" value=""/>
         <text id="bribe_sum" need_translate="true" value=""/>
         <text id="campaign_influence" need_translate="true" value=""/>
@@ -294,8 +295,10 @@
         <text id="exit_no" need_translate="false" value="Nej"/>
         <text id="exit_yes" need_translate="false" value="Ja"/>
         <text id="make_a_step" need_translate="false" value="Plasera bud [$ %1]"/>
+        <text id="market_price" need_translate="true" value=""/>
         <text id="not_enough_action_points" need_translate="false" value="Inte nog med dagar"/>
         <text id="not_enough_money" need_translate="false" value="Inte nog med pengar"/>
+        <text id="start_price" need_translate="true" value=""/>
         <text id="text_1" need_translate="false" value="Mitt bud ligger på $ %1 !"/>
         <text id="text_2" need_translate="false" value="kan du tänka dig att ge mig $ %1!"/>
         <text id="text_3" need_translate="false" value="nu $ %1, nu $ %1..."/>
@@ -2626,6 +2629,7 @@
         <text id="menu_not_enough_influence" need_translate="false" value="Otillräkligt med influens!"/>
         <text id="menu_not_enough_money_loan" need_translate="true" value=""/>
         <text id="menu_not_enough_reputation" need_translate="true" value=""/>
+        <text id="menu_not_interested_in_deal" need_translate="true" value=""/>
         <text id="menu_ownerships" need_translate="false" value="Lyx"/>
         <text id="menu_person_engaged_in_election" need_translate="true" value=""/>
         <text id="menu_person_is_locked" need_translate="false" value="Du behöver att låsa upp karaktären!"/>
@@ -3083,7 +3087,10 @@
         <text id="ch" need_translate="true" value="Kines"/>
         <text id="de" need_translate="true" value="Tysk"/>
         <text id="default_save_slot_name" need_translate="false" value="Spara %1"/>
-        <text id="difficult" need_translate="false" value="Difficulty: medium"/>
+        <text id="difficult" need_translate="true" value="Difficulty: medium"/>
+        <text id="difficult_easy" need_translate="true" value=""/>
+        <text id="difficult_hard" need_translate="true" value=""/>
+        <text id="difficult_medium" need_translate="true" value=""/>
         <text id="effects_volume" need_translate="false" value="Effects volym"/>
         <text id="en" need_translate="false" value="Engelsk"/>
         <text id="enter_save_slot_name" need_translate="false" value="Spara namn"/>
